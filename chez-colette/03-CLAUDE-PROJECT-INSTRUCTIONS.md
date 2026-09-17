@@ -1,7 +1,11 @@
 # Claude Project Instructions — Chez Colette
 
-**Paste everything between the two rulers below into the "Custom instructions" field of a new
-Claude Project. Do not paste this heading or this note.**
+> **Use `06-PASTE-READY-INSTRUCTIONS.md` instead of this file for the actual paste.** That version
+> is plain text (this one has markdown tables, which render as raw pipes in the instructions
+> textarea), it outputs narration only with no notes or plan, and it moves the fact canon into a
+> knowledge file. This file is kept as the long-form reference: it explains the reasoning behind
+> every rule, with word budgets per beat, and it is the one to consult when you want to understand
+> or change a rule rather than paste it.
 
 ---
 ---

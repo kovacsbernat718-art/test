@@ -13,9 +13,11 @@ Home Engineering.
 |---|---|
 | [`01-competitor-analysis.md`](chez-colette/01-competitor-analysis.md) | The analysis. All five reference channels are one operation, and here is the proof. Script architecture, the 14 devices in every script, measured pacing, editing style, title formulas, monetisation. |
 | [`02-avatar-bible.md`](chez-colette/02-avatar-bible.md) | **Colette Dubois** — the name and why, her full background, voice spec, her 14 named laws, the verified French factual canon with sources, and two real risks. |
-| [`03-CLAUDE-PROJECT-INSTRUCTIONS.md`](chez-colette/03-CLAUDE-PROJECT-INSTRUCTIONS.md) | **The main deliverable.** Copy-paste into a Claude Project. Self-contained. |
+| [`06-PASTE-READY-INSTRUCTIONS.md`](chez-colette/06-PASTE-READY-INSTRUCTIONS.md) | **The main deliverable.** Plain-text instructions block to paste into the Claude Project, plus the message templates to send with each transcript. |
 | [`04-transcripts-to-add.md`](chez-colette/04-transcripts-to-add.md) | The ten transcripts to upload, ranked, with what each one teaches. |
 | [`05-production-spec.md`](chez-colette/05-production-spec.md) | Editing spec, b-roll, thumbnails, a 30-video title bank, channel setup, cadence, voice model. |
+| [`03-CLAUDE-PROJECT-INSTRUCTIONS.md`](chez-colette/03-CLAUDE-PROJECT-INSTRUCTIONS.md) | Long-form reference version of the instructions — the reasoning behind every rule, with word budgets per beat. Consult, don't paste. |
+| [`knowledge/COLETTE-REFERENCE.txt`](chez-colette/knowledge/COLETTE-REFERENCE.txt) | Upload to the project knowledge base. Her biography, the 14 laws, the verified fact canon, the French glossary, the "who profits" rotation. |
 | [`transcripts/`](chez-colette/transcripts) | All twelve reference transcripts, cleaned and with headers applied. Upload 01–10. |
 
 ## The short version
@@ -34,6 +36,14 @@ and no product, which is why it is stuck at 8K subs.** That seat is open.
 
 **Niche economics:** cohort median RPM $7.30, median 59,154 views per video. Every comparable
 channel sells one ebook at $40–47 from its own domain.
+
+## Project set-up, in order
+
+1. Create a Claude Project called **Chez Colette Scriptwriter**.
+2. Paste the instructions block from `06` into the instructions field (~20,900 characters).
+3. Upload `knowledge/COLETTE-REFERENCE.txt` to the knowledge base.
+4. Upload `transcripts/01` through `transcripts/10`.
+5. Paste a reference transcript plus one of the message templates in `06`.
 
 ## Still to do
 
