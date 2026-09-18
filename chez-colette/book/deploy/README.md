@@ -17,8 +17,8 @@ Works identically on Netlify, Vercel or Cloudflare Pages — drag the folder in,
 |---|---|
 | **Pages / Reflow** | Two reading modes. *Pages* shows true A4 spreads, scaled to fit any screen. *Reflow* drops the fixed page and sets the text at 16px for comfortable phone reading. Defaults to Reflow under 820px and Pages above, and remembers the choice. |
 | **Contents** | Slide-out panel, jumps to any chapter. |
-| **Save as PDF** | Opens the browser print dialog. Prints as **44 exact A4 pages** from either mode — the reader chrome is hidden and the true page geometry is restored. |
-| **Page counter** | Live folio, `12 / 44`, from the book's own page numbers. |
+| **Save as PDF** | Opens the browser print dialog. Prints as **84 exact A4 pages** from either mode — the reader chrome is hidden and the true page geometry is restored. |
+| **Page counter** | Live folio, `12 / 84`, from the book's own page numbers. |
 | **Progress bar** | Under the top bar. |
 | **Keyboard** | `←` `→` page, `Home` `End` jump, `c` contents, `r` switch mode, `Esc` close. |
 | **Resume** | Remembers the last page read, per browser. |
@@ -35,6 +35,10 @@ stack (Didot / Georgia / Helvetica) is already declared and the layout holds wit
 
 ## Contents
 
-Front matter · **Part One — How to Read a Room** (pp. 5–20) · **Part Two — Light** (pp. 21–44)
+Front matter · **Part One — How to Read a Room** (pp. 5–20) · **Part Two — Light** (pp. 21–44) ·
+**Part Three — Colour** (pp. 45–84)
 
-Parts Three to Seven and the reference sections are still to be written.
+Parts Four to Seven and the reference sections are still to be written.
+
+Regenerate this file after each new volume with `python3 ../rebuild-deploy.py` — it re-splices the
+pages from the print edition and rebuilds the contents panel and the page count.
