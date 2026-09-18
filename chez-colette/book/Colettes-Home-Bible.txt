@@ -1,7 +1,7 @@
 COLETTE'S HOME BIBLE
 La Belle Maison
 
-The complete text, 164 pages.
+The complete text, 204 pages.
 Plain-text edition, generated from the print edition.
 
 
@@ -121,9 +121,8 @@ like.
 If you want to do something tonight, turn to The Room Audit on page 181. It is one page, it
 takes ten minutes, and it will tell you which part of the book to open.
 
-If you are in the middle of a job and you just need a number — how high to hang a picture,
-how long a curtain should be, what size rug a sofa needs — go straight to The Measurements
-on page 165. Every figure in the book is collected there.
+If you are mid-job and just need a number — how high to hang a picture, what size rug a sofa
+needs — go to The Measurements on page 165, where every figure in the book is collected.
 
 
 [ page 5 ]
@@ -274,7 +273,7 @@ side and a shaded side, which is the whole difference between a room and a corri
 
   [ IF YOU ONLY HAVE ONE LAMP ]
 Use it, and turn the ceiling light off anyway. One lamp and a dark corner beats one ceiling
-fitting and no corner. The dark corner is not a failure — page 102.
+fitting and none — page 102.
 
 
 [ page 9 ]
@@ -578,10 +577,12 @@ on everything.
    3. Height. Curtain pole up, pictures to 145, shelves and mirrors adjusted. Nail holes and
       an afternoon. Do this before you paint, because you will be filling holes anyway and
       because the new heights change where the eye goes.
-   4. Colour. Walls, ceiling, woodwork. Only now, when you know what light the room will
-      actually be living in.
-   5. Texture. The missing families. Fabric, wood, clay, something living. Last, because the
-      right answer depends on everything above it.
+   4. Texture. The missing families. Fabric, wood, clay, something living. Usually one
+      object, usually cheap, and it is what makes a corrected room feel lived in rather than
+      merely tidy.
+   5. Colour. Walls, ceiling, woodwork. Last, always — and only now, when you know what
+      light the room will actually be living in and what else is already in it. By the time
+      you arrive here, a surprising number of rooms no longer need painting at all.
 
   [ THE EXPENSIVE MISTAKE ]
 Buying furniture at any point in this list. Furniture is not a stage. It comes after all
@@ -964,8 +965,8 @@ WHAT TO DO ABOUT IT
 
   [ THE TEST ]
 Hold a sheet of plain white paper up in your north room at midday, then carry it to a south-
-facing window. The same sheet of paper. Most people are genuinely startled — and that
-difference is being applied to every surface in both rooms, permanently.
+facing window. The same sheet of paper. The difference startles people — and it is applied
+to every surface in both rooms, permanently.
 
 
 [ page 25 ]
@@ -1140,8 +1141,8 @@ Three sources, three heights, three switches. If you do nothing else in this boo
 [ page 29 ]
 
 HEIGHT ONE
-Overhead, and what it is actually good for
-------------------------------------------
+Overhead, and what it is good for
+---------------------------------
 
 I have spent a page telling you that the ceiling light is the problem. Now let me be fair to
 it, because there are three jobs it does that nothing else can.
@@ -1177,12 +1178,11 @@ without an electrician. Three things you can do without touching the wiring:
 A bare bulb in a ceiling fitting, in a room anybody sits in. It is the single harshest light
 source available in a home: a small, very bright point directly overhead, producing hard
 shadows in every eye socket in the room. If a shade is missing, a paper lantern costs almost
-nothing and is a genuine improvement, not a compromise.
+nothing and is a real improvement.
 
-One honest exception to all of this: a beautiful pendant, hung low over a dining table, is
-one of the great pleasures of a room. But look at what it is doing — hung low over a table
-it is no longer overhead light, it is table-height light with a cable. The height is the
-point.
+One honest exception: a beautiful pendant, hung low over a dining table, is one of the great
+pleasures of a room. But look at what it is doing — hung that low it is no longer overhead
+light, it is table-height light with a cable. The height is the point.
 
 
 [ page 30 ]
@@ -1588,8 +1588,8 @@ Here is the honest position, and then what genuinely helps.
 
 The honest position: a room with no useful daylight cannot be made to feel like a room with
 daylight. Every technique for “brightening” such a room is really a technique for making it
-feel intentional instead of deficient. That is a real and achievable goal, and it is a
-different goal from the one the magazines imply.
+feel intentional instead of deficient. That is achievable, and it is a different goal from
+the one the magazines imply.
 
 
 WHAT DOES NOT WORK, WHICH IS MOST OF THE USUAL ADVICE
@@ -1614,8 +1614,8 @@ WHAT WORKS
    3. Every texture you can find. Texture is what gives a dark room something to do — light
       catching a coarse weave, a worn timber, a matte glaze. This is the room for the
       roughest, most tactile things you own.
-   4. Something living, realistically. A plant needs light too. Choose the tolerant ones and
-      accept slow growth, or use branches in water and change them.
+   4. Something living, realistically. Choose the tolerant plants and accept slow growth, or
+      use branches in water.
    5. Take back whatever daylight exists. Page 41. Here every centimetre of glass matters,
       and it is usually half blocked.
 
@@ -1882,7 +1882,7 @@ whites worth knowing, why a small pale room looks smaller, and what to do with t
     The six whites · 53
     The small pale room · 57
     The fifth wall · 61
-    Sheen · 67
+    Sheen · 65
 
 [ page 46 ]
 
@@ -4108,7 +4108,7 @@ TWO · THE DROP — MEASURE IN THREE PLACES
     ----------------------------------------------------------------------------------------
     Pole to floor                | ____________ | ____________ | ____________ | ____________
 
-    [ ] Floating — 1 cm above □ Kissing □ Breaking — add 2–5 cm
+    [ ] Floating — 1 cm above Kissing Breaking — add 2–5 cm
 
 
 THREE · THE FABRIC
@@ -5327,8 +5327,9 @@ AND THE SIX THAT DO NOT NEED THEIR OWN PAGE
 
 THAT IS THE FOUR CORRECTIONS
 
-Light, height, colour, texture. Everything in the rest of this book is those four applied to
-a particular situation — a rented flat where you may not drill, and then a room at a time.
+Light, height, texture, colour — in that order, always. Everything in the rest of this book
+is those four applied to a particular situation — a rented flat where you may not drill, and
+then a room at a time.
 
 Put your hand on five things in the room. If three of them feel the same, you know what to
 do next. That is Part Five.
@@ -5365,7 +5366,7 @@ A rented flat is not a smaller version of the problem. It is a different problem
 deserves its own chapter rather than a paragraph of apology at the end.
 
 Here is the difficulty stated plainly. The four corrections in this book are light, height,
-colour and texture. In a rented home you generally do not own two of them. The colour on the
+texture and colour. In a rented home you generally do not own two of them. The colour on the
 walls is not yours. The fittings in the ceiling are not yours. In many flats the floor is
 not yours either, and neither is the thing screwed above the window.
 
@@ -5547,7 +5548,7 @@ The same wall under 2700 K at CRI 90 is a warm, quiet, entirely acceptable white
 did not move. The light did.
 
   +----------------------------------------------------------------------------------------+
-  | LAW ELEVEN
+  | COLETTE’S RULE OF THE RENTED BULB
   | In a flat you may not paint, the bulb is the paint.
   +----------------------------------------------------------------------------------------+
 
@@ -5982,7 +5983,7 @@ THE FOUR PLACES A FLAT IS HIDING
 THE RULE THAT KEEPS IT FROM LOOKING LIKE A STOREROOM
 
   +----------------------------------------------------------------------------------------+
-  | LAW TWELVE
+  | COLETTE’S RULE OF VISIBLE STORAGE
   | Visible storage must be one material and one colour, or it stops being storage and
   | becomes clutter with a lid on.
   +----------------------------------------------------------------------------------------+
@@ -6081,7 +6082,7 @@ brush and a dabbing motion rather than a stroke. Put the box back where it came 
 Photograph the walls again.
 
   +----------------------------------------------------------------------------------------+
-  | LAW THIRTEEN
+  | COLETTE’S RULE OF THE FILLED HOLE
   | A hole you can fill is not damage. Take the photographs on day one, keep the originals
   | in a box, and every correction in this part costs you nothing when you leave.
   +----------------------------------------------------------------------------------------+
@@ -6194,7 +6195,7 @@ The four corrections applied to particular rooms, and to the awkward ones nobody
 about — the long one, the one with five doors, the one you never use. Nothing new is
 introduced here. It is the same book, with the furniture moved.
 
-    The order of operations · 146
+    The order, applied · 146
     The sitting room · 147
     The bedroom · 149
     The dining table · 151
@@ -6204,8 +6205,8 @@ introduced here. It is the same book, with the furniture moved.
 [ page 146 ]
 
 CHAPTER SEVEN
-The order of operations
------------------------
+The order, applied to any room
+------------------------------
 
 Every room in this part is corrected in the same order, and the order is the reason this
 works. Doing the right things in the wrong sequence is how people spend a great deal of
@@ -6225,7 +6226,7 @@ money and change nothing.
       and the reason I have made you wait four steps to hold a brush.
 
   +----------------------------------------------------------------------------------------+
-  | LAW FOURTEEN
+  | COLETTE’S RULE OF THE ORDER
   | Light, height, texture, colour — in that order, in every room, every time. Anyone who
   | sells you the last one first is selling, not correcting.
   +----------------------------------------------------------------------------------------+
@@ -6234,9 +6235,8 @@ money and change nothing.
 HOW TO READ THE PAGES THAT FOLLOW
 
 Each room gets the same treatment: the fault I found most often, then the corrections in the
-order above, then the numbers. Where a number has appeared earlier in the book I give it
-again rather than sending you back — they are all collected once more on page 165 for when
-you are standing in a shop.
+order above, then the numbers. Numbers given earlier are repeated here rather than cross-
+referenced, and all of them are collected on page 165.
 
 
 WHAT EACH STEP USUALLY COSTS
@@ -6303,7 +6303,7 @@ The sitting room, in numbers
 These are the figures I worked to. They are not laws of physics; they are the distances at
 which a room stops being slightly uncomfortable in a way nobody can name.
 
-    Sofa to coffee table .......................................................... 40–45 cm
+    Sofa to coffee table .......................................................... 35–45 cm
     Coffee table height, against the seat cushion ...................... level or just below
     Walking route through the room, clear width ................................... 75–90 cm
     Between a seat and a side table, so a cup can be set down ........... within arm’s reach
@@ -7001,4 +7001,1405 @@ which room to start on, and the list of things I would not buy again.
 
 We do not decorate a room, ma chère. We correct it — one room, in one evening, in that
 order.
+
+
+[ page 165 ]
+
+============================================================================================
+
+REFERENCE
+THE MEASUREMENTS
+
+============================================================================================
+
+Every number in this book, collected in one place, in the order you will need them. This is
+the part to photograph before you go to a shop, and the part to open when you are standing
+on a chair with a pencil in your mouth.
+
+    Light · 167
+    Windows and curtains · 169
+    Hanging things · 171
+    Rugs · 173
+    Room by room · 175
+    The ten that matter most · 180
+
+[ page 166 ]
+
+How to use this list
+--------------------
+
+These are working figures, not laws. I give them because a number you can act on tonight is
+worth more than a principle you have to interpret.
+
+
+THREE THINGS TO KNOW BEFORE YOU USE ANY OF THEM
+
+   1. A range means a range. Where I write 15–25 cm, anywhere in that band is right, and the
+      choice between them is usually decided by what else is on the wall. Where I give a
+      single number — 145 cm for the centre of a picture — it is single because the eye
+      genuinely notices when it is wrong.
+   2. The room wins the argument. If a figure here fights something obvious in front of you
+      — a beam, a radiator, a window that starts at hip height — the room is right and the
+      number is wrong. Page 88 is about exactly that conflict.
+   3. Measure twice, in the room, at the time of day you use it. Almost every mistake I ever
+      made in fourteen years was made by measuring once, in the morning, from the doorway.
+
+
+METRIC AND IMPERIAL
+
+Both are given throughout. Where the imperial figure is a round number and the metric is not
+— 57 inches, 145 centimetres — that is because the convention came from a country that
+measures in inches, and I have not tidied it into a rounder metric number that would be
+slightly wrong.
+
+  [ FROM THE NOTEBOOK ]
+“My grandmother wrote the drop of every window she ever measured, and never once wrote the
+reason. Forty-one years of numbers and no arguments. I have tried to give you both.”
+
+
+TWO HABITS WORTH MORE THAN ANY FIGURE HERE
+
+    - Write it down in the room. Not on your telephone as you walk away — on paper, standing
+      where you measured. Every wrong curtain I ever ordered was ordered from a number I was
+      sure I remembered.
+    - Mark it before you commit to it. Masking tape on the wall for the pole, newspaper on
+      the floor for the rug, a pencil cross for the picture hook. Live with it for a day. It
+      costs nothing and it has saved me more money than any other habit in this book.
+
+
+[ page 167 ]
+
+ONE
+Light
+-----
+
+
+HOW MANY, AND WHERE
+
+    Separate light sources in any room anybody sits in, minimum .......................... 3
+    A sitting room, comfortably ........................................................ 4–6
+    Of which on the ceiling .......................................... 1, off in the evening
+    Of which below 60 cm from the floor ......................................... at least 1
+
+LAMP HEIGHTS
+
+    Bottom of the shade, beside a chair or sofa ...................... 100–115 cm · 40–45 in
+    Which means a table lamp of about .................................. 45–60 cm · 18–24 in
+    Bottom of the shade, on a desk or console you stand at ........... 125–135 cm · 49–53 in
+    Floor lamp, shade bottom against seated eye level ........................... 105–120 cm
+
+SHADES
+
+    Shade height, as a share of the whole lamp ............................. about one third
+    Shade width at the bottom, against the base .............................. roughly twice
+    A shade must hide, from every seat ............................ the bulb and the fitting
+
+SOURCES BY ROOM, AS A STARTING POINT
+
+    Sitting room ....................................................................... 4–6
+    Bedroom ................................................ 3 — two beside the bed, one low
+    Kitchen ......................................................... 2 — task, and one soft
+    Hall or entrance ................................................... 1, but not overhead
+
+[ page 168 ]
+
+ONE, CONTINUED
+What is written on the box
+--------------------------
+
+
+COLOUR TEMPERATURE
+
+    Every room you sit in, and every bedroom ........................................ 2700 K
+    Kitchen and bathroom task light ............................................ 2700–3000 K
+    A desk, where you need to stay awake ............................................ 3000 K
+    Anything above this, anywhere in a home ............................................. no
+
+COLOUR RENDERING — CRI OR RA
+
+    Everywhere, as a minimum ........................................................... 90+
+    Where you look at your own face, or at fabric .................... 95 if you can find it
+    If the box does not print it at all ................................... assume it is low
+
+BRIGHTNESS, IN LUMENS
+
+    Table lamp beside a chair ................................................... 400–600 lm
+    Floor lamp, general ......................................................... 600–900 lm
+    Bedside, for reading ........................................................ 300–450 lm
+    Under-cupboard task light, per metre of worktop ............................. 300–400 lm
+Watts tell you what a bulb costs to run, not how bright it is. Lumens are the brightness.
+The two were the same thing for a century and have not been for fifteen years, and the habit
+is the single commonest reason people buy a bulb that disappoints them.
+
+
+[ page 169 ]
+
+TWO
+Windows and curtains
+--------------------
+
+
+WHERE THE POLE GOES
+
+    Above the top of the window frame .................................... 15–20 cm · 6–8 in
+    Or, better, below the ceiling or cornice .............................. 8–15 cm · 3–6 in
+    Beyond the frame, each side ......................................... 15–25 cm · 6–10 in
+
+THE DROP
+
+    Floating — the safe choice, and what I usually did ................ 1 cm above the floor
+    Breaking — fabric resting on the boards ............................ 2–5 cm on the floor
+    Sill length, only where a radiator or a worktop forces it .......... 1 cm below the sill
+    Any curtain that stops between the sill and the floor ............................ never
+
+FULLNESS — FABRIC WIDTH AGAINST POLE WIDTH
+
+    Bare minimum, will look thin ..................................................... 1.5 ×
+    Standard, and what most ready-made curtains give you ............................... 2 ×
+    Generous — what makes the difference ............................................. 2.5 ×
+    Sheers and very light fabric ................................................... 2.5–3 ×
+
+IN A RENTED FLAT
+
+    Tension rod, sensible span ................................................ under 120 cm
+    Tension rod, sensible curtain ............................................. unlined only
+
+[ page 170 ]
+
+TWO, CONTINUED
+Measuring a window, in order
+----------------------------
+
+This is my grandmother’s sequence, unchanged. Write every figure down before you calculate
+anything, because the arithmetic is where the mistakes live.
+
+   1. Decide where the pole goes first, and mark it on the wall in pencil. Every other
+      figure depends on it, and almost everybody measures the window instead.
+   2. Measure the pole width, bracket to bracket, once the pole position is marked — not the
+      window.
+   3. Measure the drop from the ring to the floor, not from the pole. The curtain hangs from
+      the bottom of the ring, and the difference is four or five centimetres, which is
+      exactly the amount that looks wrong.
+   4. Measure the drop in three places — left, middle, right. Floors are not level. Work to
+      the shortest.
+   5. Multiply the pole width by your fullness to get the fabric width you need, then divide
+      by the number of curtain panels.
+   6. Add the hem allowances the maker asks for, and add them again if you are unsure.
+      Fabric can be shortened. It cannot be lengthened.
+
+  [ THE ONE THAT CATCHES EVERYBODY ]
+Ready-made curtains are sold by the width of the fabric, not the width of the window. A pair
+labelled 168 cm wide means each panel is 168 cm of cloth — which on a 200 cm pole gives you
+336 over 200, about 1.7 ×, and that is why so many bought curtains look thin. Check the
+label, then check your arithmetic.
+
+Full working, with a diagram, is on page 96.
+
+
+THE ARITHMETIC, WORKED ONCE
+
+A window 120 cm wide. The pole goes 20 cm beyond each side, so the pole is 160 cm. At 2.5 ×
+fullness that is 400 cm of fabric, over two panels: 200 cm of cloth in each. The ring sits 7
+cm below the pole and the floor is 242 cm down from it, so the drop is 241 cm to float one
+centimetre clear. Write those four numbers — 160, 2.5, 200, 241 — and you can order curtains
+from anybody in the world.
+
+
+[ page 171 ]
+
+THREE
+Hanging things
+--------------
+
+
+HEIGHT
+
+    Centre of a picture on an open wall ..................................... 145 cm · 57 in
+    Where the hook goes ...................................... 145 + half height − wire drop
+    Above furniture — gap to the bottom of the frame .................... 15–25 cm · 6–10 in
+    Above a mantelpiece .................................................. 10–15 cm · 4–6 in
+    Above a bed — centred on the bed, not the wall ....... a hand’s span above the headboard
+
+SIZE AND SPACING
+
+    Art width against the furniture below it .............................. about two thirds
+    Art width above a bed, against the bed .......................... one half to two thirds
+    Gap between frames in a group .......................................... 5–8 cm · 2–3 in
+    That gap, used identically throughout the group ....... yes — this is what makes it read
+
+MIRRORS
+
+    Decorative mirror on an open wall — centre .............................. 145 cm · 57 in
+    Over a mantel — above the shelf ...................................... 10–15 cm · 4–6 in
+    Over a basin or console — above the surface .......................... 15–20 cm · 6–8 in
+    Full-length mirror — top edge ............................................... 175–185 cm
+
+[ page 172 ]
+
+THREE, CONTINUED
+Shelves, and what will hold
+---------------------------
+
+
+SHELVES
+
+    Lowest shelf of an open unit, above the floor ........................ at least 25–30 cm
+    Highest shelf you will use daily ................................. no higher than 180 cm
+    Between shelves, for ordinary books ........................................... 28–32 cm
+    A storage shelf near the ceiling .......................................... about 200 cm
+    A single floating shelf above a sofa or desk .................... treat as art — page 88
+
+FIXINGS, HONESTLY
+
+    Adhesive strips, what I will actually trust them with .......... half the printed rating
+    Anything glazed, above a bed or a cot .............................. a screw, or nothing
+    A shelf that will carry weight ............................... into something structural
+    Paint curing time before anything is stuck to it .......... a week, and longer is better
+  [ KNOW WHAT YOUR WALL IS BEFORE YOU DRILL ]
+Solid masonry, plasterboard on studs, and old lath and plaster all take completely different
+fixings, and a fixing meant for one of them will fail in the others. Tap the wall: a dull
+thud is solid, a hollow drum is plasterboard. And check for cables and pipes before any hole
+— they run vertically and horizontally from sockets and switches, which is exactly where
+people hang pictures.
+
+
+ROUGH GUIDANCE ON WHAT A WALL WILL CARRY
+
+    Solid masonry, with the right plug ............................ almost anything domestic
+    Plasterboard, into a stud ...................................... shelves, mirrors, poles
+    Plasterboard, between studs, with a proper anchor .............. pictures, light shelves
+    Old lath and plaster ........................................... find the timber, or ask
+
+[ page 173 ]
+
+FOUR
+Rugs
+----
+
+The most expensive common mistake in a home is a rug one size too small, so these are the
+figures I would defend hardest.
+
+
+SITTING ROOM
+
+    Minimum that works — front legs of every seat ........................... standing on it
+    Better — all legs of everything .................................................. on it
+    Margin left between the rug and the wall ...................................... 20–45 cm
+    Clear walking width around it ................................................. 60–70 cm
+
+DINING AND BEDROOM
+
+    Dining — beyond the table edge, all round .......................... 60–75 cm · 24–30 in
+    Which is the distance a chair travels when pulled out ...... and the whole reason for it
+    Bedroom — beyond the sides of the bed ......................................... 45–60 cm
+    Or two runners, one each side ............................................ 60–80 cm wide
+
+UNDER IT
+
+    A pad, on any floor ............................................................. always
+    Over carpet, the pad must be ........................................... made for carpet
+And the rule that saves the most money: measure the rug you want on the floor in masking
+tape before you buy it. Ten minutes, no cost, and it has stopped me buying the wrong size
+more times than I would like to admit.
+
+
+[ page 174 ]
+
+FIVE
+Clearances and routes
+---------------------
+
+Nobody notices these until they are wrong, and then they notice them every day for years
+without ever naming what is irritating them.
+
+
+GETTING ABOUT
+
+    Walkway, minimum ................................................................. 75 cm
+    Main route through a room ........................................................ 90 cm
+    Between a wall and the edge of a table people sit at ............................ 100 cm
+    Behind a dining chair, pulled out ................................................ 90 cm
+    Between two facing kitchen runs, for two people ................................. 120 cm
+    Each side of a double bed, where possible ..................................... 60–70 cm
+    At the foot of a bed, to walk past ............................................... 75 cm
+
+SITTING
+
+    Furthest comfortable distance between facing seats ............................... 2.4 m
+    Sofa to coffee table .......................................................... 35–45 cm
+    Coffee table height, against the seat cushion ...................... level to 5 cm below
+    Side table top, against the chair arm beside it ........................... level, ±5 cm
+    Dining seat to table top ...................................................... 28–32 cm
+    Float furniture off the wall by ....................................... 5–15 cm · 2–6 in
+
+[ page 175 ]
+
+SIX
+Room by room
+------------
+
+
+BEDROOM
+
+    Bedside table top, against the mattress top .............................. within 5–8 cm
+    Bedside lamp, bottom of the shade above the mattress .......................... 50–60 cm
+    Colour temperature, everywhere in the room ............................ 2700 K or warmer
+
+DINING
+
+    Pendant, bottom of the shade above the table top .............................. 75–90 cm
+    Shade width, against the table width ............................. one third to one half
+    Centred on ................................................... the table, never the room
+
+KITCHEN
+
+    Worktop height, standard ...................................................... 90–92 cm
+    Task light on the worktop .............................................. 3000 K, CRI 90+
+
+BATHROOM AND ENTRANCE
+
+    Mirror lights, either side, centre at ..................................... about 160 cm
+    Coat hooks, adult ........................................................... 165–175 cm
+    Second row, for children ........................................................ 110 cm
+    Shelf for keys and post ..................................................... 100–110 cm
+
+DESK
+
+    Desk height, standard ......................................................... 72–75 cm
+    Top of the screen, against your eyes .................................. at or just below
+    The window ...................................... on your side, never in front or behind
+
+[ page 176 ]
+
+SEVEN
+Fabric and upholstery
+---------------------
+
+
+RUB COUNTS — WHAT THE LABEL MEANS
+
+    Light domestic — an occasional chair .......................... 10,000–15,000 Martindale
+    General domestic — a normal sofa ......................................... 15,000–25,000
+    Heavy domestic — family, daily use, pets ....................................... 25,000+
+    The question that matters more than any of them ............. can this be reupholstered?
+
+CUSHIONS
+
+    How many on a three-seat sofa ......................................... 3–5, odd numbers
+    How many different fabrics among them ....................... 2 or 3, never all the same
+    Insert size, against the cover ........................................... 2–5 cm larger
+    Feather or down against polyester .................................. feather, every time
+
+CURTAIN FABRIC, BY WEIGHT
+
+    Sheers and voiles — light, for privacy only ......................... no warmth, no dark
+    Unlined linen or cotton — the everyday curtain ................... hangs well from 2.5 ×
+    Lined — what makes a curtain look bought properly ...................... worth the money
+    Interlined — heavy, warm, dark ................................. bedrooms and cold rooms
+
+RUG FIBRE, IN ONE LINE EACH
+
+    Wool — takes weight, recovers, lasts ......................... the answer, if affordable
+    Jute and sisal — texture, cheap, rough underfoot .................... good under a table
+    Cotton flat-weave — washable, thin ............................... kitchens and children
+    Very thin printed synthetic ............................................. avoid entirely
+
+[ page 177 ]
+
+EIGHT
+Metric and imperial
+-------------------
+
+For the numbers in this book that you are most likely to need in the other system, while
+standing in a shop that only sells one of them.
+
+    WHAT                                       | METRIC               | IMPERIAL
+    ----------------------------------------------------------------------------------------
+    Centre of a picture                        | 145 cm               | 57 in
+    Pole above the window frame                | 15–20 cm             | 6–8 in
+    Pole beyond the frame, each side           | 15–25 cm             | 6–10 in
+    Gap above furniture to a frame             | 15–25 cm             | 6–10 in
+    Gap between frames in a group              | 5–8 cm               | 2–3 in
+    Lamp shade bottom, beside a chair          | 100–115 cm           | 40–45 in
+    Pendant above a dining table               | 75–90 cm             | 30–35 in
+    Rug beyond a dining table edge             | 60–75 cm             | 24–30 in
+    Walkway, minimum                           | 75 cm                | 30 in
+    Main route through a room                  | 90 cm                | 36 in
+    Float furniture off the wall               | 5–15 cm              | 2–6 in
+    Worktop height                             | 90–92 cm             | 36 in
+    Desk height                                | 72–75 cm             | 28–30 in
+
+
+IF YOU NEED TO CONVERT SOMETHING THAT IS NOT HERE
+
+    Centimetres to inches ................................................... divide by 2.54
+    Inches to centimetres ................................................. multiply by 2.54
+    A rough conversion, good enough for a shop ......................... 10 cm is about 4 in
+
+[ page 178 ]
+
+NINE
+What to take to the shop
+------------------------
+
+Every disappointing purchase I have ever made was made without one of these six things in my
+pocket. Photograph this page.
+
+   1. The measurements of the space it is going into, written down — not the room, the
+      space. Width, depth, height, and the distance to the nearest thing it must not touch.
+   2. The narrowest point of the route home. Door, stair, turn, lift. A sofa that fits the
+      room and not the stairwell is the most expensive mistake in this book.
+   3. A photograph of the room, taken in the evening with the lamps on. Not in daylight. You
+      will use the thing at night.
+   4. A sample of whatever it has to live beside — a cushion cover, a paint card, a
+      photograph of the floor. Colour is a relationship, not a property, and you cannot hold
+      it in your memory for the length of a bus ride.
+   5. A tape measure. Shop labels round generously.
+   6. The question, written down: can this be repaired? Ask it out loud, of a person, in the
+      shop. The answer, and the face they make while giving it, tells you most of what you
+      need to know.
+
+  +----------------------------------------------------------------------------------------+
+  | AND ONE RULE FOR THE SHOP ITSELF
+  | Never judge a colour or a fabric under shop lighting. Take the sample outside, or to the
+  | door, or home. Page 35 explains why every shop you buy from is lit to flatter what it
+  | sells.
+  +----------------------------------------------------------------------------------------+
+
+
+AND TWO THINGS TO DO ON THE DAY IT ARRIVES
+
+   7. Open it and look at it before the delivery leaves. Damage found in the first five
+      minutes is the shop’s problem. Damage found next week is an argument.
+   8. Put it where it is going before you fill it. A bookcase is very heavy once it holds
+      books, and a sofa cannot be turned round in a doorway once the room is rearranged
+      round it.
+
+
+[ page 179 ]
+
+WORKSHEET
+My numbers
+----------
+
+    Home: __________________________________________________________________________________
+
+    Date: __________________________________________________________________________________
+
+
+ONE · THE HOUSE ITSELF
+
+    MEASUREMENT                                                       | MINE
+    ----------------------------------------------------------------------------------------
+    Ceiling height, main rooms                                        | ____________________
+    Narrowest point of the route in — door, stair, turn               | ____________________
+    Wall colour, name and finish                                      | ____________________
+    Floor — what it is, and its undertone                             | ____________________
+
+
+TWO · WINDOW BY WINDOW
+
+    WINDOW                             | POLE WIDTH      | DROP            | FULLNESS
+    ----------------------------------------------------------------------------------------
+    1                                  | _______________ | _______________ | _______________
+    2                                  | _______________ | _______________ | _______________
+    3                                  | _______________ | _______________ | _______________
+    4                                  | _______________ | _______________ | _______________
+
+
+THREE · THE THREE I ALWAYS FORGET
+
+    [ ] Bulbs in this house:
+    [ ] Rug sizes I need, room by room
+    [ ] Which walls are solid and which are hollow
+
+
+[ page 180 ]
+
+The ten that matter most
+------------------------
+
+If you remember nothing else from this part, remember these. They account for most of what
+is wrong in most homes.
+
+    One. Centre of a picture ........................................................ 145 cm
+    Two. Light sources per room, minimum ................................... 3, at 3 heights
+    Three. Bulb colour, everywhere you sit ................................. 2700 K, CRI 90+
+    Four. Curtain pole, above the frame ........................................... 15–20 cm
+    Five. Curtain fullness .................................................. 2.5 × the pole
+    Six. Curtain drop ................................................. to the floor, always
+    Seven. Rug — front legs of every seat ............................................ on it
+    Eight. Pendant above a table .................................................. 75–90 cm
+    Nine. Walkway ............................................... 75 cm, 90 for a main route
+    Ten. Float furniture off the wall .............................................. 5–15 cm
+Eight of those ten cost nothing at all. That is not an accident; it is the argument of this
+whole book put into numbers.
+
+
+AND THE FIVE THAT DO COST SOMETHING
+
+In the order I would spend, if the money arrived slowly: the right-sized rug, one lined
+curtain on the best window, one good chair that can be reupholstered, one large piece of
+art, and a proper shade for the lamp you already own. Everything else on the previous list
+is a bulb, a tape measure and an evening.
+
+
+[ page 181 ]
+
+============================================================================================
+
+REFERENCE
+THE ROOM AUDIT
+
+============================================================================================
+
+Ten minutes, one room, a pencil. At the end of it you will know which of the four things is
+wrong, in what order to fix them, and which part of this book to open. If you only ever use
+one page of this book, I would like it to be this one.
+
+    How it works · 182
+    The audit, part one · 183
+    The audit, part two · 184
+    The audit, part three · 185
+    What your answers mean · 186
+    The whole home · 187
+
+[ page 182 ]
+
+How the audit works
+-------------------
+
+This is the thing I actually did, in a client’s home, in the first ten minutes, before I
+said a word about what anything cost.
+
+
+THE RULES
+
+   1. Do it in the evening, with the lights you normally use. Not in daylight, not with
+      everything switched on for the occasion. The room as you actually live in it.
+   2. Sit down where you normally sit. Most faults in a room are only visible from the
+      chair, and every photograph of a room is taken standing up, which is why rooms
+      photograph better than they feel.
+   3. Answer yes or no. Do not answer “sort of.” If you are hesitating, the answer is no.
+   4. Do not fix anything while you audit. Write it down and move on. The order matters more
+      than the speed, and the order comes at the end.
+
+
+WHAT YOU WILL HAVE AT THE END
+
+Four scores out of six — light, height, texture, colour — and a page number. The lowest
+score is where you start, and it is nearly always light, which is fortunate, because light
+is the cheapest of the four to correct.
+
+  +----------------------------------------------------------------------------------------+
+  | BEFORE YOU BEGIN
+  | Nothing on these pages asks what you own, what you spent, or what your taste is. Every
+  | question is about what is physically true of the room. That is deliberate. Your taste
+  | was never the problem.
+  +----------------------------------------------------------------------------------------+
+
+The three audit pages that follow are meant to be written on. If this is a file rather than
+a printed book, print these four pages on their own — they are the ones worth having on
+paper.
+
+
+IF YOU SHARE THE HOME
+
+Do the audit separately and compare the sheets. It is the only way I know to have this
+conversation without it becoming a conversation about taste — two people who disagree about
+a colour will nearly always agree that a room has one light source and a rug that is too
+small. Fix what you agree on first. It is usually most of it.
+
+
+[ page 183 ]
+
+THE AUDIT · PART ONE
+Light
+-----
+
+    Room: __________________________________________________________________________________
+
+    Date and time: _________________________________________________________________________
+
+
+SITTING WHERE YOU NORMALLY SIT, IN THE EVENING
+
+    [ ] There are at least three separate light sources switched on in this room
+    [ ] They are at different heights — not all on tables, not all overhead
+    [ ] At least one of them is below sixty centimetres from the floor
+    [ ] The ceiling light is off, and the room is still comfortable to be in
+    [ ] I cannot see a bare bulb or a bright fitting from where I am sitting
+    [ ] A solid object in this room casts a soft shadow, not a hard one, and not none at all
+
+
+AND WHAT IS WRITTEN ON THE BULBS
+
+    FITTING                                    | KELVIN               | CRI
+    ----------------------------------------------------------------------------------------
+    1                                          | ____________________ | ____________________
+    2                                          | ____________________ | ____________________
+    3                                          | ____________________ | ____________________
+    4                                          | ____________________ | ____________________
+
+    Score, out of six: _____________________________________________________________________
+
+    Daylight — which way does the window face?: ____________________________________________
+
+Fewer than four ticks: turn to Part Two, page 21, and do nothing else until it is fixed. It
+is the cheapest correction in the book and it changes how you will judge the other three.
+
+    The one thing I noticed sitting here that is not on this list: _________________________
+
+
+[ page 184 ]
+
+THE AUDIT · PART TWO
+Height and proportion
+---------------------
+
+
+STAND IN THE DOORWAY AND LOOK, THEN MEASURE TWO THINGS
+
+    [ ] Every picture and mirror has its centre at about 145 cm
+    [ ] The curtain pole is above the window frame, not on it, and wider than the glass
+    [ ] The curtains reach the floor
+    [ ] No piece of furniture is pushed flat against the wall behind it
+    [ ] The rug is large enough that the front legs of every seat stand on it
+    [ ] There is one empty corner, or one clear surface, that is doing nothing
+
+
+THE TWO MEASUREMENTS
+
+    WHAT                                       | SHOULD BE            | MINE
+    ----------------------------------------------------------------------------------------
+    Centre of the largest picture, from the fl | 145 cm               | ____________________
+    Bottom of the curtain, from the floor      | 0–1 cm               | ____________________
+    Pole, above the window frame               | 15–20 cm             | ____________________
+    Narrowest walking route in the room        | 75 cm+               | ____________________
+
+    Score, out of six: _____________________________________________________________________
+
+Fewer than four: Part Four, page 85. Most of it is free, and the whole of it can be done in
+one afternoon with a pencil, a tape and a drill.
+
+
+AND THE HEIGHTS THAT MUST AGREE WITH EACH OTHER
+
+    [ ] The tops of the tall things in this room sit at roughly one height, not five
+    [ ] The lamp shades are all at about the same height as each other
+    [ ] Nothing tall stands directly in front of a window
+
+
+[ page 185 ]
+
+THE AUDIT · PART THREE
+Texture, and then colour
+------------------------
+
+
+TEXTURE — BY TOUCHING, NOT BY LOOKING
+
+    [ ] Something woven — curtain, rug, upholstery, cushion
+    [ ] Something wooden, with visible grain
+    [ ] Something ceramic, stone or plaster
+    [ ] Something living
+    [ ] At least two genuinely different surfaces within the woven family
+    [ ] Nothing in this room arrived as a matched set — or a set has been interrupted
+
+    Score, out of six — and the missing family is: _________________________________________
+
+
+COLOUR — LAST, AND ONLY NOW
+
+    [ ] I know the name and the finish of the paint on these walls
+    [ ] The wall colour and the floor do not fight — their undertones agree
+    [ ] The colour was tested on this wall, in this light, before it went on
+    [ ] No more than three or four colours run through the whole home
+    [ ] The woodwork is either the same as the wall or deliberately different
+    [ ] Looking at it now, with the lamps on, I still like it
+
+    Score, out of six: _____________________________________________________________________
+
+Do not act on a low colour score until light, height and texture are all above four. Half
+the rooms I was called to repaint did not need repainting.
+
+
+[ page 186 ]
+
+What your answers mean
+----------------------
+
+Write your four scores in a row. The lowest is where you begin, and if two are equal, begin
+with whichever comes first in the order light, height, texture, colour.
+
+    LOWEST SCORE                               | WHAT IT MEANS        | WHERE TO GO
+    ----------------------------------------------------------------------------------------
+    Light                                      | The commonest, and t | Part Two · 21
+    Height                                     | Everything is hung a | Part Four · 85
+    Texture                                    | The room reads as a  | Part Five · 105
+    Colour                                     | Only now is this wor | Part Three · 45
+
+
+READING THE WHOLE ROW
+
+    - All four at five or six. The room is correct. If you still do not like it, the problem
+      is not in this book — it is that the room is not being used for anything you enjoy,
+      and page 162 is the honest page about that.
+    - Light low, everything else high. The best possible result, because one evening and
+      three lamps will move every other score with it.
+    - Colour high, everything else low. The signature of a room that has been decorated
+      rather than corrected: repainted more than once, still not right. Leave the paint
+      entirely alone for a month and work the other three.
+    - Everything at two or three. Do not be discouraged — this is the most common result of
+      all, and it is also the most rewarding, because the first evening’s work will be
+      visible from the door.
+
+  +----------------------------------------------------------------------------------------+
+  | THE ORDER, ONE LAST TIME
+  | Light, height, texture, colour. Never colour first. Anyone who sells you the last one
+  | first is selling, not correcting.
+  +----------------------------------------------------------------------------------------+
+
+
+DO IT AGAIN IN A MONTH
+
+Keep the first sheet. Re-audit the same room four weeks later and put the two side by side —
+it is the only honest measure of whether what you did actually worked, and it is far more
+reliable than how you feel about the room on any particular evening.
+
+
+[ page 187 ]
+
+WORKSHEET
+The whole home
+--------------
+
+    ROOM                    | LIGHT      | HEIGHT     | TEXTURE    | COLOUR     | START WITH
+    ----------------------------------------------------------------------------------------
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+                            | __________ | __________ | __________ | __________ | __________
+
+
+READING THE COLUMNS
+
+    [ ] If the light column is low everywhere, buy bulbs for the whole house in one go
+    [ ] If the height column is low everywhere, give the house one afternoon and a drill
+    [ ] If one room is far worse than the rest, it is the room with no job — page 162
+
+    The one room I am starting with, and the one thing I will do first: ____________________
+
+If a room scores five or six on everything and you still avoid it, that is not a decorating
+fault, and no further correction will fix it. Go to page 162.
+
+
+[ page 188 ]
+
+The first evening
+-----------------
+
+You have the scores. Here is what to do tonight, in the two hours after dinner, before you
+have bought anything at all.
+
+   1. Take out what does not belong. Everything in the room by accident rather than by
+      decision, into a box, into another room. Twenty minutes.
+   2. Turn the big light off and see what is left. If there is not enough, move a lamp in
+      from another room rather than buying one. Nearly every home already owns more lamps
+      than it uses.
+   3. Read the bulbs. Write down what you need. That is tomorrow’s shopping and it will cost
+      less than dinner.
+   4. Pull the largest piece of furniture off the wall by a hand’s width. Sit down again and
+      look.
+   5. Put your hand on five things and name the missing texture family.
+   6. Write one sentence in the space below: what you will do next, and when. Not a plan for
+      the room — one sentence.
+
+    Next: __________________________________________________________________________________
+
+  [ FROM THE NOTEBOOK ]
+“Nobody ever corrected a room by reading about it. Two hours, one room, tonight — and
+tomorrow you will walk in and feel the difference before you can name it.”
+
+
+AND TOMORROW
+
+Buy the bulbs. That is the whole of tomorrow. It is the only purchase in this book that
+changes every room in the house at once, and it costs less than a takeaway. Everything else
+can wait for the weekend, and most of it can wait for the month.
+
+
+[ page 189 ]
+
+============================================================================================
+
+REFERENCE
+WHAT NOT TO BUY
+
+============================================================================================
+
+The three shorter lists from earlier in the book, collected, with two more that had nowhere
+else to go. Fourteen years of watching money leave people’s hands for things that did not
+work. It is the least charming part of this book and possibly the most useful.
+
+    Why this list exists · 190
+    Lighting · 191
+    Paint and colour · 192
+    Textiles · 193
+    Furniture · 194
+    What to buy instead · 196
+
+[ page 190 ]
+
+Why this list exists
+--------------------
+
+I was, for fourteen years, a person who sold things to people for their homes. I want to be
+honest about what that does to advice.
+
+A decorator is paid either by the hour or by the thing. If by the thing, then every problem
+in your home has a solution that can be delivered in a van, and that is not corruption — it
+is just what the work rewards. I noticed it in myself. A client would describe a room that
+felt wrong and I would find myself reaching for a catalogue before I had sat down in it.
+
+So this list is my correction to my own trade. It is every category of purchase where I saw
+money spent that did not improve a room, or that improved it for six months and then became
+a thing to get rid of.
+
+
+THE FOUR TESTS BEHIND EVERY ENTRY
+
+   1. Does it solve the fault, or does it decorate over it? A darker cushion does not fix a
+      room lit from one place.
+   2. Will it still be here in ten years, and will I still want it?
+   3. Can it be repaired, recovered, or refinished by an ordinary person?
+   4. Does it move house? If you rent, this is the first test, not the last.
+
+  [ A FAIR WARNING ABOUT THIS SECTION ]
+These are my opinions, formed by what I saw in one city over fourteen years, and a person
+with a different climate, a different housing stock or a different budget may reasonably
+disagree with half of it. Where something is a matter of fact I say so; where it is a matter
+of taste I have tried to say that too. Page 201 is a whole page of things I might be wrong
+about.
+
+
+HOW TO READ THE ENTRIES
+
+Where an entry ends with a page number, the argument for it is made properly somewhere
+earlier in the book and you should go and read it before you accept my verdict. Where it
+does not, it is a judgement I formed on the job and have not made a case for at length —
+treat those with more suspicion, not less.
+
+
+[ page 191 ]
+
+ONE
+Lighting
+--------
+
+    - Cool white bulbs, anywhere in a home. Above 3000 K a room turns grey-blue and every
+      warm colour in it dies. This is the single most damaging cheap purchase in decorating.
+    - Any bulb that does not print its colour rendering. If the box will not tell you the
+      CRI, it is because the number is not good. Page 34.
+    - A brighter ceiling light, bought to fix a dark room. The room is not short of light.
+      It is short of light in the right places. Page 32.
+    - Downlights, added to a room you live in. They light floors. You do not live on the
+      floor, and they will put every face in the room into shadow.
+    - Bare-filament bulbs at eye level over a table. Fashionable, and genuinely unpleasant
+      to sit under for two hours.
+    - A lamp chosen for the base alone. The shade does the work — it is what decides where
+      the light goes and whether you can see the bulb. Page 38.
+    - Colour-changing smart bulbs, for the colour. The dimming is worth having. The sixteen
+      million colours will be used twice, and the ones you will actually leave on are the
+      two that a plain warm bulb already gives you.
+    - Battery candles with a flicker. I am aware this is a matter of taste. I have never
+      once seen them improve a room.
+
+  +----------------------------------------------------------------------------------------+
+  | SPEND THE MONEY HERE INSTEAD
+  | One more lamp, at a lower height, with a proper shade and a warm, high-rendering bulb in
+  | it. That purchase has never disappointed anybody I advised.
+  +----------------------------------------------------------------------------------------+
+
+
+THE TWO EXCEPTIONS I WOULD MAKE
+
+Cooler light is right in exactly two places in a home: a task light where fine work happens,
+and a mirror where somebody applies make-up they will wear in daylight. Both are task
+lighting, both are switched on for minutes rather than hours, and neither is the light the
+room sits in.
+
+
+[ page 192 ]
+
+TWO
+Paint and colour
+----------------
+
+    - Paint chosen from a chip, a screen, or a photograph. A colour is a relationship with
+      the light in your room, and the chip has none of that information. Page 48.
+    - The colour of the year. It is a marketing calendar, it is announced by people who sell
+      paint, and by the time a room is finished in it the following one has been announced.
+      Page 79.
+    - Five tester pots of nearly the same white. Two sheets of lining paper with two
+      candidates on them will tell you more than five pots dabbed straight onto the wall.
+    - Cheap white emulsion, bought by the drum, for a room you will live in. It is porous,
+      it marks, it cannot be cleaned, and it is the exact surface that makes adhesive
+      fixings take the wall off. Page 135.
+    - A feature wall, chosen because the room needs something. A wall that is different for
+      no structural reason reads as an unfinished decision. Page 64.
+    - Chalk paint for furniture that was already a good finish. It is excellent on the right
+      piece and it is a one-way journey on the wrong one.
+    - Any colour tested only in daylight, for a room you use in the evening.
+    - Enough paint for two coats. Buy enough for three. The third coat is the one nobody
+      plans for and everybody needs, and a second tin mixed later may not match.
+
+And the one thing in this category worth more than it costs: a small pot of the wall colour,
+kept, labelled with the date and the room. Every mark on that wall for the next ten years is
+then a two-minute job instead of a repaint.
+
+
+THREE THINGS WORTH PAYING MORE FOR
+
+    - Coverage. A good paint covers in two coats what a cheap one does not cover in four,
+      and the labour is the expensive part.
+    - A washable finish in a hall or a kitchen. Matt in a corridor is a decision you will
+      regret with a cloth in your hand.
+    - Brushes. My father owned four and cleaned them for thirty years. A cheap brush sheds
+      into the wall and no paint recovers from that.
+
+
+[ page 193 ]
+
+THREE
+Textiles and soft furnishing
+----------------------------
+
+    - Curtains that stop at the sill when the floor was available. The single most common
+      curtain error, and it costs nothing to avoid at the point of buying. Page 93.
+    - Curtains at 1.5 × fullness. They will look thin for as long as you own them, and no
+      amount of steaming fixes it. Page 94.
+    - A cushion set. Four cushions in one pattern, sold together, is the matched-set problem
+      bought deliberately. Page 117.
+    - Polyester cushion inserts. They flatten in a season and never recover, and they read
+      as flat because they are uniform. Feather, every time, two to five centimetres larger
+      than the cover.
+    - A rug bought to the size of the gap between the furniture. Measure the size that puts
+      the front legs on it, then buy that. Page 97.
+    - A very thin printed rug. It reads as a picture of a rug, and it curls at every corner
+      within a month.
+    - A sofa whose covers cannot be removed or replaced. You are renting it slowly. Page
+      118.
+    - Blackout blinds for a bedroom, instead of lined curtains. The blind handles the light
+      and nothing else; the curtain handles light, cold, sound and the proportion of the
+      whole wall.
+
+  +----------------------------------------------------------------------------------------+
+  | SPEND THE MONEY HERE INSTEAD
+  | One properly full, properly long, lined curtain on the room’s best window. It is the
+  | largest and best-lit texture in the room and it changes the proportion of the wall at
+  | the same time.
+  +----------------------------------------------------------------------------------------+
+
+
+ON BUYING TEXTILES SECONDHAND
+
+Linen and wool are worth buying used and improve with age; foam and polyester are not and do
+not. Check a secondhand curtain for sun-rot by holding it to the light and pulling gently at
+the leading edge — the side that faced the window will go first, and if it parts under your
+thumb the whole pair is finished whatever the price.
+
+
+[ page 194 ]
+
+FOUR
+Furniture
+---------
+
+    - Anything whose joints are one-way. If the fixings cannot be undone and done up again,
+      the piece is finished the first time it is moved badly. Ask the question in the shop
+      and watch the face. Page 123.
+    - A matched suite — sofa, chair, footstool, all one fabric. It will never look chosen.
+      Page 114.
+    - A three-seat sofa for a flat you might leave. It is the piece I saw abandoned on more
+      landings than any other object. Page 139.
+    - Anything built to fit one alcove, if you rent.
+    - A coffee table taller than the sofa seat. Level or just below, always — a tall table
+      in front of a low sofa makes the whole arrangement look like a waiting room.
+    - Storage bought in mixed materials and colours. Six identical boxes read as a system;
+      six different ones read as clutter with lids on. Page 140.
+    - A bed frame with no under-bed clearance, in a small home. That is the cheapest storage
+      you will ever own and you are giving it away.
+    - Furniture bought on the same afternoon as the rest of the room. A room furnished in
+      one transaction looks furnished in one transaction, whatever it cost.
+
+The honest counter-argument, which I owe you: cheap furniture is how a person on very little
+money furnishes a home at all, and I am not going to pretend otherwise. The request is not
+that you spend more in total. It is that when you do buy, you buy fewer things and buy the
+ones that will still be here in ten years. Page 141.
+
+
+THE SIX SECONDS THAT TELL YOU MOST, IN THE SHOP
+
+   1. Lift one corner. Weight is not everything, but a chair that is suspiciously light is
+      usually stapled softwood and compressed board.
+   2. Push the top corner sideways. Any sway in a cabinet or a bookcase now is a wobble
+      forever.
+   3. Look underneath. This is where the truth is kept: the frame, the joints, the staples,
+      and whether anybody expected you to look.
+
+
+[ page 195 ]
+
+FIVE
+The things sold to renters
+--------------------------
+
+A whole category of product exists because tenants have been told they may not change
+anything. Some of it is excellent. Much of it is a deposit waiting to be lost.
+
+    - Removable wallpaper, on a whole wall, untested. On flat landlord emulsion it can take
+      the paint off in sheets. One postcard-sized test patch, two weeks, in a hidden place,
+      before you commit a room. Page 135.
+    - Stick-down vinyl floor planks. They bond harder than the packet suggests, the seams
+      trap damp, and lifting them can take the landlord’s surface with them. A rug is
+      reversible. Page 136.
+    - Adhesive tile film and worktop wrap. They fail at the edges, near heat and water,
+      which in a kitchen is everywhere.
+    - Adhesive hooks trusted to their printed rating. Halve it, and never hang anything
+      glazed above a bed on one. Page 133.
+    - A tension rod carrying lined curtains. It is held up by friction. It will come down,
+      and usually at night. Page 132.
+    - Peel-and-stick anything in a bathroom. Steam defeats adhesive. Every time.
+    - “Temporary” furniture, bought four flats in a row. The arithmetic of that decade is on
+      page 141 and it is not kind.
+
+  +----------------------------------------------------------------------------------------+
+  | THE RENTER’S ONE-LINE RULE
+  | Buy the thing that moves house with you, not the thing that sticks to somebody else’s
+  | wall.
+  +----------------------------------------------------------------------------------------+
+
+
+AND THE THREE THAT GENUINELY WORK
+
+Adhesive strips, used honestly and well under their rating, on sound modern paint. Removable
+wallpaper on the back of a bookcase or inside a cupboard door, where failure costs an
+afternoon. And a clamp lamp — it needs no surface, no socket in the right place and no
+permission, and it is the single most useful object a tenant can own.
+
+
+[ page 196 ]
+
+The ten things to buy instead
+-----------------------------
+
+Every entry in the last five pages was a refusal. This page is the whole of what I would
+actually spend money on, in the order I would spend it.
+
+   1. Bulbs for the whole house. 2700 K, CRI 90 or better. Costs less than a dinner and
+      recolours every wall you own.
+   2. A third lamp, low. Floor level, in a corner, behind something. The light almost nobody
+      has.
+   3. A dimmer, or bulbs that dim. Brightness you can take away is worth more than
+      brightness you can add.
+   4. A curtain pole, long enough. Two brackets and four screws, and it changes the
+      proportion of the whole wall.
+   5. One properly full, properly long curtain on the best window in the house.
+   6. The right-sized rug, and a pad under it. The most expensive item here and the one most
+      worth waiting and saving for.
+   7. One large piece of art, hung at 145 cm, instead of fifteen small ones.
+   8. One unglazed ceramic or stone object. Often the missing fourth texture, and often the
+      price of a coffee.
+   9. One good chair that can be reupholstered. Secondhand, if that is what the money allows
+      — it usually buys better.
+   10. A tin of your own wall colour, labelled and kept. The cheapest insurance in the
+      house.
+
+Nine of those ten will move house with you. That is not a coincidence either.
+
+
+WHAT THE WHOLE LIST COSTS
+
+Items one to three — bulbs, a lamp, a dimmer — come to less than a single cushion from a
+good shop, and between them they do more than anything else on the page. Items four to ten
+can be bought over a year, in that order, and every one of them moves house with you. There
+is no step on this list that has to wait for the step after it.
+
+
+[ page 197 ]
+
+WHERE TO START
+Thirty days
+-----------
+
+One home, one month, and almost no money. This is the order I would work in if I walked into
+your flat tomorrow.
+
+
+WEEK ONE — LIGHT, AND NOTHING ELSE
+
+    - Tonight. The audit on page 183, for the room you use most.
+    - Day two. Read every bulb in the house and write a list.
+    - Day three. Buy them. 2700 K, CRI 90+. Change them all in one evening.
+    - Day four to seven. Move lamps you already own until the main room has three sources at
+      three heights, and leave the ceiling light off all week.
+
+
+WEEK TWO — HEIGHT, AND AN AFTERNOON
+
+    - Every picture and mirror re-hung to 145 cm at its centre.
+    - Every piece of furniture pulled off its wall by a hand’s width.
+    - One curtain pole raised and widened, if you are allowed to. If not, page 132.
+
+
+WEEK THREE — TEXTURE, ONE OBJECT AT A TIME
+
+    - Count the four families in each room and name what is missing.
+    - Buy the one cheapest thing that supplies it — usually ceramic or stone, usually small.
+    - Break one matched set.
+
+
+WEEK FOUR — AND ONLY NOW, COLOUR
+
+    - Re-do the audit. Compare the two scores.
+    - If colour is still the lowest, test two candidates properly, on lining paper, over a
+      weekend — page 47.
+    - If it is not, spend the paint money on the rug instead.
+
+Three of those four weeks cost almost nothing. That is the book.
+
+
+[ page 198 ]
+
+GLOSSARY
+The French words
+----------------
+
+Every French word used in this book, and why I kept it rather than translating it away.
+
+    WORD                                                              | WHAT IT MEANS
+    ----------------------------------------------------------------------------------------
+    la Croix-Rousse                                                   | The hill above Lyon
+    canut                                                             | A Lyon silk weaver.
+    couturière d’ameublement                                          | A soft furnishings s
+    cahier                                                            | A notebook. Hers hel
+    peintre en bâtiment                                               | A house painter — th
+    menuisier-ébéniste                                                | Joiner and cabinetma
+    badigeon à la chaux                                               | Limewash. A lime-bas
+    le cinquième mur                                                  | The fifth wall — the
+    état des lieux                                                    | The inventory and co
+    ma chère                                                          | My dear. What I call
+
+And if you would like to say any of them out loud: the accent in couturière falls at the
+end, the ch in ma chère is the soft sound in “shoe”, and nobody in Lyon will mind in the
+slightest how you pronounce any of it.
+
+
+[ page 199 ]
+
+GLOSSARY
+The words of the trade
+----------------------
+
+    TERM                                                              | WHAT IT MEANS
+    ----------------------------------------------------------------------------------------
+    Kelvin (K)                                                        | The colour of a ligh
+    Lumens (lm)                                                       | How bright a bulb ac
+    CRI, or Ra                                                        | Colour rendering — h
+    LRV                                                               | Light reflectance va
+    Undertone                                                         | The bias hiding insi
+    Sheen                                                             | How much light a pai
+    Drop                                                              | The finished length
+    Fullness                                                          | How much wider the f
+    Heading                                                           | How a curtain is gat
+    Interlining                                                       | A soft layer between
+    Martindale                                                        | A standardised rub t
+    Slub                                                              | The thick irregular
+    Reveal                                                            | The depth of wall at
+    Patina                                                            | What age does to a g
+
+
+[ page 200 ]
+
+THE HONEST PART
+Where the numbers come from
+---------------------------
+
+You have been given about a hundred figures. You are owed an account of where each kind of
+them came from, because they are not all the same kind of thing.
+
+
+FOUR SORTS OF NUMBER, AND HOW MUCH TO TRUST THEM
+
+   1. Measured standards. Kelvin, lumens, CRI and Martindale are defined by international
+      test standards and printed on the packaging by law or convention. These are facts. If
+      a box gives you one, believe it.
+   2. Trade conventions. The centre of a picture at 145 cm — 57 inches — is the hanging
+      height used by galleries and museums, and it is a convention rather than a law of
+      nature. It is a convention that has been tested on millions of visitors, which is why
+      I give it as a single number.
+   3. Ergonomic ranges. Worktop heights, desk heights, seat-to-table distances, walking
+      clearances. These come from furniture and building practice, they vary a little
+      between countries, and a person much taller or shorter than average should adjust them
+      without guilt.
+   4. My own working figures. Fullness at 2.5 ×. Three sources at three heights. Halving an
+      adhesive rating. Pulling a sofa 5–15 cm off the wall. These are fourteen years of one
+      person’s practice in one city, and they are the ones a reasonable professional might
+      argue with.
+
+
+TWO CLAIMS I HAVE DELIBERATELY SOFTENED
+
+    - Houseplants and air quality. The famous experiments were done in sealed chambers. At
+      the densities of an ordinary room the effect is negligible, and I say so on page 112
+      rather than repeat the claim.
+    - Colour and mood. There is real research, and there is a great deal of confident
+      decorating folklore built on top of it. Where I say a dark room feels enclosing I am
+      describing what people reported to me, not a measured psychological effect.
+
+
+WHAT I DID NOT VERIFY
+
+Prices, because they differ everywhere and date within a year — where I mention cost it is
+an order of magnitude, never a quotation. Product names, because I would rather teach you to
+read a label than send you to a shelf that has changed. And local building and electrical
+regulations, which differ by country and are the one place in this book where you must ask
+somebody qualified where you live.
+
+
+[ page 201 ]
+
+THE HONEST PART
+What I might be wrong about
+---------------------------
+
+A book that never says this is a book that is selling something. Here are the six positions
+in these two hundred pages that I hold least firmly.
+
+   1. That a small room should not be painted pale. It is my most unpopular position — page
+      57 — and it is drawn from small rooms in old European buildings with poor light. In a
+      small, bright, modern room, pale may well be right and I may be arguing from my own
+      climate.
+   2. That the overhead light should be off. True of every home I worked in. Not necessarily
+      true of a room with a very high ceiling and a beautiful fitting, or of anyone whose
+      eyes need more light than mine do. Light is also an accessibility question, and
+      atmosphere must lose that argument every time.
+   3. That matched sets are always wrong. Held firmly, but it is a position about how rooms
+      read, not a fact about furniture, and there are households where the calm of a matched
+      set is worth more than the interest of a broken one.
+   4. That you should buy fewer, better things. Good advice with savings behind it and a
+      lecture without them. Page 141 is my attempt to be fair about this and I am not sure I
+      succeeded.
+   5. That every room needs something living. Not every household can keep a plant alive,
+      and a dead plant is worse than no plant. Take stone or dried branches instead and lose
+      nothing.
+   6. The rug sizes. They come from rooms of a certain size. In a very small flat, a rug
+      that puts every leg on it may not exist, and front legs on is not a compromise there —
+      it is the answer.
+
+Everything else in this book I would defend at a table with anybody in the trade.
+
+
+HOW TO DISAGREE WITH THIS BOOK USEFULLY
+
+Do the thing first, live with it for a fortnight, and then disagree. Almost every correction
+here looks wrong on the first evening — a picture at 145 cm looks too high, a sofa off the
+wall looks like it has been pushed, a dark room looks alarming at lunchtime. Two weeks is
+how long it takes an eye to stop arguing. If you still dislike it then, you are right and I
+am wrong, and it is your home.
+
+
+[ page 202 ]
+
+LAST WORDS
+The cahier
+----------
+
+I have the notebook in front of me as I write this. It is cloth-bound, the corners are gone,
+and it is full of numbers in a hand I would know anywhere.
+
+There is nothing beautiful in it. Page after page of windows: the drop, the width, the
+fullness, the colour mixed to go with it, and the name of the family. Madame Rivière, salon,
+deux fenêtres, 2m40. No opinions. No photographs. Forty-one years of one woman measuring
+other people’s rooms and writing down what was true of them.
+
+When I was young I thought it was a record of work. I understand now that it is a record of
+attention. She could not afford any of those rooms. She was never going to live in one of
+them. And she looked at each one properly anyway, and wrote down what it needed, and went
+home.
+
+That is the whole of what I have tried to give you. Not a style — styles belong to other
+people and go out of fashion while you are still paying for them. Attention. The ability to
+walk into a room, including your own, and see what is actually happening in it instead of
+what you feel about it.
+
+You will not need this book for very long. That is the point of it. In a year you will hang
+a picture without measuring, and know from the doorway that a room is lit from one place,
+and stop yourself in a shop because you have remembered to ask whether the thing can be
+repaired. Then the book goes on a shelf and you get on with your life, which is what a home
+is actually for.
+
+She made me promise to write it down before it was lost. It is written down. Thank you for
+reading it.
+
+  +----------------------------------------------------------------------------------------+
+  | AND THE LAST LAW, WHICH IS THE FIRST ONE
+  | We do not decorate a room, ma chère. We correct it.
+  +----------------------------------------------------------------------------------------+
+
+The notebook is going to my daughter, who does not want it yet and will. There is no rule in
+it that has not been in this book somewhere, and there is nothing in it about style at all.
+Only windows, and the light that came through them, and who lived there.
+
+
+[ page 203 ]
+
+If you would like more
+----------------------
+
+This book is the whole method. What follows is only where to find the rest of it, and how to
+tell me when I am wrong.
+
+
+THE FILMS
+
+Everything in this book began as something I said out loud on Chez Colette. If you have
+arrived here from there, you already know the voice. If you have not, the channel is the
+same method in twenty-minute pieces — one room, one fault, one correction at a time — and it
+costs nothing.
+
+
+TELL ME WHAT HAPPENED
+
+I would genuinely rather have one photograph of a corrected room than a hundred compliments.
+If you do the audit on page 183 and fix the thing it points at, tell me. The corrections
+readers send me are where the next edition of this book will come from — particularly from
+homes unlike mine: different climates, different light, different housing.
+
+
+TWO REQUESTS
+
+   1. Print pages 183 to 187, even if you read the rest of this on a screen. The audit only
+      works with a pencil.
+   2. Do one thing tonight. Not the whole plan. One thing. Turn the ceiling light off and
+      put a lamp on the floor in the corner. Then sit down where you always sit and look at
+      the room you have lived in for years.
+
+Your taste was never the problem. Nobody ever showed you what to look at. Now somebody has.
+
+— Colette Dubois, Lyon
+
+
+ONE LAST PRACTICAL THING
+
+This is a file, and files get lost. Save a copy somewhere you will still have it in five
+years, and print the audit pages now while you are thinking of it. I would rather you had
+four sheets of paper and a pencil than two hundred pages you never opened again.
+
+
+[ page 204 ]
 
