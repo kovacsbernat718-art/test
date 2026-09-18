@@ -1,0 +1,2609 @@
+<title>Colette's Home Bible</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400&family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Archivo:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#1C1B19;
+  --plaster:#F2EEE5;
+  --sage:#8A9184;
+  --sage-deep:#6E7468;
+  --ochre:#C08A3E;
+  --paper:#FBF9F5;
+  --rule:#D8D2C6;
+
+  --display:"Bodoni Moda",Didot,"Times New Roman",serif;
+  --body:"Spectral",Georgia,"Iowan Old Style",serif;
+  --label:"Archivo","Helvetica Neue",Arial,sans-serif;
+}
+
+*{box-sizing:border-box}
+html{background:#3a3833}
+body{
+  margin:0;
+  background:#3a3833;
+  color:var(--ink);
+  font-family:var(--body);
+  -webkit-font-smoothing:antialiased;
+}
+
+/* ---------- page box ---------- */
+.page{
+  position:relative;
+  width:210mm;
+  height:297mm;
+  margin:0 auto 8mm;
+  padding:20mm 22mm 22mm;
+  background:var(--plaster);
+  overflow:hidden;
+  page-break-after:always;
+  break-after:page;
+  display:flex;
+  flex-direction:column;
+}
+.page:last-child{page-break-after:auto;break-after:auto}
+.page--dark{background:var(--ink);color:var(--plaster)}
+.page--worksheet{background:var(--paper)}
+
+/* ---------- running head + folio ---------- */
+.rh{
+  font-family:var(--label);
+  font-size:7.4pt;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--sage-deep);
+  text-align:right;
+  margin-bottom:7mm;
+  flex:0 0 auto;
+}
+.footer{
+  position:absolute;
+  left:22mm;right:22mm;bottom:13mm;
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  border-top:.5pt solid var(--rule);
+  padding-top:2.6mm;
+  font-family:var(--label);
+  font-size:7.4pt;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--sage-deep);
+}
+.page--dark .footer{border-top-color:rgba(242,238,229,.22);color:rgba(242,238,229,.5)}
+.folio{color:var(--ochre);letter-spacing:.06em;font-size:8.6pt;font-variant-numeric:tabular-nums}
+.page--dark .folio{color:var(--ochre)}
+
+/* ---------- headings ---------- */
+.page-title{
+  font-family:var(--display);
+  font-weight:500;
+  font-size:25pt;
+  line-height:1.14;
+  letter-spacing:-.005em;
+  margin:0 0 5mm;
+  text-wrap:balance;
+}
+.page-title--tight{margin-bottom:3.5mm}
+.kicker{
+  font-family:var(--label);
+  font-size:7.6pt;
+  font-weight:600;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--ochre);
+  margin:0 0 3mm;
+}
+.section-head{
+  font-family:var(--label);
+  font-size:8.4pt;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--sage-deep);
+  margin:7mm 0 2.5mm;
+}
+.section-head:first-child{margin-top:0}
+
+/* ---------- body ---------- */
+.body{flex:1 1 auto;min-height:0}
+.body p{
+  font-size:10.6pt;
+  line-height:1.62;
+  margin:0 0 3.6mm;
+  hyphens:auto;
+}
+.lead{
+  font-family:var(--display);
+  font-size:13.4pt;
+  line-height:1.42;
+  font-weight:400;
+  margin:0 0 5mm;
+}
+.body p strong{font-weight:600}
+.body em{font-style:italic}
+.fr{font-style:italic}
+.small{font-size:9.2pt;line-height:1.5}
+.two-col{column-count:2;column-gap:9mm}
+.two-col p{margin-bottom:3mm}
+
+/* ---------- lists ---------- */
+.body ul,.body ol{margin:0 0 4mm;padding-left:6mm}
+.body li{font-size:10.6pt;line-height:1.55;margin-bottom:1.8mm}
+ul.plain{list-style:none;padding-left:0}
+ul.plain li{padding-left:6mm;position:relative}
+ul.plain li::before{
+  content:"";position:absolute;left:0;top:2.1mm;
+  width:2.1mm;height:2.1mm;background:var(--ochre);
+}
+ol.steps{list-style:none;padding-left:0;counter-reset:s}
+ol.steps li{
+  counter-increment:s;position:relative;padding-left:9mm;margin-bottom:3mm;
+}
+ol.steps li::before{
+  content:counter(s);
+  position:absolute;left:0;top:-.3mm;
+  font-family:var(--display);font-size:12.5pt;color:var(--ochre);
+  font-variant-numeric:tabular-nums;
+}
+
+/* ---------- callouts ---------- */
+.callout{
+  background:var(--paper);
+  border:.6pt solid var(--rule);
+  padding:5mm 6mm;
+  margin:0 0 4.5mm;
+}
+.callout p:last-child{margin-bottom:0}
+.callout p{font-size:9.9pt;line-height:1.55}
+.callout--rule{
+  border:none;border-left:2.4mm solid var(--ochre);
+  background:var(--paper);
+  padding:4.5mm 6mm;
+}
+.callout--warning{border:.6pt solid var(--ochre);background:transparent}
+.callout--meme{background:var(--ink);border:none;color:var(--plaster)}
+.callout--meme p{color:var(--plaster)}
+.callout-label{
+  font-family:var(--label);
+  font-size:7.4pt;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;
+  color:var(--sage-deep);
+  margin:0 0 2mm;
+}
+.callout--warning .callout-label{color:var(--ochre)}
+.callout--meme .callout-label{color:var(--sage)}
+.law-name{
+  font-family:var(--label);
+  font-size:7.4pt;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;
+  color:var(--sage-deep);
+  margin:0 0 2mm;
+}
+.law-text{
+  font-family:var(--display);
+  font-size:12.6pt;line-height:1.38;
+  font-style:italic;
+  margin:0;
+}
+
+/* ---------- pull quote + divider ---------- */
+.pullquote{
+  border-top:2pt solid var(--ochre);
+  padding-top:4mm;margin:6mm 0 5mm;
+  font-family:var(--display);
+  font-size:15.6pt;line-height:1.34;
+  font-style:italic;
+}
+.divider{
+  border:0;border-top:.5pt solid var(--rule);
+  margin:6mm 0;
+}
+
+/* ---------- tables ---------- */
+.table{width:100%;border-collapse:collapse;margin:0 0 4.5mm}
+.table th{
+  font-family:var(--label);
+  font-size:7.4pt;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sage-deep);
+  text-align:left;
+  padding:0 3mm 1.8mm 0;
+  border-bottom:.8pt solid var(--ink);
+}
+.table td{
+  font-size:9.8pt;line-height:1.42;
+  padding:2.1mm 3mm 2.1mm 0;
+  border-bottom:.5pt solid var(--rule);
+  vertical-align:top;
+}
+.table td:last-child,.table th:last-child{padding-right:0}
+.table .num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.table--tight td{padding:1.5mm 3mm 1.5mm 0;font-size:9.4pt}
+
+/* ---------- measurement rows ---------- */
+.measure-row{
+  display:flex;justify-content:space-between;align-items:baseline;
+  gap:4mm;
+  padding:2.2mm 0;
+  border-bottom:.5pt solid var(--rule);
+}
+.measure-row__label{font-size:9.9pt;line-height:1.35}
+.measure-row__value{
+  font-family:var(--label);font-size:9.4pt;font-weight:500;
+  color:var(--ink);white-space:nowrap;font-variant-numeric:tabular-nums;
+}
+
+/* ---------- checklist + worksheet fields ---------- */
+.checklist{list-style:none;padding-left:0;margin:0 0 4mm}
+.checklist li{
+  position:relative;padding-left:8mm;margin-bottom:2.6mm;
+  font-size:10pt;line-height:1.5;
+}
+.checklist li::before{
+  content:"";position:absolute;left:0;top:.6mm;
+  width:4mm;height:4mm;border:.8pt solid var(--sage);background:#fff;
+}
+.field{margin-bottom:5mm}
+.field-label{
+  font-family:var(--label);
+  font-size:7.6pt;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;
+  color:var(--sage-deep);
+  display:block;margin-bottom:2.4mm;
+}
+.field-line{border-bottom:.6pt solid var(--sage);height:6.5mm}
+.field-line + .field-line{margin-top:3mm}
+.field-box{border:.6pt solid var(--sage);background:#fff;height:22mm}
+
+/* ---------- part title page ---------- */
+.part{justify-content:center;align-items:flex-start;text-align:left}
+.part-label{
+  font-family:var(--label);
+  font-size:8.4pt;font-weight:600;
+  letter-spacing:.3em;text-transform:uppercase;
+  color:var(--sage);
+  margin:0 0 6mm;
+}
+.part-title{
+  font-family:var(--display);
+  font-size:44pt;line-height:1.04;
+  font-weight:400;
+  letter-spacing:-.01em;
+  margin:0 0 8mm;
+  max-width:150mm;
+}
+.part-blurb{
+  font-family:var(--body);
+  font-size:11.4pt;line-height:1.62;
+  color:rgba(242,238,229,.78);
+  max-width:118mm;
+  margin:0;
+}
+.part-contents{
+  margin-top:11mm;padding-top:6mm;
+  border-top:.5pt solid rgba(242,238,229,.24);
+  max-width:130mm;
+}
+.part-contents li{
+  font-family:var(--label);font-size:8.6pt;
+  letter-spacing:.06em;
+  color:rgba(242,238,229,.62);
+  list-style:none;margin-bottom:2mm;
+}
+
+/* ---------- cover ---------- */
+.cover{
+  padding:0;background:var(--ink);color:var(--plaster);
+  align-items:center;justify-content:center;text-align:center;
+}
+.cover-inner{padding:26mm 24mm;width:100%}
+.cover-mark{width:46mm;height:auto;display:block;margin:0 auto 14mm}
+.cover-title{
+  font-family:var(--display);
+  font-size:40pt;line-height:1.03;
+  font-weight:500;
+  margin:0 0 4mm;
+  letter-spacing:-.012em;
+}
+.cover-fr{
+  font-family:var(--display);
+  font-size:15pt;font-style:italic;font-weight:400;
+  color:var(--sage);
+  margin:0 0 12mm;
+}
+.cover-sub{
+  font-family:var(--label);
+  font-size:9.2pt;font-weight:500;
+  letter-spacing:.2em;text-transform:uppercase;
+  line-height:1.9;
+  color:rgba(242,238,229,.84);
+  margin:0 auto 16mm;
+  max-width:112mm;
+}
+.cover-hr{
+  width:24mm;height:1.6pt;background:var(--ochre);
+  margin:0 auto 16mm;border:0;
+}
+.cover-author{
+  font-family:var(--label);
+  font-size:10pt;font-weight:600;
+  letter-spacing:.26em;text-transform:uppercase;
+  margin:0;
+}
+
+/* ---------- contents page ---------- */
+.toc{margin:0}
+.toc-part{
+  display:flex;justify-content:space-between;align-items:baseline;
+  gap:4mm;
+  border-bottom:.5pt solid var(--rule);
+  padding:2.5mm 0;
+}
+.toc-part__name{font-family:var(--display);font-size:11.6pt;line-height:1.3}
+.toc-part__n{font-family:var(--label);font-size:9pt;color:var(--sage-deep);font-variant-numeric:tabular-nums}
+.toc-part__num{
+  font-family:var(--label);font-size:7.4pt;font-weight:600;
+  letter-spacing:.16em;text-transform:uppercase;color:var(--ochre);
+  display:block;margin-bottom:.8mm;
+}
+
+/* ---------- misc ---------- */
+.stack{display:flex;flex-direction:column;gap:4mm}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:5mm 8mm}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:5mm 6mm}
+.cap{
+  font-family:var(--label);font-size:7.6pt;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--sage-deep);
+  margin:0 0 1.6mm;
+}
+a{color:var(--ochre);text-decoration:none;border-bottom:.4pt solid var(--ochre)}
+.page--dark a{color:var(--ochre)}
+.diagram{display:block;width:100%;height:auto;margin:1mm 0 4mm}
+
+@media print{
+  html,body{background:#fff}
+  .page{margin:0;box-shadow:none}
+}
+@page{size:A4 portrait;margin:0}
+@media screen{
+  .page{box-shadow:0 2mm 9mm rgba(0,0,0,.34)}
+  body{padding:8mm 0}
+}
+</style>
+
+<!-- ============ 1. COVER ============ -->
+<section class="page cover">
+  <div class="cover-inner">
+    <svg class="cover-mark" viewBox="0 0 200 180" role="img" aria-label="An open shuttered window">
+      <g fill="none" stroke="#8A9184" stroke-width="4">
+        <path d="M70 62 A30 30 0 0 1 130 62 L130 148 L70 148 Z"/>
+        <path d="M70 92 L130 92 M70 120 L130 120 M100 32 L100 148"/>
+      </g>
+      <rect x="102" y="94" width="26" height="24" fill="#C08A3E"/>
+      <g fill="none" stroke="#8A9184" stroke-width="3.4">
+        <path d="M62 56 L36 46 L36 156 L62 148 Z"/>
+        <path d="M138 56 L164 46 L164 156 L138 148 Z"/>
+      </g>
+      <g stroke="#8A9184" stroke-width="1.5" opacity=".85">
+        <path d="M40 60 L58 65 M40 70 L58 75 M40 80 L58 85 M40 90 L58 95 M40 100 L58 105 M40 110 L58 115 M40 120 L58 125 M40 130 L58 135 M40 140 L58 143"/>
+        <path d="M142 65 L160 60 M142 75 L160 70 M142 85 L160 80 M142 95 L160 90 M142 105 L160 100 M142 115 L160 110 M142 125 L160 120 M142 135 L160 130 M142 143 L160 140"/>
+      </g>
+    </svg>
+    <h1 class="cover-title">Colette&rsquo;s<br>Home Bible</h1>
+    <p class="cover-fr">La Belle Maison</p>
+    <hr class="cover-hr">
+    <p class="cover-sub">Make any room look expensive<br>without buying anything new</p>
+    <p class="cover-author">Colette Dubois</p>
+  </div>
+</section>
+
+<!-- ============ 2. COPYRIGHT & DISCLAIMER ============ -->
+<section class="page">
+  <div class="rh">&nbsp;</div>
+  <div class="body" style="display:flex;flex-direction:column;justify-content:flex-end">
+    <p class="kicker">Colette&rsquo;s Home Bible</p>
+    <p class="small"><strong>La Belle Maison &mdash; Make Any Room Look Expensive Without Buying Anything New</strong><br>
+    Written by Colette Dubois. Published by Chez Colette.<br>
+    First edition.</p>
+
+    <hr class="divider">
+
+    <p class="section-head" style="margin-top:0">Copyright</p>
+    <p class="small">All rights reserved. This book is licensed for the personal use of the individual
+    purchaser. You are welcome to print it, annotate it, and use it in your own home for as long as
+    you own it. You may not resell it, redistribute it, republish it, or share the file, in whole or
+    in part, without written permission.</p>
+
+    <p class="section-head">Disclaimer</p>
+    <p class="small">This book is educational. It describes principles of light, colour, proportion
+    and material, and how to apply them to an ordinary home. It is not professional advice, and it is
+    not a substitute for a qualified tradesperson.</p>
+    <p class="small">Nothing in this book asks you to carry out electrical, gas, plumbing or
+    structural work. Where a correction touches any of those, you are told to stop and call someone
+    licensed &mdash; and you should.</p>
+    <p class="small">Some corrections involve drilling, ladders, and hand tools. Work within your own
+    competence. If you rent, read your tenancy agreement before you make a permanent change to
+    anything; a chapter of this book is devoted entirely to the corrections that need no permission.</p>
+    <p class="small">If you suspect damp, mould, lead paint or asbestos in your home, this book will
+    not help you with it and does not try to. Those are surveyors&rsquo; and specialists&rsquo;
+    work, and the reasons are explained where they come up.</p>
+    <p class="small">Every measurement is given in both metric and imperial. Where a price is
+    mentioned it is an order of magnitude, not a quotation.</p>
+
+    <p class="section-head">A note on the pictures</p>
+    <p class="small">This book is drawn, not photographed. Every diagram in it is a line drawing made
+    for the page, because a photograph of somebody else&rsquo;s beautiful room teaches you nothing
+    about your own. Any room described in an example is an example, written to make a principle
+    concrete. None of them is a real client.</p>
+  </div>
+  <div class="footer"><span>Colette&rsquo;s Home Bible</span><span>&nbsp;</span></div>
+</section>
+
+<!-- ============ 3. WELCOME ============ -->
+<section class="page">
+  <div class="rh">&nbsp;</div>
+  <div class="body">
+    <p class="kicker">Before we start</p>
+    <h1 class="page-title">A word from Colette</h1>
+
+    <p class="lead">I grew up in a building that was never meant for people. It was built for
+    looms.</p>
+
+    <p>The Croix-Rousse is the hill above Lyon where the silk weavers worked. Their Jacquard looms
+    stood nearly four metres tall, so the buildings were put up with four-metre ceilings and enormous
+    windows facing north, because north light does not move and does not glare and you can match a
+    thread by it all day. The weavers are long gone. Ordinary families live in their workrooms now,
+    and mine was one of them.</p>
+
+    <p>So I was raised being told which windows were the good ones. That is a strange thing to grow
+    up knowing, and it turns out to be the most useful thing in this book.</p>
+
+    <p>My grandmother made curtains. Not as a hobby &mdash; as a trade, for forty-one years, in
+    other people&rsquo;s apartments all over that city. Curtains, blinds, cushions, loose covers,
+    upholstery. She saw the inside of hundreds of homes and she had hard opinions about every one of
+    them. She kept a cloth-bound notebook of every window she ever measured: the drop, the width,
+    the fullness, the colour she had mixed to go with it, and the name of the family. Near the end of
+    her life she made me promise I would write it all down properly before it was lost.</p>
+
+    <p>This is me keeping that promise, with fourteen years of my own work added to hers.</p>
+
+    <p>Those fourteen years were not spent in beautiful houses. They were spent in small flats,
+    rented flats, ground-floor rooms that never saw the sun, and apartments that a landlord had
+    ruined with the cheapest white paint and the wrong lights. That is the work I know. If you are
+    looking for a book about châteaux, this is not it.</p>
+
+    <p>I left the trade because it only knows one verb. <em>Buy.</em> A client would ask me why her
+    sitting room felt wrong and the profession had trained me to answer with a shopping list. And
+    most of the time the shopping list was not the answer. Most of the time the room was suffering
+    three or four specific things that could be named, and two of them could be fixed before dinner
+    with what was already in the flat.</p>
+
+    <p>That is the whole argument of this book, and I will say it once here and then spend two
+    hundred pages proving it.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">The argument</p>
+      <p class="law-text">A room is not decorated. A room is corrected.</p>
+    </div>
+
+    <p>Your taste was never the problem. Nobody ever showed you what to look at. Let me show you.</p>
+  </div>
+  <div class="footer"><span>Colette&rsquo;s Home Bible</span><span>&nbsp;</span></div>
+</section>
+
+<!-- ============ 4. CONTENTS ============ -->
+<section class="page">
+  <div class="rh">&nbsp;</div>
+  <div class="body">
+    <p class="kicker">Contents</p>
+    <h1 class="page-title">What is in this book</h1>
+
+    <div class="toc">
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part One</span><span class="toc-part__name">How to Read a Room</span></div>
+        <span class="toc-part__n">5</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Two</span><span class="toc-part__name">Light</span></div>
+        <span class="toc-part__n">21</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Three</span><span class="toc-part__name">Colour</span></div>
+        <span class="toc-part__n">45</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Four</span><span class="toc-part__name">Height and Proportion</span></div>
+        <span class="toc-part__n">85</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Five</span><span class="toc-part__name">Texture and Material</span></div>
+        <span class="toc-part__n">105</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Six</span><span class="toc-part__name">The Rented Room</span></div>
+        <span class="toc-part__n">125</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Part Seven</span><span class="toc-part__name">Room by Room</span></div>
+        <span class="toc-part__n">145</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Reference</span><span class="toc-part__name">The Measurements</span></div>
+        <span class="toc-part__n">165</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Reference</span><span class="toc-part__name">The Room Audit</span></div>
+        <span class="toc-part__n">181</span>
+      </div>
+      <div class="toc-part">
+        <div><span class="toc-part__num">Reference</span><span class="toc-part__name">What Not to Buy</span></div>
+        <span class="toc-part__n">189</span>
+      </div>
+    </div>
+
+    <p class="section-head">How to use it</p>
+    <p>Read Part One first. It is short and everything else depends on it, because it teaches you
+    what to look at. After that the book is a reference and you may take it in any order you like.</p>
+    <p>If you want to do something tonight, turn to <strong>The Room Audit</strong> on page 181. It
+    is one page, it takes ten minutes, and it will tell you which part of the book to open.</p>
+    <p>If you are in the middle of a job and you just need a number &mdash; how high to hang a
+    picture, how long a curtain should be, what size rug a sofa needs &mdash; go straight to
+    <strong>The Measurements</strong> on page 165. Every figure in the book is collected there.</p>
+  </div>
+  <div class="footer"><span>Colette&rsquo;s Home Bible</span><span>&nbsp;</span></div>
+</section>
+
+<!-- ============ 5. PART ONE TITLE ============ -->
+<section class="page page--dark part">
+  <p class="part-label">Part One</p>
+  <h1 class="part-title">How to Read<br>a Room</h1>
+  <p class="part-blurb">Before you change anything, you have to be able to see what is wrong. This
+  part teaches you the four errors that ruin almost every ordinary room, the three questions that
+  find them, and the order in which corrections have to be made if they are not going to waste your
+  money.</p>
+  <ul class="part-contents">
+    <li>The four errors &middot; 7</li>
+    <li>How to look: the three questions &middot; 12</li>
+    <li>The ten-minute audit &middot; 13</li>
+    <li>The order of operations &middot; 15</li>
+    <li>Six things you have been told that are wrong &middot; 19</li>
+  </ul>
+  <div class="footer"><span>Part One</span><span class="folio">5</span></div>
+</section>
+
+<!-- ============ 6. THE ROOM IS NOT THE PROBLEM ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Chapter one</p>
+    <h1 class="page-title">The room is not the problem</h1>
+
+    <p class="lead">You have already tried. That is the part nobody credits you for.</p>
+
+    <p>You have moved the sofa. You have moved it back. You have bought cushions, and then different
+    cushions. At some point you painted a wall, and it looked better for about a week, and then it
+    went back to looking the way it looked before. You have a folder of saved photographs of rooms
+    you like, and not one of them looks like yours, and you cannot say why.</p>
+
+    <p>So you have quietly arrived at the conclusion that the problem is you. That other people have
+    an eye and you do not. That your room is simply an ordinary room and this is what an ordinary
+    room looks like.</p>
+
+    <p>I have been in several hundred of these rooms. That is not what is happening.</p>
+
+    <p>What is happening is that you are being asked to solve a problem you have not been given the
+    vocabulary for. Nobody taught you to look at a room the way a decorator looks at a room, which
+    is not as a collection of objects but as a set of relationships &mdash; between the light and
+    the wall, between the height of a thing and the height of your eye, between one material and the
+    next. Without that vocabulary there is only one move available to you, and that move is to buy
+    something. So you buy something, and it changes the objects in the room without changing any of
+    the relationships, and the room looks the same.</p>
+
+    <p>And every single part of this industry is content for that to continue.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">What we are actually doing</p>
+      <p class="law-text">Almost no ordinary room is short of objects. Nearly all of them are
+      suffering three or four specific, nameable errors.</p>
+    </div>
+
+    <p>Three or four. Not thirty. That is the good news buried in this, and it is the reason this
+    book is possible at all. The errors repeat. They are the same errors, in flat after flat, in one
+    country after another, and once you know their names you will see them in every room you walk
+    into for the rest of your life &mdash; including on television, including in the photographs
+    you saved.</p>
+
+    <p>Most of them cost nothing to correct. Some of them take twenty minutes. One or two are worth
+    real money, and when we get to those I will tell you plainly.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">6</span></div>
+</section>
+
+<!-- ============ 7. THE FOUR ERRORS ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">The four errors</h1>
+
+    <p>Here they are. Every one of them gets its own page after this, and every one of them gets a
+    whole part of the book later on. For now, just learn the four names.</p>
+
+    <svg class="diagram" viewBox="0 0 520 176" role="img" aria-label="Four errors shown as four labelled panels">
+      <g fill="none" stroke="#8A9184" stroke-width="1.1">
+        <rect x="1" y="1" width="127" height="174"/>
+        <rect x="131" y="1" width="127" height="174"/>
+        <rect x="261" y="1" width="127" height="174"/>
+        <rect x="391" y="1" width="127" height="174"/>
+      </g>
+      <!-- 1 light from one height -->
+      <circle cx="64" cy="38" r="7" fill="#C08A3E"/>
+      <g stroke="#C08A3E" stroke-width="1" opacity=".55">
+        <path d="M64 47 L30 120 M64 47 L98 120 M64 47 L64 124"/>
+      </g>
+      <path d="M22 150 L106 150" stroke="#1C1B19" stroke-width="1.4" fill="none"/>
+      <!-- 2 hung too low -->
+      <g fill="none" stroke="#8A9184" stroke-width="1.1"><rect x="171" y="96" width="46" height="34"/></g>
+      <path d="M150 62 L238 62" stroke="#C08A3E" stroke-width="1" stroke-dasharray="3 3" fill="none"/>
+      <path d="M150 150 L238 150" stroke="#1C1B19" stroke-width="1.4" fill="none"/>
+      <!-- 3 one texture -->
+      <g fill="none" stroke="#8A9184" stroke-width="1">
+        <rect x="285" y="34" width="34" height="34"/><rect x="329" y="34" width="34" height="34"/>
+        <rect x="285" y="78" width="34" height="34"/><rect x="329" y="78" width="34" height="34"/>
+      </g>
+      <g stroke="#8A9184" stroke-width=".7" opacity=".8">
+        <path d="M285 40 L319 40 M285 48 L319 48 M285 56 L319 56 M285 64 L319 64
+                 M329 40 L363 40 M329 48 L363 48 M329 56 L363 56 M329 64 L363 64
+                 M285 84 L319 84 M285 92 L319 92 M285 100 L319 100 M285 108 L319 108
+                 M329 84 L363 84 M329 92 L363 92 M329 100 L363 100 M329 108 L363 108"/>
+      </g>
+      <path d="M280 150 L368 150" stroke="#1C1B19" stroke-width="1.4" fill="none"/>
+      <!-- 4 unread ceiling -->
+      <path d="M410 30 L498 30" stroke="#C08A3E" stroke-width="2.4" fill="none"/>
+      <g fill="none" stroke="#8A9184" stroke-width="1.1">
+        <path d="M410 30 L410 150 M498 30 L498 150"/>
+        <rect x="432" y="104" width="44" height="26"/>
+      </g>
+      <path d="M410 150 L498 150" stroke="#1C1B19" stroke-width="1.4" fill="none"/>
+    </svg>
+
+    <p class="section-head">One &middot; The room is lit from one height</p>
+    <p class="small">There is a light in the middle of the ceiling and that is all there is. Every
+    object in the room is lit from the same angle, so nothing has any depth, and everyone in the room
+    looks tired.</p>
+
+    <p class="section-head">Two &middot; Everything is hung too low</p>
+    <p class="small">The pictures, the curtain pole, the mirror, the pendant. All of it sitting
+    lower than it should, which drags the whole room down towards the floor and makes the ceiling
+    feel closer than it is.</p>
+
+    <p class="section-head">Three &middot; One texture, repeated</p>
+    <p class="small">Everything in the room is the same kind of surface. Four soft things, or four
+    shiny things, or four flat painted things. The room reads as a showroom, or as a waiting area,
+    and you cannot say why because nothing in it is ugly.</p>
+
+    <p class="section-head">Four &middot; Nobody has ever looked at the ceiling</p>
+    <p class="small">It is the largest surface in the room. No furniture will ever hide any part of
+    it. It is the last thing you see at night and the first thing you see in the morning. And you
+    painted it white without once asking whether that was the right answer.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">7</span></div>
+</section>
+
+<!-- ============ 8. ERROR ONE ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Error one</p>
+    <h1 class="page-title">The room is lit from one height</h1>
+
+    <p class="lead">Go and stand in your sitting room tonight with the lights on as you normally
+    have them. Now look at the ceiling, and count the sources.</p>
+
+    <p>In most rooms the answer is one. There is a fitting in the middle of the ceiling, it is doing
+    all of the work, and everything you own is being lit from directly above.</p>
+
+    <p>Here is why that single fact is doing so much damage.</p>
+
+    <p>Light from directly overhead falls on the top of everything and nothing else. The top of the
+    sofa arm is bright, the front of it is not. The top of your head is bright and your eye sockets
+    are in shadow, which is why everyone in a room lit this way looks exhausted. Nothing has a lit
+    side and a shaded side, so nothing has any apparent depth &mdash; and a room without depth reads
+    flat whatever you paid for the furniture in it.</p>
+
+    <p>And because that one fitting lights the whole room from one point, it has to be bright. So
+    the brightness is the thing you notice, and the room feels like a place where tasks are performed
+    rather than a place where anyone sits.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Colette&rsquo;s rule of the three heights</p>
+      <p class="law-text">Light must arrive at three heights &mdash; overhead, table, and floor. A
+      room lit from one height is a room lit like a corridor.</p>
+    </div>
+
+    <p>This is my rule rather than a law of physics, and Part Two is entirely about it. But the
+    correction is so cheap that I want you to have it now.</p>
+
+    <p class="section-head">The twenty-minute version</p>
+    <p>Tonight, turn the ceiling light off. Put two lamps on in the room instead &mdash; any two
+    lamps you already own, one at roughly the height of a side table and one lower or taller than
+    that &mdash; and put them in two different corners rather than side by side. Then sit down in
+    the chair you actually sit in and look at the room.</p>
+
+    <p>Nothing bought, nothing moved more than a metre. And every object in that room now has a lit
+    side and a shaded side, which is the whole difference between a room and a corridor.</p>
+
+    <div class="callout">
+      <p class="callout-label">If you only have one lamp</p>
+      <p>Use it, and turn the ceiling light off anyway. One lamp and a dark corner beats one
+      ceiling fitting and no corner. The dark corner is not a failure &mdash; page 104.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">8</span></div>
+</section>
+
+<!-- ============ 9. ERROR TWO ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Error two</p>
+    <h1 class="page-title">Everything is hung too low</h1>
+
+    <p class="lead">This is the most common error in this book and the cheapest one to correct,
+    which is a combination you will not meet often.</p>
+
+    <p>Almost everything that hangs in an ordinary home hangs lower than it should. Pictures,
+    mirrors, curtain poles, pendant lights, shelves, coat hooks. It happens for a reason that is
+    completely understandable: you hang a thing at the height where it is comfortable to hold it up
+    against the wall. That is roughly the height of your own hands at rest, and your hands at rest
+    are a good deal lower than where the object needed to go.</p>
+
+    <p>Repeat that across nine or ten objects and the effect is cumulative. The whole visual weight
+    of the room collects in a band about a metre off the floor, everything above that band is empty,
+    and the empty part reads as unfinished while the crowded part reads as cluttered. Both at once,
+    in the same room.</p>
+
+    <p class="section-head">The two numbers that fix most of it</p>
+
+    <div class="measure-row">
+      <span class="measure-row__label">A picture hangs with its <strong>centre</strong> at</span>
+      <span class="measure-row__value">145&nbsp;cm &middot; 57&nbsp;in</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">A curtain pole goes as close to the ceiling as it can, and the
+      curtain drops to <strong>the floor</strong></span>
+      <span class="measure-row__value">0&ndash;1&nbsp;cm clearance</span>
+    </div>
+
+    <p class="small" style="margin-top:3mm">One hundred and forty-five centimetres to the centre of
+    the picture &mdash; not to the top, not to the bottom, and not to the hook. This is the standard
+    hanging height used in galleries and museums, and the reason it works is that it puts the middle
+    of the work at the eye level of an average standing adult. It is not a matter of taste. It is a
+    matter of where human eyes are.</p>
+
+    <p>Go and measure one picture in your home right now. If the centre of it is at 120 or 125
+    centimetres, which it probably is, you have found one of your three or four errors, and the fix
+    costs one nail hole and four minutes.</p>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">One honest exception</p>
+      <p>Art hung above a sofa or a console follows the furniture, not the room &mdash; leave
+      roughly 15&nbsp;to&nbsp;25&nbsp;cm (6&nbsp;to&nbsp;10&nbsp;in) between the top of the
+      furniture and the bottom of the frame, and let that decide the height. Page 92 covers the
+      whole business of hanging over furniture, including what to do when the two rules disagree.</p>
+    </div>
+
+    <p>Curtains are the larger prize and they get their own chapter, because moving a curtain pole
+    upward by twenty centimetres does something to a room that is genuinely difficult to believe
+    until you have seen it. The window appears taller. The ceiling appears higher. The wall stops
+    looking like a wall with a hole in it.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">9</span></div>
+</section>
+
+<!-- ============ 10. ERROR THREE ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Error three</p>
+    <h1 class="page-title">One texture, repeated</h1>
+
+    <p class="lead">This is the error that makes a room full of nice things feel like a hotel
+    lobby.</p>
+
+    <p>Stand in the doorway and do not look at colour or at shape. Look only at <em>surface</em>.
+    What is each thing in this room actually made of, and what would it feel like under your hand?</p>
+
+    <p>In a great many rooms the honest answer comes back as one material wearing four costumes. A
+    grey fabric sofa, a grey fabric armchair, a grey fabric ottoman, and a grey fabric curtain: four
+    soft things. Or: a glass table, a gloss-painted unit, a mirror, and a chrome lamp &mdash; four
+    hard shiny things. Nothing in either room is ugly. Nothing is even badly chosen. And the room is
+    lifeless, because a surface only reads as interesting next to a surface that is not like it.</p>
+
+    <p>A hand runs over linen and then over oak and then over unglazed clay and registers three
+    completely different things. A hand that runs over four woven surfaces registers one thing, four
+    times. Your eye does exactly the same arithmetic, faster, and without telling you.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Colette&rsquo;s rule of the fourth texture</p>
+      <p class="law-text">A room reads as finished when four textures meet: something woven,
+      something wooden, something ceramic or stone, and something living. Three is a showroom.
+      Four is a home.</p>
+    </div>
+
+    <p>This is mine, and it is a rule of thumb rather than a truth &mdash; but I have used it for
+    fourteen years and it has never once let me down in a room that was not working. Count the
+    families. If you can only find two, you have found another of your errors, and it is almost
+    always the cheapest one in the book to fix, because the missing family is usually clay or wood
+    and both of those can be answered from a charity shop for the price of a coffee.</p>
+
+    <p class="section-head">The four families</p>
+    <table class="table table--tight">
+      <tr><th>Family</th><th>Reads as</th><th>Where it usually is already</th></tr>
+      <tr><td>Woven</td><td>soft, absorbs light</td><td>sofa, curtain, rug, cushion, throw</td></tr>
+      <tr><td>Wooden</td><td>warm, grained, matte</td><td>floor, table, frame, shelf, chair leg</td></tr>
+      <tr><td>Ceramic or stone</td><td>cool, dense, slightly rough</td><td>almost always the missing one</td></tr>
+      <tr><td>Living</td><td>irregular, moves</td><td>one plant, or branches in water</td></tr>
+    </table>
+
+    <p class="small">Metal and glass are not a fifth family so much as a seasoning. A room can carry
+    a little and does not need any. If your room is all metal and glass, what it is missing is
+    probably wood.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">10</span></div>
+</section>
+
+<!-- ============ 11. ERROR FOUR ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Error four</p>
+    <h1 class="page-title">Nobody has ever looked at the ceiling</h1>
+
+    <p class="lead">In French we have a name for the ceiling that English does not have. We call it
+    <span class="fr">le cinqui&egrave;me mur</span> &mdash; the fifth wall.</p>
+
+    <p>I did not understand what a good name that was until I started working in other people&rsquo;s
+    homes and noticed that the ceiling was the only surface in the house that nobody had ever made a
+    decision about. Every other surface had been considered. Somebody had chosen the floor. Somebody
+    had chosen, or at least argued about, the colour of the walls. The ceiling was white because
+    ceilings are white.</p>
+
+    <p>Consider what that surface actually is. It is the largest single uninterrupted plane in the
+    room &mdash; larger than any wall, because no window or door is cut out of it. It is the only
+    surface that no piece of furniture will ever stand in front of, which means you see all of it,
+    all of the time. And it is the last thing you look at before you go to sleep and the first thing
+    you look at when you wake up.</p>
+
+    <p>One coat of paint. Nobody sells it to you, because there is nothing in it for anyone.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">The law of the fifth wall</p>
+      <p class="law-text">The ceiling is the largest surface in the room, the only one no furniture
+      will ever hide, and the only one you painted white without once asking why.</p>
+    </div>
+
+    <p class="section-head">What the ceiling is doing to your room right now</p>
+    <p>A pale ceiling appears to recede. A darker ceiling appears to come closer. That is a real
+    perceptual effect and you can use it in either direction, which is the part almost nobody is
+    told: a low ceiling is not automatically improved by white paint, and a very high ceiling in a
+    small room is often improved by a darker one, because it brings the room down to a human scale
+    and makes it feel occupied rather than echoing.</p>
+
+    <p>The choice depends on what the room is for and what is wrong with it, and Part Three gives
+    you the whole decision. What I want from you here is smaller. I want you to go into the room you
+    like least in your home, lie on the floor, and look up for thirty seconds.</p>
+
+    <p>Most people discover two things. The ceiling is not actually white any more &mdash; it has
+    gone cream, or grey, or yellow near the light fitting. And there is more of it than they
+    remembered.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">11</span></div>
+</section>
+
+<!-- ============ 12. THE THREE QUESTIONS ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">How to look</p>
+    <h1 class="page-title">The three questions</h1>
+
+    <p class="lead">You now know the four errors by name. This is how you find which of them are in
+    your room.</p>
+
+    <p>Do not do this from the doorway. Sit down in the chair you actually use, at the time of day
+    you actually use the room, with the lights as you actually have them. A room that is being
+    inspected is not the room you live in.</p>
+
+    <ol class="steps">
+      <li><strong>Where is the light coming from, and how many places is it coming from?</strong>
+      Count the sources that are switched on. Then look at one solid object &mdash; a jug, a lamp
+      base, the arm of a chair &mdash; and find its shadow. If it does not have one, the room has a
+      single source and you have error one.</li>
+
+      <li><strong>Where is the highest thing on the wall, and where is my eye?</strong> Sit still
+      and look straight ahead without tilting your head. Note where your gaze lands on the far wall.
+      Now look at the top edge of the highest picture, mirror or shelf. If everything on that wall
+      sits below where you were already looking, you have error two.</li>
+
+      <li><strong>How many different materials can I count, and how many families do they belong
+      to?</strong> Not how many objects &mdash; how many <em>kinds of surface</em>. Woven, wooden,
+      ceramic or stone, living. Fewer than three families is error three.</li>
+    </ol>
+
+    <p>Then, last, look up. If you cannot remember making a decision about that surface, you have
+    error four, and you have almost certainly got it, because almost everyone has.</p>
+
+    <div class="callout">
+      <p class="callout-label">What you are likely to find</p>
+      <p>Three of the four. That is the ordinary result and it is not a disaster &mdash; it is why
+      the room has been resisting you. Four separate problems, none of which is fixable by buying a
+      cushion, and nobody ever told you their names.</p>
+    </div>
+
+    <p class="section-head">Do not fix anything yet</p>
+    <p>Write down what you found and put the pencil down. The order in which these get corrected
+    matters a great deal, and doing them in the wrong order is how people spend money twice. That is
+    the subject of page 15 and it is the most expensive page in this book to ignore.</p>
+
+    <p>The page opposite is the audit written out properly, with room to fill in. Photocopy it, or
+    print that page on its own, and keep a filled copy for every room in the house.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">12</span></div>
+</section>
+
+<!-- ============ 13. WORKSHEET — THE AUDIT ============ -->
+<section class="page page--worksheet">
+  <div class="rh">Part One &middot; Worksheet</div>
+  <div class="body">
+    <p class="kicker">Worksheet</p>
+    <h1 class="page-title page-title--tight">The ten-minute room audit</h1>
+    <p class="small" style="margin-bottom:5mm">Sat in the chair you use, at the hour you use it, with
+    the lights as you normally have them.</p>
+
+    <div class="grid2">
+      <div class="field">
+        <span class="field-label">Room</span>
+        <div class="field-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Time of day / date</span>
+        <div class="field-line"></div>
+      </div>
+    </div>
+
+    <p class="section-head">One &middot; Light</p>
+    <div class="grid2">
+      <div class="field">
+        <span class="field-label">Sources switched on &mdash; how many</span>
+        <div class="field-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">At how many different heights</span>
+        <div class="field-line"></div>
+      </div>
+    </div>
+    <ul class="checklist">
+      <li>I picked one solid object and it has a visible shadow</li>
+    </ul>
+
+    <p class="section-head">Two &middot; Height</p>
+    <div class="grid2">
+      <div class="field">
+        <span class="field-label">Centre height of the main picture</span>
+        <div class="field-line"></div>
+      </div>
+      <div class="field">
+        <span class="field-label">Gap under the curtain hem</span>
+        <div class="field-line"></div>
+      </div>
+    </div>
+    <ul class="checklist">
+      <li>Something on the wall is above my seated eye line</li>
+    </ul>
+
+    <p class="section-head">Three &middot; Texture</p>
+    <ul class="checklist">
+      <li>Woven &mdash; fabric, rug, weave</li>
+      <li>Wooden &mdash; grained, matte</li>
+      <li>Ceramic or stone &mdash; cool, dense</li>
+      <li>Living &mdash; a plant, or branches in water</li>
+    </ul>
+
+    <p class="section-head">Four &middot; The fifth wall</p>
+    <div class="field">
+      <span class="field-label">What colour is the ceiling actually, looking at it now</span>
+      <div class="field-line"></div>
+    </div>
+
+    <p class="section-head">The verdict</p>
+    <div class="field">
+      <span class="field-label">Errors found, in the order I will correct them (see page 15)</span>
+      <div class="field-line"></div>
+      <div class="field-line"></div>
+      <div class="field-line"></div>
+    </div>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">13</span></div>
+</section>
+
+<!-- ============ 14. WHY YOUR ROOM PHOTOGRAPHS BADLY ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">Why your room photographs badly when it looks fine to you</h1>
+
+    <p class="lead">Nearly everyone has had this experience, and almost nobody knows what it
+    means.</p>
+
+    <p>You stand in the room and it is perfectly pleasant. You take a photograph of it to send to
+    somebody and the photograph is dreadful. The proportions look wrong, the colours look muddy, the
+    whole thing looks cheaper than it does in life. So you conclude that you are bad at photography.</p>
+
+    <p>You are not. The camera is telling you the truth and your eye has been protecting you from
+    it.</p>
+
+    <p>Your eye is not a camera. It moves constantly, it adjusts its exposure locally as it moves,
+    and &mdash; this is the important part &mdash; your brain edits out what it already knows is
+    there. You have not properly <em>seen</em> the cable behind the television for two years. Your
+    visual system has decided it is not information and it stopped sending it to you. A camera has
+    no such filter. It flattens the room to one plane, fixes one exposure for the whole frame, and
+    reports back every single thing in it.</p>
+
+    <p>So the photograph is a free diagnosis. Use it that way.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">How to use it</p>
+      <p class="law-text">Photograph the room, then look at the photograph rather than the room. The
+      first three things that annoy you in the picture are the three errors you have stopped being
+      able to see.</p>
+    </div>
+
+    <p class="section-head">Two refinements that make it sharper</p>
+    <ul class="plain">
+      <li><strong>Turn the photograph upside down.</strong> This is an old drawing-class trick and it
+      works for exactly the same reason: inverted, the image stops being a room you recognise and
+      becomes a pattern of shapes and tones. Errors of proportion and balance leap out. It is
+      startling how well this works on a wall of pictures.</li>
+      <li><strong>Turn it black and white.</strong> With colour removed, what is left is the
+      distribution of light and dark, and light and dark is what gives a room depth. A photograph
+      that goes to uniform mid-grey is a photograph of a room lit from one height.</li>
+    </ul>
+
+    <p>Keep those photographs. When you have finished correcting the room, take the same photograph
+    from the same spot at the same hour. It is the only honest before-and-after there is, and it will
+    show you things you did not know you had fixed.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">14</span></div>
+</section>
+
+<!-- ============ 15. THE ORDER OF OPERATIONS ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">The most expensive page to ignore</p>
+    <h1 class="page-title">The order of operations</h1>
+
+    <p class="lead">Corrections have to be made in a particular order, because each one changes the
+    answer to the next.</p>
+
+    <p>This is the page that saves you money. Not because anything on it is difficult, but because
+    the natural order &mdash; the order in which people actually do it &mdash; is almost exactly
+    backwards, and doing it backwards means paying twice.</p>
+
+    <p>Here is the order. It goes from the thing that nothing depends on, to the thing that depends
+    on everything.</p>
+
+    <svg class="diagram" viewBox="0 0 520 96" role="img" aria-label="The five stages of correction in order">
+      <g stroke="#D8D2C6" stroke-width="1" fill="none"><path d="M14 52 L506 52"/></g>
+      <g fill="#C08A3E"><circle cx="14" cy="52" r="5.5"/><circle cx="137" cy="52" r="5.5"/><circle cx="260" cy="52" r="5.5"/><circle cx="383" cy="52" r="5.5"/><circle cx="506" cy="52" r="5.5"/></g>
+      <g font-family="Archivo, sans-serif" font-size="9.4" fill="#1C1B19" font-weight="600" letter-spacing=".6">
+        <text x="14" y="34">CLEAR</text>
+        <text x="137" y="34">LIGHT</text>
+        <text x="260" y="34">HEIGHT</text>
+        <text x="383" y="34">COLOUR</text>
+        <text x="506" y="34" text-anchor="end">TEXTURE</text>
+      </g>
+      <g font-family="Archivo, sans-serif" font-size="7.6" fill="#8A9184" letter-spacing=".4">
+        <text x="14" y="72">nothing</text><text x="14" y="83">depends on it</text>
+        <text x="137" y="72">decides</text><text x="137" y="83">colour</text>
+        <text x="260" y="72">decides</text><text x="260" y="83">what fits</text>
+        <text x="383" y="72">depends on</text><text x="383" y="83">the light</text>
+        <text x="506" y="72" text-anchor="end">depends on</text><text x="506" y="83" text-anchor="end">all of it</text>
+      </g>
+    </svg>
+
+    <ol class="steps">
+      <li><strong>Clear.</strong> Take out of the room everything that is broken, everything you do
+      not like, and everything that is there because it has always been there. Do not replace any of
+      it yet. An emptier room is easier to read, and a surprising number of rooms are substantially
+      fixed at this stage. It costs nothing.</li>
+
+      <li><strong>Light.</strong> Lamps, bulbs, heights, and what you can stop blocking. This comes
+      before colour and it is not negotiable, for the reason on the next page. It is usually the
+      cheapest real change in the room and almost always the largest.</li>
+
+      <li><strong>Height.</strong> Curtain pole up, pictures to 145, shelves and mirrors adjusted.
+      Nail holes and an afternoon. Do this before you paint, because you will be filling holes
+      anyway and because the new heights change where the eye goes.</li>
+
+      <li><strong>Colour.</strong> Walls, ceiling, woodwork. Only now, when you know what light the
+      room will actually be living in.</li>
+
+      <li><strong>Texture.</strong> The missing families. Fabric, wood, clay, something living. Last,
+      because the right answer depends on everything above it.</li>
+    </ol>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">The expensive mistake</p>
+      <p>Buying furniture at any point in this list. Furniture is not a stage. It comes after all
+      five, if it comes at all, and most of the rooms I have corrected needed none.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">15</span></div>
+</section>
+
+<!-- ============ 16. WHY COLOUR IS FOURTH ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">Why colour comes fourth and not first</h1>
+
+    <p class="lead">Everybody starts with paint. It is the wrong place to start, and here is the
+    reason in one sentence: a colour is not a property of the paint. It is what happens when that
+    paint meets the light in your room.</p>
+
+    <p>Change the light and you have changed the colour. Not your perception of it &mdash; the
+    actual wavelengths coming off that wall into your eye. The same tin of paint on a north-facing
+    wall and a south-facing wall is two different colours, and anybody who has painted both will
+    tell you so.</p>
+
+    <p>So when you choose a colour before you have settled the light, you are answering a question
+    whose terms have not been set yet. Then you fix the lighting afterwards, and the colour you chose
+    turns out to be wrong, and you paint again. I have watched people do this three times in the
+    same room.</p>
+
+    <p class="section-head">The two things that decide a colour before you have chosen it</p>
+    <ul class="plain">
+      <li><strong>Which way the window faces.</strong> North light in the northern hemisphere never
+      carries direct sun; it is cool and steady all day, and it will push a warm grey towards blue.
+      South light is warm and strong and will push a cool white towards yellow. This is the first
+      page of Part Two and it is the single most useful fact in the book.</li>
+      <li><strong>What your bulbs are.</strong> A bulb has a colour temperature printed on the box
+      and most people have never looked at it. Twenty-seven hundred kelvin is warm domestic light;
+      four to five thousand is the light shops and offices are lit with. Put a colour chosen under
+      one of those under the other and it is unrecognisable.</li>
+    </ul>
+
+    <div class="callout callout--meme">
+      <p class="callout-label">From the notebook</p>
+      <p><em>&ldquo;You are not choosing a colour. You are choosing what the light will do to
+      it.&rdquo;</em> &mdash; my father was a house painter and he mixed his own colours, and this
+      is the only thing he ever said about paint that I have never had cause to revise.</p>
+    </div>
+
+    <p>There is one more reason to leave paint until fourth, and it is the practical one. Paint is
+    the most disruptive and least reversible thing on the list. You have to empty the room, cover
+    the floor, and lose two days. Lamps take twenty minutes and can be undone. Curtain poles take an
+    afternoon. It is simply better sense to exhaust the cheap reversible moves first &mdash;
+    and a great many rooms never need the paint at all once the first three stages are done.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">16</span></div>
+</section>
+
+<!-- ============ 17. THE TOOLS ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">Everything you need to own</h1>
+
+    <p class="lead">This is the complete list. It is short on purpose, and I would rather you
+    questioned it than trusted it.</p>
+
+    <table class="table">
+      <tr><th>Tool</th><th>What it is for</th><th>Roughly</th></tr>
+      <tr><td><strong>A retractable tape measure</strong>, 5&nbsp;m, metric and imperial on the same blade</td><td>Every number in this book. Nothing else in the list matters as much.</td><td class="num">a few dollars</td></tr>
+      <tr><td><strong>A pencil and a rubber</strong></td><td>Marking a wall. Never a pen.</td><td class="num">pennies</td></tr>
+      <tr><td><strong>A small spirit level</strong>, 20&ndash;30&nbsp;cm</td><td>Poles, shelves, rows of pictures. A phone app is not good enough for a two-metre pole.</td><td class="num">under $15</td></tr>
+      <tr><td><strong>Low-tack masking tape</strong></td><td>Marking heights on a wall before you commit to a hole. The most useful thing on this list after the tape measure.</td><td class="num">a few dollars</td></tr>
+      <tr><td><strong>Two large sheets of white paper</strong>, A2 or bigger</td><td>Testing paint properly. Page 54 explains why a small chip cannot tell you anything.</td><td class="num">a few dollars</td></tr>
+      <tr><td><strong>A drill</strong>, if you own the wall</td><td>Poles and heavy mirrors. Borrow one before you buy one.</td><td class="num">borrow it</td></tr>
+    </table>
+
+    <p class="section-head">What is deliberately not on the list</p>
+    <p>No colour fan deck &mdash; you will be given the six whites that matter and the reason each
+    one fails, and a fan of two thousand chips makes the decision harder rather than easier. No
+    laser measure; a tape is more accurate at room distances and never needs a battery. No design
+    software. No mood-board app. No subscription to anything.</p>
+
+    <div class="callout">
+      <p class="callout-label">The one thing worth borrowing rather than buying</p>
+      <p>A stepladder. You will need one for perhaps two afternoons in the whole of this book, and
+      then it will live in a cupboard for a decade. Ask a neighbour. It is also how you find out
+      whether your neighbour has a drill.</p>
+    </div>
+
+    <p class="section-head">And the masking tape, because I mean it</p>
+    <p>Before you put a hole in anything, cut a piece of tape the width of the object and stick it
+    on the wall at the height you are considering. Leave it there for a day. Walk past it. Sit down
+    and look at it. Almost every hanging error in this book would be prevented by that one habit,
+    and the tape costs less than the filler you would otherwise need.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">17</span></div>
+</section>
+
+<!-- ============ 18. WHAT THIS BOOK WILL NOT DO ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">What this book will not do</h1>
+
+    <p class="lead">I would rather tell you now than have you find out on page 140.</p>
+
+    <p class="section-head">It will not make a small flat into a large one</p>
+    <p>There are real techniques in here for making a small room read as larger and more deliberate,
+    and they work. None of them adds a square metre. If your flat is too small for your life, that is
+    a different problem and no book solves it.</p>
+
+    <p class="section-head">It will not help you with damp, mould, lead or asbestos</p>
+    <p>These come up in old buildings and they are not decorating problems. Damp has a cause and
+    until the cause is found nothing you put on that wall will stay there. Paint in buildings from
+    before the late 1970s may contain lead, and disturbing it by sanding is the dangerous part.
+    Some materials in older buildings contain asbestos and must not be drilled or cut. If you
+    suspect any of these, the correct next step is a surveyor or a licensed specialist, not a
+    paintbrush. I will say so again each time it comes up.</p>
+
+    <p class="section-head">It will not do electrical, gas, plumbing or structural work</p>
+    <p>Nothing in this book asks you to. Where a correction would &mdash; moving a ceiling
+    fitting, adding a socket, taking out anything that holds the building up &mdash; you are told
+    to stop and call somebody licensed. There is more good work available to you without touching
+    any of that than you will get through in a year.</p>
+
+    <p class="section-head">It cannot get you permission</p>
+    <p>If you rent, some of this is not available to you, and Part Six is written entirely for that
+    situation &mdash; every correction in it needs no drill, no paint and nobody&rsquo;s consent.
+    If your building is listed or protected, check before you change a window, a door or anything on
+    the outside.</p>
+
+    <p class="section-head">It is not against spending money</p>
+    <p>This is the one people get wrong about me. I am against <em>wasted</em> money, which is a
+    completely different position. There are things in this book I will tell you to spend on,
+    because the cheap version is a false economy and you will buy it twice:</p>
+    <ul class="plain">
+      <li>A good lamp. It will outlive the room.</li>
+      <li>Lined curtains, in enough fabric. The single largest visible difference money makes.</li>
+      <li>A sofa whose cover can be taken off, or which can be reupholstered.</li>
+      <li>Decent bulbs, which cost very little and change everything.</li>
+    </ul>
+    <p>Everything else in the ordinary decorating budget is negotiable, and a good deal of it is
+    listed on page 189 under the heading of what not to buy.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">18</span></div>
+</section>
+
+<!-- ============ 19. MYTHS 1 ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <p class="kicker">Six things you have been told</p>
+    <h1 class="page-title">That are wrong &mdash; part one</h1>
+
+    <p class="section-head">One &middot; &ldquo;Paint a small room white to make it look bigger&rdquo;</p>
+    <p>This is the most repeated piece of advice in the subject and it is the one I disagree with
+    most sharply. A small room painted flat white does not read as bigger. It reads as small and
+    unfinished, because white shows you exactly where the walls are and there is nothing else for
+    the eye to do. Meanwhile every mark, every radiator, every cable is on full display against it.</p>
+    <p>A small room painted a deep, quiet colour reads as <em>deliberate</em>. The corners soften,
+    the walls stop announcing their distance, and the room feels like a decision rather than a
+    shortage. This is my position and not a physical law, so I have marked it as mine &mdash; but
+    Part Three gives you the whole argument and the cases where white genuinely is the right answer.</p>
+
+    <p class="section-head">Two &middot; &ldquo;Get the biggest light you can for a dark room&rdquo;</p>
+    <p>A dark room is rarely short of lumens. It is short of <em>directions</em>. One very bright
+    ceiling fitting in a dark room produces a bright ceiling and a dim room, because all it can do
+    is illuminate the plane it is attached to and the tops of things. Three modest lamps at three
+    heights will make that room feel twice as bright as one powerful pendant, using less
+    electricity.</p>
+
+    <p class="section-head">Three &middot; &ldquo;Push the furniture against the walls to make space&rdquo;</p>
+    <p>In a small room this is often exactly wrong. Furniture flat against every wall leaves a void
+    in the middle, and a void does not read as space &mdash; it reads as a waiting room. Pulling a
+    sofa five or ten centimetres off the wall, and letting one chair sit at an angle, gives the room
+    an inside. The floor you lose is floor nobody was standing on.</p>
+
+    <div class="callout">
+      <p class="callout-label">Why these persist</p>
+      <p>Not one of the three is a conspiracy. They are all true of <em>showrooms</em>, which are lit
+      from above, painted pale so the stock reads, and arranged around a central aisle. Advice
+      written for a shop floor got repeated until it sounded like advice for a home.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">19</span></div>
+</section>
+
+<!-- ============ 20. MYTHS 2 ============ -->
+<section class="page">
+  <div class="rh">Part One &middot; How to Read a Room</div>
+  <div class="body">
+    <h1 class="page-title">That are wrong &mdash; part two</h1>
+
+    <p class="section-head">Four &middot; &ldquo;An accent wall will transform the room&rdquo;</p>
+    <p>One wall in a different colour does not transform a room. It divides it. The eye reads the
+    coloured wall as nearer than the others, so a room with one dark wall and three pale ones feels
+    shorter in that direction, not deeper. If the wall you chose is the one with the window in it,
+    you have also just put your only source of light in front of your darkest surface, which is the
+    least useful arrangement available.</p>
+    <p>There is a version of this that works, and it is not an accent wall &mdash; it is taking one
+    colour all the way round the room and onto the ceiling, so the room reads as a single volume.
+    Page 66.</p>
+
+    <p class="section-head">Five &middot; &ldquo;Mirrors double the light&rdquo;</p>
+    <p>A mirror reflects what is in front of it. That is the whole mechanism. A mirror opposite a
+    window reflects the window and genuinely helps, because it puts a second bright rectangle into
+    the room. A mirror opposite a blank wall reflects a blank wall, adds nothing, and has cost you
+    the wall it is hanging on. Before you hang a mirror, stand where it will go and look at what you
+    would be looking at.</p>
+
+    <p class="section-head">Six &middot; &ldquo;You need a feature, a focal point, a statement piece&rdquo;</p>
+    <p>A room needs somewhere for the eye to rest, which is not the same thing and is usually
+    cheaper. A window with the curtains hung properly is a focal point. A fireplace is a focal point.
+    A bookcase with actual books in it is a focal point. The word <em>statement</em> is doing
+    commercial work in that sentence, and the thing being stated is usually a price.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Carry this one forward</p>
+      <p class="law-text">Almost every piece of decorating advice you have absorbed was written to
+      sell something. Ask what each rule would have you buy, and a surprising number of them
+      dissolve.</p>
+    </div>
+
+    <p>That is the end of Part One. You know the four errors, you know how to find them, and you
+    know the order in which to correct them. Everything after this is detail, and the detail starts
+    where it has to start.</p>
+  </div>
+  <div class="footer"><span>Part One</span><span class="folio">20</span></div>
+</section>
+
+<!-- ============ 21. PART TWO TITLE ============ -->
+<section class="page page--dark part">
+  <p class="part-label">Part Two</p>
+  <h1 class="part-title">Light</h1>
+  <p class="part-blurb">Light is the first correction and the largest one, and it is almost always
+  the cheapest. This part covers what your windows are giving you, how to read a bulb box, the three
+  heights a room has to be lit from, and what to do with a room that gets no sun at all.</p>
+  <ul class="part-contents">
+    <li>Which way does your window face &middot; 23</li>
+    <li>The three heights &middot; 28</li>
+    <li>Colour temperature &middot; 34</li>
+    <li>The room with no natural light &middot; 39</li>
+    <li>The lighting plan &middot; 42</li>
+  </ul>
+  <div class="footer"><span>Part Two</span><span class="folio">21</span></div>
+</section>
+
+<!-- ============ 22. LIGHT IS FIRST ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">Chapter two</p>
+    <h1 class="page-title">Why light comes first</h1>
+
+    <p class="lead">You cannot see anything in a room except light. Everything else you think you
+    are looking at is light coming off a surface.</p>
+
+    <p>That sounds like a philosophical remark and it is in fact a completely practical one. The
+    colour of your wall is light. The texture of your sofa is light &mdash; specifically, it is the
+    pattern of tiny highlights and shadows across a weave, which is why velvet and linen look
+    different even in the same colour. The apparent size of the room is light, because your eye
+    judges depth largely from how brightness falls off across a surface.</p>
+
+    <p>Change the light and you have changed all three. Nothing else in decorating has that reach.</p>
+
+    <p>Which is why it is first, and why the money goes furthest here. Three good bulbs and a lamp
+    you already own will do more for a room than a new rug at ten times the price. I have seen it
+    happen in an afternoon more times than I can count, and it still surprises the person who lives
+    there.</p>
+
+    <p class="section-head">The two halves of the problem</p>
+    <p>A room has daylight, which you did not choose and cannot change, and it has electric light,
+    which you chose without thinking about it and can change tonight. They have to be handled
+    differently.</p>
+    <ul class="plain">
+      <li><strong>Daylight</strong> is a fixed fact of the building. What you can do is find out
+      exactly what you have been given, stop wasting it, and choose colours that work with it rather
+      than against it. That is the first six pages of this part.</li>
+      <li><strong>Electric light</strong> is entirely yours. Number of sources, their heights, the
+      colour of the bulbs, whether they dim, what the shades do. Almost every error in the fourth
+      error list lives here, and almost every one is correctable for under the price of a takeaway
+      meal.</li>
+    </ul>
+
+    <div class="callout callout--meme">
+      <p class="callout-label">Why I know this</p>
+      <p>The building I grew up in was put up for silk looms, and the looms needed north light
+      &mdash; light with no direct sun in it, that does not move across the day and does not glare,
+      so a weaver could match a thread at nine in the morning and at four in the afternoon and get
+      the same answer. Two hundred years later I am telling you the same thing about your sitting
+      room. The weavers were right.</p>
+    </div>
+
+    <p>So we start with the window, because the window sets the terms for everything else.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">22</span></div>
+</section>
+
+<!-- ============ 23. WHICH WAY DOES YOUR WINDOW FACE ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">Which way does your window face?</h1>
+
+    <p class="lead">If you take one thing from this book, take this. Almost nobody knows the answer
+    for their own home, and every colour decision depends on it.</p>
+
+    <p class="section-head">How to find out, three ways</p>
+    <ol class="steps">
+      <li><strong>The compass on your phone.</strong> Stand at the window looking out. The bearing
+      it shows is the direction the window faces. Thirty seconds, and it is the only thing your
+      phone is better at than a tape measure.</li>
+      <li><strong>Midday.</strong> In the northern hemisphere the sun is due south in the middle of
+      the day. Stand at the window at noon. If the sun is in front of you, the window faces roughly
+      south. Behind you, roughly north.</li>
+      <li><strong>Watch it for a day.</strong> Direct sun in the early morning means east. Direct
+      sun in the evening means west. Direct sun in the middle of the day means south. No direct sun
+      at all, ever, at any hour, in any season &mdash; north.</li>
+    </ol>
+
+    <p class="small">Everything in this part and in Part Three assumes the northern hemisphere. If
+    you are south of the equator, swap north and south throughout and leave east and west as they
+    are.</p>
+
+    <svg class="diagram" viewBox="0 0 520 168" role="img" aria-label="A compass diagram showing the character of light from each direction">
+      <g font-family="Archivo, sans-serif" font-size="9" font-weight="600" fill="#1C1B19" letter-spacing=".7">
+        <text x="260" y="16" text-anchor="middle">NORTH</text>
+        <text x="260" y="162" text-anchor="middle">SOUTH</text>
+        <text x="8" y="88">WEST</text>
+        <text x="512" y="88" text-anchor="end">EAST</text>
+      </g>
+      <g fill="none" stroke="#D8D2C6" stroke-width="1"><circle cx="260" cy="86" r="58"/></g>
+      <g stroke="#8A9184" stroke-width="1"><path d="M260 28 L260 144 M202 86 L318 86"/></g>
+      <g font-family="Archivo, sans-serif" font-size="7.4" fill="#8A9184" letter-spacing=".4">
+        <text x="260" y="44" text-anchor="middle">COOL &middot; CONSTANT</text>
+        <text x="260" y="132" text-anchor="middle">WARM &middot; STRONG</text>
+        <text x="215" y="80" text-anchor="end">EVENING</text>
+        <text x="305" y="80">MORNING</text>
+      </g>
+      <g fill="#C08A3E"><circle cx="260" cy="144" r="4"/></g>
+      <g font-family="Spectral, serif" font-size="8.4" fill="#1C1B19" font-style="italic">
+        <text x="8" y="112">cool until three,</text><text x="8" y="124">then gold</text>
+        <text x="512" y="112" text-anchor="end">gold until eleven,</text><text x="512" y="124" text-anchor="end">then cool</text>
+      </g>
+    </svg>
+
+    <p>Write the answer down for every room in the house. Put it on the audit sheet. You will use it
+    on the paint page, on the bulb page, on the curtain page, and every time you are standing in a
+    shop wondering whether a colour will work.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Colette&rsquo;s first law</p>
+      <p class="law-text">Light before colour. You cannot choose a colour until you know which way
+      the window faces.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">23</span></div>
+</section>
+
+<!-- ============ 24. NORTH LIGHT ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">North-facing</p>
+    <h1 class="page-title">Cool, steady, and unfairly maligned</h1>
+
+    <p class="lead">A north-facing room receives no direct sunlight at any point in the day or the
+    year. Estate agents treat this as a defect. Painters and weavers have always treated it as the
+    best light there is.</p>
+
+    <p>Both are right about different things. What north light is, precisely, is light from the whole
+    dome of the sky rather than from the sun. That gives it two properties, and understanding them
+    is the whole of managing a north room.</p>
+
+    <p><strong>It does not move.</strong> There is no patch of sun crossing the floor, no hour when
+    the room transforms, no glare. The light at nine is the light at four. This is why every proper
+    painter's studio and every weaver's atelier in Europe faces north, and why my grandmother would
+    only match a thread at a north window.</p>
+
+    <p><strong>It is cool.</strong> Skylight is blue-biased, so everything in a north room is being
+    lit by very slightly blue light, all day, forever.</p>
+
+    <p class="section-head">What this does to your colours</p>
+    <p>It pushes them cold. A warm grey turns blue. A greige goes grey. A white with any blue in it
+    goes clinical &mdash; and a great many fashionable whites have blue in them, which is exactly
+    why they look so unpleasant in north rooms and so crisp in the showroom photograph that was
+    taken in a south room.</p>
+
+    <p class="section-head">What to do about it</p>
+    <ul class="plain">
+      <li><strong>Choose colours with warmth in them, and more warmth than you think.</strong> A
+      colour that looks slightly too yellow or too pink on the chip will look correct on the wall.
+      Part Three gives you the specific whites.</li>
+      <li><strong>Do not fight it with brightness.</strong> Adding more cool light to a cool room
+      makes it colder. Add warmth instead: 2700&nbsp;K bulbs, and lamps rather than the ceiling.</li>
+      <li><strong>Lean into it.</strong> A north room will never be a sunny room, and a north room
+      pretending to be sunny is the saddest thing in decorating. Deeper, warmer, quieter colours
+      make it feel intentional. This is the room to be brave in.</li>
+      <li><strong>Use the steadiness.</strong> It is the one room in the house where a colour will
+      look the same in the morning and the evening. If you have art you care about, or you sew, or
+      you paint, this is where it goes.</li>
+    </ul>
+
+    <div class="callout">
+      <p class="callout-label">The test</p>
+      <p>Hold a sheet of plain white paper up in your north room at midday, then carry it to a
+      south-facing window. The same sheet of paper. Most people are genuinely startled &mdash; and
+      that difference is being applied to every surface in both rooms, permanently.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">24</span></div>
+</section>
+
+<!-- ============ 25. SOUTH LIGHT ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">South-facing</p>
+    <h1 class="page-title">Warm, strong, and harder to handle than people expect</h1>
+
+    <p class="lead">A south-facing room gets direct sun for most of the day. Everyone wants one.
+    Nobody warns you that it is the most difficult light to decorate for.</p>
+
+    <p>The difficulty is that it changes. Direct sunlight is enormously stronger than skylight, and
+    it arrives, crosses the room, and leaves. So a south room is really three rooms: a bright one in
+    the morning, a blazing one at midday, and a normal one after the sun has moved past. A colour
+    that is handsome at ten can be bleached to nothing at two.</p>
+
+    <p>It is also warm. Direct sun is yellow-biased, which means a south room flatters warm colours
+    and can turn a cool colour muddy. And in summer it is a heat problem as much as a light problem.</p>
+
+    <p class="section-head">What to do about it</p>
+    <ul class="plain">
+      <li><strong>You can afford cool colours here, and you generally should.</strong> This is the
+      room where a grey-green, a slate blue, or a proper cool white works &mdash; the sun supplies
+      the warmth so the paint does not have to. In a south room, warm colours on top of warm light
+      can tip into orange.</li>
+      <li><strong>Test at the worst hour, not the best.</strong> Judge a colour in a south room at
+      full midday sun. If it survives that, it will be fine the rest of the day. Judge it at six in
+      the evening and you will choose wrong.</li>
+      <li><strong>Give yourself a way to soften the sun.</strong> A sheer panel behind the main
+      curtain, or a blind you can drop at midday, turns direct sun into diffused light without
+      turning the room dark. This is what shutters do in Mediterranean buildings, and it is the
+      single most useful thing you can add to a south room.</li>
+      <li><strong>Expect fading, and plan for it.</strong> Strong sun over years will lighten
+      textiles, paper and some woods. Rotate cushions. Do not put a watercolour you love on the wall
+      the sun crosses. This is not pessimism, it is just what ultraviolet does.</li>
+    </ul>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">The one that catches people</p>
+      <p>Gloss and satin finishes in a south room. Direct sun across a shiny wall shows every roller
+      mark, every filled hole, every unevenness in the plaster, in a way that no other light does. In
+      a strong south room, keep walls matte and save the sheen for woodwork.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">25</span></div>
+</section>
+
+<!-- ============ 26. EAST AND WEST ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">East and west-facing</p>
+    <h1 class="page-title">The rooms with two personalities</h1>
+
+    <p class="lead">An east or west room has direct sun for part of the day and skylight for the
+    rest. So it has two characters, and the decision you have to make is which one you are
+    decorating for.</p>
+
+    <p>That decision is not a matter of taste. It is a matter of when you are in the room.</p>
+
+    <div class="grid2">
+      <div>
+        <p class="section-head">East</p>
+        <p class="small">Direct sun from sunrise until late morning, then cool skylight for the rest
+        of the day. The sun is low and the light is clear and slightly golden, and then at some point
+        mid-morning it simply goes, and from then on the room behaves like a north room.</p>
+        <p class="small"><strong>Decorate it for the afternoon</strong>, because the afternoon is
+        most of the room's life. Which means treating it much like a north room: warmth in the
+        colours, 2700&nbsp;K bulbs, lamps for the evening. The morning sun will be a gift on top of
+        that rather than something you have to accommodate.</p>
+        <p class="small"><strong>Best use:</strong> kitchens and breakfast rooms, and bedrooms for
+        people who like to wake with the light.</p>
+      </div>
+      <div>
+        <p class="section-head">West</p>
+        <p class="small">Cool skylight all morning, then direct sun from mid-afternoon until sunset
+        &mdash; and evening sun is the warmest, most orange light of the day, arriving at a very low
+        angle, straight into the room and straight into your eyes.</p>
+        <p class="small"><strong>Decorate it for the evening</strong> if that is when you use it,
+        which for a sitting room it usually is. West rooms can carry cooler colours than you would
+        expect, because that evening light is so warm it will pull everything back. But you will
+        need something to cut the glare &mdash; a sheer, a blind, a shutter.</p>
+        <p class="small"><strong>Best use:</strong> sitting rooms and dining rooms, where the golden
+        hour lands exactly when you want it.</p>
+      </div>
+    </div>
+
+    <p class="section-head">If your room has windows on two sides</p>
+    <p>Then you are fortunate and you have a slightly more interesting problem. Cross-lit rooms are
+    the easiest rooms in the world to make look good, because everything in them has a lit side and a
+    shaded side without you doing anything at all &mdash; the two errors of flatness and of single
+    direction are solved by the architecture.</p>
+
+    <p>Work out which window is dominant, by sitting in the room at the hour you use it and seeing
+    which one is actually doing the lighting. Decorate for that one. Treat the second window as
+    modelling light and do not block it, ever, with a piece of furniture or a plant.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">26</span></div>
+</section>
+
+<!-- ============ 27. WORKSHEET — ORIENTATION ============ -->
+<section class="page page--worksheet">
+  <div class="rh">Part Two &middot; Worksheet</div>
+  <div class="body">
+    <p class="kicker">Worksheet</p>
+    <h1 class="page-title page-title--tight">What light do I actually have?</h1>
+    <p class="small" style="margin-bottom:5mm">One row per room. Fill it in once and you will use it
+    for years. The last column is the one that matters.</p>
+
+    <table class="table">
+      <tr>
+        <th style="width:24%">Room</th>
+        <th style="width:14%">Faces</th>
+        <th style="width:22%">Direct sun, which hours</th>
+        <th style="width:18%">When I use it</th>
+        <th>Decorate for</th>
+      </tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+      <tr><td style="height:10mm">&nbsp;</td><td></td><td></td><td></td><td></td></tr>
+    </table>
+
+    <p class="section-head">The rule for the last column</p>
+    <table class="table table--tight">
+      <tr><th>If it faces</th><th>Then colours want to be</th><th>And bulbs want to be</th></tr>
+      <tr><td>North</td><td>warmer than you think &mdash; more yellow, more pink in them</td><td class="num">2700 K</td></tr>
+      <tr><td>South</td><td>cooler &mdash; the sun supplies the warmth</td><td class="num">2700 K</td></tr>
+      <tr><td>East, used mornings</td><td>can go cool</td><td class="num">2700 K</td></tr>
+      <tr><td>East, used afternoons</td><td>treat as north &mdash; warmer</td><td class="num">2700 K</td></tr>
+      <tr><td>West, used evenings</td><td>can go cool</td><td class="num">2700 K</td></tr>
+      <tr><td>No window</td><td>see page 39</td><td class="num">2700 K</td></tr>
+    </table>
+
+    <p class="small">You will notice the last column does not vary. That is not laziness; it is the
+    conclusion of page 34, and it is the shortest chapter in this book.</p>
+
+    <div class="callout">
+      <p class="callout-label">One more column worth adding yourself</p>
+      <p>What is outside the window. A brick wall two metres away, a large tree, a white-rendered
+      building opposite &mdash; each of these changes the light reaching you more than the compass
+      does. Green light off a tree in summer is a real and often unexplained reason a room's colours
+      look wrong from May to September.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">27</span></div>
+</section>
+
+<!-- ============ 28. THE THREE HEIGHTS ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">Electric light</p>
+    <h1 class="page-title">The three heights</h1>
+
+    <p class="lead">Here is the rule stated plainly, and then the reason, and then the numbers.</p>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Colette&rsquo;s rule of the three heights</p>
+      <p class="law-text">Light must arrive at three heights &mdash; overhead, table, and floor. A
+      room lit from one height is a room lit like a corridor.</p>
+    </div>
+
+    <p>This is mine and I will not dress it up as physics. But the reason underneath it is physics,
+    and the reason is <em>modelling</em>. An object looks solid when one side of it is lit and
+    another is not. That is the only cue your eye has for three-dimensionality in a still scene, and
+    it requires light to arrive from more than one direction.</p>
+
+    <p>Put light at three different heights and every object in the room is caught from three angles.
+    The jug has a bright side, a mid side and a shadow. The sofa arm has a top, a face and an
+    underside. The room acquires depth, which is the quality people are describing when they say a
+    room feels &ldquo;warm&rdquo; or &ldquo;inviting&rdquo; and cannot say why.</p>
+
+    <svg class="diagram" viewBox="0 0 520 150" role="img" aria-label="A room lit from one height compared with a room lit from three heights">
+      <g fill="none" stroke="#8A9184" stroke-width="1.1">
+        <rect x="1" y="1" width="252" height="148"/>
+        <rect x="267" y="1" width="252" height="148"/>
+      </g>
+      <!-- one height -->
+      <circle cx="127" cy="24" r="6" fill="#C08A3E"/>
+      <g stroke="#C08A3E" stroke-width=".9" opacity=".5"><path d="M127 32 L60 118 M127 32 L194 118 M127 32 L127 120"/></g>
+      <rect x="100" y="98" width="54" height="24" fill="#D8D2C6" stroke="#8A9184" stroke-width="1"/>
+      <path d="M20 128 L234 128" stroke="#1C1B19" stroke-width="1.4"/>
+      <text x="127" y="144" text-anchor="middle" font-family="Archivo, sans-serif" font-size="8" font-weight="600" fill="#1C1B19" letter-spacing=".6">ONE HEIGHT</text>
+      <!-- three heights -->
+      <circle cx="393" cy="24" r="5" fill="#C08A3E"/>
+      <circle cx="310" cy="74" r="5" fill="#C08A3E"/>
+      <circle cx="476" cy="108" r="5" fill="#C08A3E"/>
+      <g stroke="#C08A3E" stroke-width=".9" opacity=".42">
+        <path d="M393 31 L360 96 M393 31 L426 96"/>
+        <path d="M316 79 L374 104"/>
+        <path d="M470 105 L420 98"/>
+      </g>
+      <rect x="366" y="98" width="54" height="24" fill="#FBF9F5" stroke="#8A9184" stroke-width="1"/>
+      <path d="M286 128 L500 128" stroke="#1C1B19" stroke-width="1.4"/>
+      <text x="393" y="144" text-anchor="middle" font-family="Archivo, sans-serif" font-size="8" font-weight="600" fill="#1C1B19" letter-spacing=".6">THREE HEIGHTS</text>
+    </svg>
+
+    <p class="section-head">The three, and what each one is for</p>
+    <table class="table table--tight">
+      <tr><th>Height</th><th>Roughly</th><th>Its job</th></tr>
+      <tr><td><strong>Overhead</strong></td><td class="num">ceiling</td><td>General fill. The least useful of the three, and the only one most rooms have.</td></tr>
+      <tr><td><strong>Table</strong></td><td class="num">100&ndash;150 cm</td><td>The workhorse. Sits at seated eye level, lights faces kindly, gives the room its glow.</td></tr>
+      <tr><td><strong>Floor</strong></td><td class="num">below 60 cm</td><td>Depth and atmosphere. Lights the bottom half of the room, which nothing else does.</td></tr>
+    </table>
+
+    <p>Three sources, three heights, three switches. If you do nothing else in this book, do this.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">28</span></div>
+</section>
+
+<!-- ============ 29. HEIGHT ONE — OVERHEAD ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">Height one</p>
+    <h1 class="page-title">Overhead, and what it is actually good for</h1>
+
+    <p class="lead">I have spent a page telling you that the ceiling light is the problem. Now let
+    me be fair to it, because there are three jobs it does that nothing else can.</p>
+
+    <ul class="plain">
+      <li><strong>Finding things.</strong> You want a lot of even light when you are looking for a
+      dropped earring or cleaning the room. That is a task, it lasts four minutes, and it is exactly
+      what a ceiling fitting is for.</li>
+      <li><strong>Safety.</strong> Stairs, thresholds, anywhere someone might trip. Overhead light
+      shows the edge of a step better than a lamp does.</li>
+      <li><strong>Work.</strong> A kitchen counter and a bathroom mirror need light from above and
+      in front. In a kitchen this is not a compromise, it is correct.</li>
+    </ul>
+
+    <p>What the ceiling light is <em>not</em> for is being the light you sit in. That is the whole
+    error. It is a tool, not a setting, and the mistake is leaving the tool switched on all evening.</p>
+
+    <p class="section-head">If you are stuck with a single central fitting</p>
+    <p>Most rented flats have exactly one, in the middle of the ceiling, and you cannot move it
+    without an electrician. Three things you can do without touching the wiring:</p>
+
+    <ol class="steps">
+      <li><strong>Change the shade so it throws light sideways and up, not straight down.</strong> An
+      open-topped drum or a fabric shade will bounce a good deal of its output off the ceiling, and
+      light that has bounced off a surface is soft, directionless and much kinder than light straight
+      from a bulb. This turns your worst fitting into something closer to indirect light, for the
+      price of a shade.</li>
+      <li><strong>Reduce it and warm it.</strong> Put in a lower-output 2700&nbsp;K bulb than you
+      think you need. You are no longer asking it to light the room; the lamps are doing that.</li>
+      <li><strong>Put it on a dimmer if the fitting and bulb allow.</strong> See page 37 &mdash; and
+      check that the bulb says dimmable, because most do not.</li>
+    </ol>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">Never</p>
+      <p>A bare bulb in a ceiling fitting, in a room anybody sits in. It is the single harshest light
+      source available in a home: a small, very bright point directly overhead, producing hard
+      shadows in every eye socket in the room. If a shade is missing, a paper lantern costs almost
+      nothing and is a genuine improvement, not a compromise.</p>
+    </div>
+
+    <p>One honest exception to all of this: a beautiful pendant, hung low over a dining table, is one
+    of the great pleasures of a room. But look at what it is doing &mdash; hung low over a table it
+    is no longer overhead light, it is table-height light with a cable. The height is the point.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">29</span></div>
+</section>
+
+<!-- ============ 30. HEIGHT TWO — TABLE ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">Height two</p>
+    <h1 class="page-title">Table height &mdash; the one that does the work</h1>
+
+    <p class="lead">If you may only have one lamp, it goes here. This is the height that makes a
+    room feel like somewhere people live.</p>
+
+    <p>The reason is that it is at the height of a seated person's eye. Light arriving from roughly
+    your own eye level does two things at once: it lights faces from the front rather than the top,
+    which is enormously more flattering, and it puts a bright object in your field of view without
+    glaring, which reads as warmth.</p>
+
+    <p class="section-head">The number that matters</p>
+    <div class="measure-row">
+      <span class="measure-row__label">Bottom of the shade, above the floor, for a lamp beside a
+      chair or sofa</span>
+      <span class="measure-row__value">100&ndash;115 cm &middot; 40&ndash;45 in</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">Which for a table at typical side-table height means a lamp
+      of about</span>
+      <span class="measure-row__value">45&ndash;60 cm &middot; 18&ndash;24 in</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">Bottom of the shade, for a lamp on a desk or console you
+      stand at</span>
+      <span class="measure-row__value">125&ndash;135 cm &middot; 49&ndash;53 in</span>
+    </div>
+
+    <p class="small" style="margin-top:3mm">The rule behind all three: <strong>the bottom of the
+    shade should sit at or just below the eye level of whoever is using the lamp.</strong> Sit down
+    in the chair and hold your hand at your eye. That is where the bottom edge of the shade wants to
+    be. Higher and you are looking at the bulb. Much lower and the light pools on the table and never
+    reaches your book.</p>
+
+    <p>This is why so many lamps are the wrong size &mdash; not the wrong style, the wrong
+    <em>size</em>. A lamp is chosen in a shop, at standing height, on a display plinth. Then it goes
+    onto a low side table beside a low sofa, and the shade ends up at chest height, and the room is
+    lit from the chest up only.</p>
+
+    <div class="callout">
+      <p class="callout-label">How to check a lamp before you buy it</p>
+      <p>Take two numbers with you: the height of the table it will stand on, and your own seated
+      eye height (sit in a dining chair and have somebody measure from the floor to your eye
+      &mdash; for most adults it lands between 110 and 125&nbsp;cm). Table height plus lamp height
+      to the bottom of the shade should land in that range. This is the only measurement anybody
+      needs to buy a lamp, and no shop displays it.</p>
+    </div>
+
+    <p class="section-head">Where they go</p>
+    <p>Not side by side. Two lamps at table height on the same wall light one half of a room twice.
+    Put them diagonally opposite, or at least on two different walls, so their light crosses. Two
+    lamps on two walls is a lit room; two lamps on one wall is a lit wall.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">30</span></div>
+</section>
+
+<!-- ============ 31. HEIGHT THREE — FLOOR ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">Height three</p>
+    <h1 class="page-title">Floor level &mdash; the one nobody does</h1>
+
+    <p class="lead">This is the height that almost no ordinary home has, and it is the one that
+    makes a room look like a photograph.</p>
+
+    <p>Think about where the light is in your room. It is all in the top half. Ceiling fitting at two
+    and a half metres, perhaps a lamp at a metre. Everything below knee height is lit only by
+    whatever falls down there, which is very little, because light falls off quickly with distance
+    &mdash; double the distance from a source and you have a quarter of the light.</p>
+
+    <p>So the bottom third of the room sits in gloom, and because the bottom third of the room is
+    where the floor is, the room reads as sitting in a dark pool. Adding a single low source
+    transforms this, and it costs almost nothing because the fitting can be very modest.</p>
+
+    <p class="section-head">Five ways to do it, cheapest first</p>
+    <ol class="steps">
+      <li><strong>A small lamp on the floor behind a chair or a plant.</strong> Aimed up a wall or
+      into the leaves. You cannot see the source, only the glow. This is the cheapest genuine
+      transformation in the whole of this book &mdash; any small lamp you already own, put on the
+      floor.</li>
+      <li><strong>A lamp on the lowest surface in the room.</strong> A hearth, a stack of books, a
+      low stool, the bottom shelf of a bookcase.</li>
+      <li><strong>An uplighter in a corner.</strong> A canister that sits on the floor and throws
+      light up the two walls of a corner. The corner glows, the ceiling picks it up, and the room
+      gains a soft general light with no visible source.</li>
+      <li><strong>Candles.</strong> Not a joke and not a decoration. A candle is a light source at
+      table or floor height with the warmest colour temperature in the house, and four of them
+      grouped is a real light. Never left unattended, never near a curtain.</li>
+      <li><strong>Lit shelving.</strong> A strip tucked under a shelf, invisible, washing down the
+      books below. The most expensive option here and the most permanent.</li>
+    </ol>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Why it works</p>
+      <p class="law-text">Light from below reverses every shadow in the room. Nothing else you can do
+      in twenty minutes changes a room this much.</p>
+    </div>
+
+    <p class="small">One caution, since the effect is strong: low light aimed at a face is
+    theatrical and unflattering &mdash; it is how a horror film is lit. Aim it at a wall, a corner,
+    a plant or a bookshelf, never across the seating.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">31</span></div>
+</section>
+
+<!-- ============ 32. HOW MANY LAMPS ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">How many lamps, and where they go</h1>
+
+    <p class="lead">More than you have. Almost certainly more than you think is reasonable.</p>
+
+    <p class="section-head">The count</p>
+    <div class="measure-row">
+      <span class="measure-row__label">Minimum separate light sources in any room anybody sits in</span>
+      <span class="measure-row__value">3</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">A sitting room, comfortably</span>
+      <span class="measure-row__value">4&ndash;6</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">Of which on the ceiling</span>
+      <span class="measure-row__value">1, off in the evening</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">Of which below 60 cm</span>
+      <span class="measure-row__value">at least 1</span>
+    </div>
+
+    <p class="small" style="margin-top:3mm">Five lamps in a sitting room sounds like a great many
+    until you realise that each is small, dim and doing one job. Five modest sources use less
+    electricity than one bright pendant trying to light the whole room, and the room will feel
+    brighter. Brightness in a room is not the total output; it is how many surfaces have light on
+    them.</p>
+
+    <p class="section-head">Where they go &mdash; the four rules</p>
+    <ol class="steps">
+      <li><strong>Spread them around the perimeter, not the middle.</strong> Light on the walls makes
+      a room feel larger, because the walls are what define its size and a lit wall reads as further
+      away. Light in the middle does the opposite.</li>
+      <li><strong>Get one into every corner you can.</strong> Dark corners make a room feel smaller
+      and slightly unresolved. Not every corner &mdash; one should stay dark, see page 104 &mdash;
+      but the others want something.</li>
+      <li><strong>Put one where you sit and one where you look.</strong> A lamp beside your chair for
+      reading, and a lamp at the far end of the room so there is something lit to look towards. A
+      room where all the light is behind you feels like a cinema.</li>
+      <li><strong>Never point one at the television.</strong> Or at a mirror, or at any glass, from
+      opposite. You will spend the evening looking at the reflection of a bulb.</li>
+    </ol>
+
+    <div class="callout">
+      <p class="callout-label">The switch problem, which nobody mentions</p>
+      <p>Five lamps means five switches in five awkward places, and a system you have to walk around
+      the room to operate will be abandoned within a fortnight. Solve it before you build it: put
+      lamps on a single switched extension where you can, or use plug adaptors you can control
+      together. A lighting scheme that takes one action to turn on is a lighting scheme you will
+      actually use, and that matters more than any individual fitting.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">32</span></div>
+</section>
+
+<!-- ============ 33. LAMP HEIGHTS ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">The numbers, collected</h1>
+
+    <p class="lead">Every height in this chapter on one page, so you can take it to a shop.</p>
+
+    <table class="table">
+      <tr><th>What</th><th>Measured to</th><th>Height</th></tr>
+      <tr><td>Lamp beside a sofa or armchair</td><td>bottom of shade, from floor</td><td class="num">100&ndash;115 cm / 40&ndash;45 in</td></tr>
+      <tr><td>Lamp on a desk or console</td><td>bottom of shade, from floor</td><td class="num">125&ndash;135 cm / 49&ndash;53 in</td></tr>
+      <tr><td>Bedside lamp</td><td>bottom of shade, from floor</td><td class="num">95&ndash;110 cm / 37&ndash;43 in</td></tr>
+      <tr><td>Floor lamp beside a chair</td><td>bottom of shade, from floor</td><td class="num">115&ndash;130 cm / 45&ndash;51 in</td></tr>
+      <tr><td>Uplighter or low lamp</td><td>top of fitting, from floor</td><td class="num">under 60 cm / 24 in</td></tr>
+      <tr><td>Pendant over a dining table</td><td>bottom of shade, above tabletop</td><td class="num">75&ndash;90 cm / 30&ndash;35 in</td></tr>
+      <tr><td>Pendant over a kitchen island</td><td>bottom of shade, above worktop</td><td class="num">70&ndash;80 cm / 28&ndash;32 in</td></tr>
+      <tr><td>Wall light in a corridor</td><td>centre of fitting, from floor</td><td class="num">150&ndash;165 cm / 59&ndash;65 in</td></tr>
+      <tr><td>Wall lights either side of a mirror</td><td>centre of fitting, from floor</td><td class="num">150&ndash;165 cm / 59&ndash;65 in</td></tr>
+      <tr><td>Bathroom mirror lighting</td><td>&mdash;</td><td class="num">at the sides, not above</td></tr>
+    </table>
+
+    <p class="section-head">Two rules that explain most of the table</p>
+    <ul class="plain">
+      <li><strong>You should not be able to see the bulb from where you sit.</strong> Every height
+      above is really this rule expressed in centimetres for a particular piece of furniture. If you
+      can see the bulb, the lamp is too high or you are too low.</li>
+      <li><strong>Light a face from the side, not from above.</strong> This is why a bathroom mirror
+      wants lights beside it rather than over it &mdash; a fitting above a mirror puts your own eye
+      sockets in shadow, which is why you look worse in a hotel bathroom than you do at home.</li>
+    </ul>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">The pendant over the table, because it gets argued about</p>
+      <p>Seventy-five to ninety centimetres above the tabletop looks far too low when the room is
+      empty. It is correct when people are sitting down &mdash; it lights the food and the faces and
+      not the ceiling, and you can see across the table underneath it. Hang it, then sit down before
+      you judge it. Everyone who raises it wishes they had not.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">33</span></div>
+</section>
+
+<!-- ============ 34. COLOUR TEMPERATURE ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">The number on the box</p>
+    <h1 class="page-title">Colour temperature</h1>
+
+    <p class="lead">There is a number on every bulb box that decides more about how your home feels
+    than the price of your furniture, and most people have never read it.</p>
+
+    <p>It is printed in kelvin, with a capital K, and it describes the colour of the light rather
+    than how much of it there is. The scale is confusing because it runs backwards from how you
+    would expect: <strong>a low number is warm and orange, a high number is cool and blue.</strong></p>
+
+    <svg class="diagram" viewBox="0 0 520 108" role="img" aria-label="A scale of colour temperature from 2200 to 6500 kelvin">
+      <defs>
+        <linearGradient id="kelvin" x1="0" x2="1">
+          <stop offset="0" stop-color="#C87A2C"/><stop offset=".28" stop-color="#E8C089"/>
+          <stop offset=".55" stop-color="#F2EEE5"/><stop offset="1" stop-color="#AEC2CE"/>
+        </linearGradient>
+      </defs>
+      <rect x="8" y="18" width="504" height="22" fill="url(#kelvin)"/>
+      <g stroke="#1C1B19" stroke-width="1"><path d="M8 40 L8 47 M148 40 L148 47 M232 40 L232 47 M372 40 L372 47 M512 40 L512 47"/></g>
+      <g font-family="Archivo, sans-serif" font-size="8.4" fill="#1C1B19" font-weight="600" letter-spacing=".4">
+        <text x="8" y="60">2200</text><text x="148" y="60">2700</text><text x="232" y="60">3000</text>
+        <text x="372" y="60">4000</text><text x="512" y="60" text-anchor="end">6500</text>
+      </g>
+      <g font-family="Spectral, serif" font-size="8.6" fill="#1C1B19">
+        <text x="8" y="78">candle</text>
+        <text x="148" y="78" font-weight="600">home</text>
+        <text x="232" y="78">warm</text>
+        <text x="372" y="78">shop, office</text>
+        <text x="512" y="78" text-anchor="end">overcast sky</text>
+      </g>
+      <rect x="140" y="14" width="18" height="30" fill="none" stroke="#C08A3E" stroke-width="2"/>
+      <text x="149" y="98" text-anchor="middle" font-family="Archivo, sans-serif" font-size="7.6" font-weight="600" fill="#C08A3E" letter-spacing=".5">BUY THIS ONE</text>
+    </svg>
+
+    <p class="section-head">The whole recommendation</p>
+    <div class="callout callout--rule">
+      <p class="law-name">Colette&rsquo;s rule of the warm bulb</p>
+      <p class="law-text">Twenty-seven hundred kelvin, or nothing. Everything above three thousand is
+      shop lighting, and a shop wants you to look at objects, not live among them.</p>
+    </div>
+
+    <p>Two thousand seven hundred kelvin is the colour of the old incandescent bulbs everybody grew
+    up with, and it is the colour every human being alive associates with evening and with being at
+    home. It is warm without being orange. It flatters skin. It makes wood look like wood.</p>
+
+    <p>Three thousand is acceptable and very slightly cooler; some people prefer it in a kitchen or
+    bathroom. Four thousand belongs in a garage or a shop. Five thousand and up is sold as
+    &ldquo;daylight&rdquo; and has no business in a room where anyone relaxes, because it tells the
+    human body it is the middle of the day.</p>
+
+    <p class="section-head">The other number worth finding</p>
+    <p><strong>CRI</strong>, the colour rendering index, on a scale to one hundred. It measures how
+    faithfully a light source shows colours compared with a reference light. A cheap bulb may sit
+    around eighty, and under it your red cushion is a slightly brown cushion and your skin looks
+    grey. Ninety or above is what you want, and it is often printed very small or as
+    &ldquo;CRI&nbsp;90+&rdquo;. It costs a little more and it is the difference between your colours
+    working and not working after dark.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">34</span></div>
+</section>
+
+<!-- ============ 35. WHY SHOPS USE 4000K ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">The quiet part</p>
+    <h1 class="page-title">Why every shop you buy from is lit wrong</h1>
+
+    <p class="lead">Walk into any large homeware shop and look up. The light is cool, it is bright,
+    and there is a great deal of it, coming from directly overhead across the whole ceiling.</p>
+
+    <p>Every single thing about that is the opposite of what this chapter has told you to do. And
+    it is not a mistake. It is correct &mdash; for a shop.</p>
+
+    <p>Cool bright overhead light makes goods read clearly. It shows edges and colours at a glance,
+    it reaches into every aisle without shadows anyone could trip in, it keeps people alert and
+    moving, and it is cheap to run and easy to maintain at scale. A shop is a place where objects are
+    examined. It is lit for examining objects.</p>
+
+    <p>Your sitting room is not a place where objects are examined. But here is the consequence, and
+    it is worth sitting with for a moment:</p>
+
+    <p class="pullquote">Every purchase you have ever made for your home, you made under light that
+    your home will never have.</p>
+
+    <p>You chose the grey of that sofa at four thousand kelvin from above. You will live with it at
+    two thousand seven hundred from the side. Those are genuinely different colours. This is the
+    real reason the cushion looked one way in the shop and another way at home, and why people
+    assume they have been somehow deceived. Nobody deceived you. Two different lights.</p>
+
+    <p class="section-head">And the economics underneath it</p>
+    <p>Nobody decided this in a room somewhere. It is quieter and sadder than that.</p>
+
+    <p>There is no money in telling you the answer is a two-dollar bulb. There is a great deal of
+    money in a shop floor arranged so that the object looks its absolute best under lighting
+    conditions that you will never reproduce, and in the next purchase you make when the first one
+    disappoints you at home. Nobody has to intend that for it to be how the whole thing works.</p>
+
+    <p>So the fix is not a boycott, it is a habit:</p>
+    <ul class="plain">
+      <li>Never make a final colour decision in a shop. Bring the sample home.</li>
+      <li>Judge fabric and paint in the room they are going into, at the hour you use it, with your
+      own lamps on.</li>
+      <li>Change your bulbs before you change anything else, so that the light you are judging in is
+      the light you will keep.</li>
+    </ul>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">35</span></div>
+</section>
+
+<!-- ============ 36. THE BULB PAGE ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">What to actually buy</h1>
+
+    <p class="lead">This page is the cheapest correction in the book. An afternoon, a handful of
+    bulbs, and the light in your home stops being wrong.</p>
+
+    <p class="section-head">The specification, every time</p>
+    <ul class="plain">
+      <li><strong>2700&nbsp;K.</strong> Sometimes sold as &ldquo;warm white&rdquo;, but the words on
+      the front vary between brands and the number does not. Find the number.</li>
+      <li><strong>CRI 90 or above</strong> if it is stated. If nothing is stated, assume it is
+      not.</li>
+      <li><strong>Dimmable</strong>, if there is any chance the fitting is ever on a dimmer. It must
+      say so explicitly.</li>
+      <li><strong>The output you want, in lumens</strong> &mdash; not watts. Watts describe how much
+      electricity it uses, which used to be a rough proxy for brightness and is not any more.</li>
+    </ul>
+
+    <p class="section-head">Lumens, roughly</p>
+    <table class="table table--tight">
+      <tr><th>For</th><th>Lumens</th><th>Old money</th></tr>
+      <tr><td>A bedside or accent lamp</td><td class="num">200&ndash;400</td><td class="num">25&ndash;40 W</td></tr>
+      <tr><td>A table lamp doing real work</td><td class="num">400&ndash;700</td><td class="num">40&ndash;60 W</td></tr>
+      <tr><td>A reading lamp</td><td class="num">700&ndash;900</td><td class="num">60&ndash;75 W</td></tr>
+      <tr><td>A ceiling fitting in a sitting room</td><td class="num">700&ndash;1000</td><td class="num">60&ndash;75 W</td></tr>
+      <tr><td>A kitchen ceiling</td><td class="num">1500&ndash;3000 total</td><td class="num">&mdash;</td></tr>
+    </table>
+
+    <p class="small">Go lower than you expect on everything except the kitchen. The commonest error
+    after colour temperature is buying bulbs that are far too bright, because the packaging competes
+    on brightness.</p>
+
+    <p class="section-head">And the shape</p>
+    <p>Under a fabric shade, buy the cheapest thing that meets the specification above &mdash; nobody
+    sees it. In an open fitting where the bulb shows, buy frosted or opal rather than clear: a visible
+    filament is charming in a photograph and glaring in a room, because you are looking straight at a
+    naked point source.</p>
+
+    <div class="callout">
+      <p class="callout-label">Do it in one go</p>
+      <p>Walk round the house with a bag and count every socket, including the ones in fittings you
+      never use. Buy them all at once, in the same specification, and change them in one afternoon.
+      Mixed colour temperatures in one room is worse than either temperature alone &mdash; it is the
+      only genuinely unfixable lighting error, because the eye cannot settle on a white point. If you
+      do nothing else: make every bulb in a single room match.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">36</span></div>
+</section>
+
+<!-- ============ 37. DIMMING ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">Dimming, which matters more than brightness</h1>
+
+    <p class="lead">A room needs different amounts of light at four in the afternoon and eleven at
+    night. A room with one setting is wrong twice a day.</p>
+
+    <p>This is the part of lighting that people skip because it sounds like a luxury, and it is
+    closer to a necessity. Your eye adapts: at eleven at night, with your pupils wide, the light you
+    wanted at four in the afternoon is uncomfortably bright. And the amount of light in a room is one
+    of the strongest signals your body uses to decide whether it is time to wind down.</p>
+
+    <p class="section-head">Four ways, in order of cost</p>
+    <ol class="steps">
+      <li><strong>Separate switches.</strong> The cheapest dimmer in the world is having five lamps
+      on five plugs and turning two of them off. No wiring, no cost, and it is genuinely most of the
+      benefit. Two lamps at eleven at night is a different room from five.</li>
+      <li><strong>An in-line dimmer on a lamp flex.</strong> A small wheel that sits on the cable.
+      Inexpensive, plugs in, nothing to install. The bulb must say dimmable.</li>
+      <li><strong>A plug-in dimmer or a smart plug.</strong> Sits between the plug and the socket.
+      Works with a remote or a phone. More expensive, no tools, and it lets you dim several lamps
+      together.</li>
+      <li><strong>A wall dimmer.</strong> Replaces the light switch. This is electrical work behind
+      a faceplate and it needs an electrician &mdash; and if you rent, it needs permission. Do not
+      do this one yourself.</li>
+    </ol>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">The dimmable LED problem, which catches nearly everyone</p>
+      <p>Most LED bulbs are <em>not</em> dimmable, and putting a non-dimmable LED on a dimmer gives
+      you flicker, buzzing, a bulb that cuts out before the bottom of the range, or a shortened life.
+      It has to say <strong>dimmable</strong> on the box. And even dimmable LEDs vary in how well they
+      behave with any given dimmer, so if you are fitting several, buy one and try it before buying
+      ten.</p>
+    </div>
+
+    <p class="section-head">One thing better than a dimmer</p>
+    <p>A dimmed bulb gets dimmer but it does not get much warmer. Real evening light &mdash; a fire,
+    a candle, a setting sun &mdash; gets warmer as it gets lower, and that is the quality a dimmer
+    cannot reproduce on its own.</p>
+    <p>Which is why a candle or two, at the point in the evening when you have dimmed everything
+    else, does something a dimmer cannot. It is not decoration. It is the only source in the house at
+    around two thousand kelvin, and it is the reason a room with candles in it feels late in a way
+    that a dimmed room does not.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">37</span></div>
+</section>
+
+<!-- ============ 38. SHADES ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">What a shade actually does</h1>
+
+    <p class="lead">A shade is not a decoration on a lamp. It is the part that decides where the
+    light goes, and choosing it by appearance alone is how people end up with a lamp that does not
+    light anything.</p>
+
+    <p class="section-head">The three behaviours</p>
+    <table class="table">
+      <tr><th>Shade</th><th>What it does with the light</th><th>Use it for</th></tr>
+      <tr>
+        <td><strong>Opaque</strong> &mdash; card, metal, lined fabric</td>
+        <td>Sends light up and down in two cones. The shade itself stays dark.</td>
+        <td>Reading. Lighting a specific surface. Anywhere you want a pool rather than a glow.</td>
+      </tr>
+      <tr>
+        <td><strong>Translucent</strong> &mdash; unlined linen, paper, parchment</td>
+        <td>Glows in every direction and lights the room generally. The shade becomes a soft
+        object.</td>
+        <td>Atmosphere. The workhorse of a sitting room. Almost always the right answer at table
+        height.</td>
+      </tr>
+      <tr>
+        <td><strong>Directional</strong> &mdash; a hood, a cone, a spot</td>
+        <td>Sends light one way only.</td>
+        <td>A desk. A picture. Washing a wall. Never as the only light in a room.</td>
+      </tr>
+    </table>
+
+    <p class="section-head">Colour inside the shade</p>
+    <p>Look inside the shades you own. The inner surface is the last thing the light touches before
+    it reaches you, and it tints everything.</p>
+    <ul class="plain">
+      <li><strong>White or off-white inside:</strong> reflects efficiently, keeps the light neutral.
+      The safe default.</li>
+      <li><strong>Gold, brass or warm cream inside:</strong> warms the light and increases the glow.
+      Genuinely lovely in a north room and one of the oldest tricks there is.</li>
+      <li><strong>Black or dark inside:</strong> absorbs most of the light. Very dramatic, very
+      inefficient. One in a room, never two.</li>
+    </ul>
+
+    <p class="section-head">The proportion rule for a table lamp</p>
+    <div class="measure-row">
+      <span class="measure-row__label">Shade height, as a share of the whole lamp</span>
+      <span class="measure-row__value">about one third</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">Shade width at the bottom, compared with the base width</span>
+      <span class="measure-row__value">roughly twice</span>
+    </div>
+    <div class="measure-row">
+      <span class="measure-row__label">The shade must hide</span>
+      <span class="measure-row__value">the bulb and the fitting, from seated</span>
+    </div>
+
+    <p class="small" style="margin-top:3mm">That last line is the one that matters, and the first two
+    are only rules of thumb that usually produce it. Sit down. If you can see the bulb or the metal
+    collar it screws into, the shade is too small or too shallow, whatever the arithmetic says.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">38</span></div>
+</section>
+
+<!-- ============ 39. NO NATURAL LIGHT ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">The room that gets no sun</h1>
+
+    <p class="lead">A basement flat. A ground-floor room with a wall two metres away. A north room
+    on a dark street. I have worked in a great many of these and I am not going to pretend they are
+    the same as a room with a view.</p>
+
+    <p>Here is the honest position, and then what genuinely helps.</p>
+
+    <p><strong>The honest position:</strong> a room with no useful daylight cannot be made to feel
+    like a room with daylight. Every technique for &ldquo;brightening&rdquo; such a room is really a
+    technique for making it feel intentional instead of deficient. That is a real and achievable
+    goal, and it is a different goal from the one the magazines imply.</p>
+
+    <p class="section-head">What does not work, which is most of the usual advice</p>
+    <ul class="plain">
+      <li><strong>Brilliant white.</strong> The most common advice and the worst. White needs light
+      to be white; without it, white goes grey and dead. You have painted the room the colour of the
+      problem.</li>
+      <li><strong>More lumens.</strong> A dark room flooded with cool light becomes a lit dark room
+      &mdash; gloomy and glaring at once.</li>
+      <li><strong>A mirror on a blank wall.</strong> It reflects the blank wall. Page 20.</li>
+    </ul>
+
+    <p class="section-head">What works</p>
+    <ol class="steps">
+      <li><strong>Stop trying to be bright and commit to being warm.</strong> This is the whole
+      strategy. A deep, warm, enveloping colour in a sunless room reads as a decision &mdash; a
+      study, a snug, a dining room for the evening. The same room in pale grey reads as a mistake.
+      Deep green, warm brown-red, ink blue, a proper dark plaster colour. Be braver than feels
+      sensible.</li>
+      <li><strong>Four or five small warm sources, none overhead</strong>, with one dark corner
+      left alone. You are building an evening room, so light it like an evening.</li>
+      <li><strong>Every texture you can find.</strong> Texture is what gives a dark room something
+      to do &mdash; light catching a coarse weave, a worn timber, a matte glaze. This is the room for
+      the roughest, most tactile things you own.</li>
+      <li><strong>Something living, realistically.</strong> A plant needs light too. Choose the
+      tolerant ones and accept slow growth, or use branches in water and change them.</li>
+      <li><strong>Take back whatever daylight exists.</strong> Page 41. Here every centimetre of
+      glass matters, and it is usually half blocked.</li>
+    </ol>
+
+    <div class="callout callout--meme">
+      <p class="callout-label">From the notebook</p>
+      <p>My grandmother made curtains for a dressmaker whose courtyard workroom never saw the sun.
+      She lined its walls in a dark red and put six lamps in it. Everyone who came in said it was the
+      loveliest room in the building. It was the darkest.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">39</span></div>
+</section>
+
+<!-- ============ 40. CORRIDORS AND INTERNAL ROOMS ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">Corridors, landings and internal rooms</h1>
+
+    <p class="lead">Nobody decorates a corridor and everybody walks through one several times an
+    hour. It is the most neglected surface area in a home.</p>
+
+    <p>A corridor has a particular problem: it is long, narrow, usually windowless, and lit by one or
+    two ceiling fittings that produce bright patches with gloom between them. So you walk down a
+    tunnel of alternating light and dark, and the corridor feels longer and meaner than it is.</p>
+
+    <p class="section-head">The correction</p>
+    <ul class="plain">
+      <li><strong>Light the walls, not the floor.</strong> Two or three wall lights along one side,
+      centred around 150 to 165&nbsp;cm, will do more than any number of ceiling fittings. Lit walls
+      make a narrow space feel wider; a lit floor makes it feel like a route.</li>
+      <li><strong>If you cannot add wiring, use the surfaces.</strong> A small lamp on a narrow
+      console, or a shelf at the far end with a lamp on it, gives you a lit destination. A corridor
+      with something lit at the end of it stops being a tunnel.</li>
+      <li><strong>Hang things at the right height, all the way along.</strong> A corridor is the
+      easiest place in the house to hang pictures, because you walk past rather than sitting, so the
+      standard 145&nbsp;cm centre is exactly right. A run of small pictures at a consistent height
+      turns dead space into the best wall in the flat.</li>
+      <li><strong>Do not paint it the same white as everything else.</strong> A corridor is a
+      transition and can take a stronger colour than a room you sit in, because you are only in it
+      for four seconds. It is the cheapest place to be brave, because it is small and nobody lives
+      in it.</li>
+    </ul>
+
+    <p class="section-head">Internal rooms and windowless bathrooms</p>
+    <p>Treat these as the sunless room on page 39, with two additions. First, a windowless bathroom
+    has a humidity problem as well as a light problem, and the extract fan matters more than anything
+    decorative &mdash; if it does not clear the mirror within a few minutes of a shower, that is a
+    ventilation job and worth sorting before you paint.</p>
+    <p>Second, these are the rooms where mirror placement is genuinely powerful, because a mirror
+    opposite a lit wall or a lamp will double what little light there is and give the eye some depth.
+    Put the light source and the mirror opposite each other, and stand where you will stand to check
+    what you will be looking at.</p>
+
+    <div class="callout callout--warning">
+      <p class="callout-label">Bathrooms and electricity</p>
+      <p>Lighting and sockets in a bathroom are governed by specific rules about how close a fitting
+      may be to water, and those rules exist for an extremely good reason. Anything beyond changing
+      a bulb in an existing fitting is an electrician's job. There is no version of this where doing
+      it yourself is sensible.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">40</span></div>
+</section>
+
+<!-- ============ 41. DAYLIGHT YOU ARE THROWING AWAY ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">The daylight you are throwing away</h1>
+
+    <p class="lead">Before you buy a single lamp, go and get back the light you already have. It is
+    free, it takes an hour, and almost every home I have been in was wasting between a fifth and a
+    third of it.</p>
+
+    <p class="section-head">Go and look at your window. All of it.</p>
+    <ol class="steps">
+      <li><strong>What is standing in front of it?</strong> A tall plant, a lamp, a drying rack, a
+      chair with coats on it, a stack of boxes that has been there since you moved in. Anything in
+      the lower third of a window is taking light from the whole room.</li>
+      <li><strong>Where do the curtains sit when they are open?</strong> This is the big one. In most
+      homes the open curtains cover fifteen to twenty centimetres of glass down each side, because
+      the pole is barely wider than the window. That is a tenth of your window, permanently, in
+      every room, for years. The fix is a wider pole &mdash; it should extend 15 to 25&nbsp;cm
+      beyond the frame on each side so the curtains stack on the wall rather than on the glass.</li>
+      <li><strong>Is the blind fully up?</strong> A roller blind left a third down is invisible to
+      you after a week. Go and look. Roll it right up.</li>
+      <li><strong>Are the nets or sheers doing anything?</strong> Permanent net curtains on a window
+      that nobody can see into are costing you light for no reason. If privacy is only needed in the
+      evening, a blind you drop is better than a sheer you never move.</li>
+      <li><strong>Is the glass clean, inside and out?</strong> Unglamorous and genuinely significant
+      on a window that has not been washed in a year or two, especially on a street.</li>
+      <li><strong>What colour is the reveal?</strong> The little returns of wall at the sides of the
+      window. If they are a dark colour, or grubby, they are absorbing light at the exact point it
+      enters the room. Painting the reveal the palest thing in the room is a trick worth knowing.</li>
+    </ol>
+
+    <div class="callout callout--rule">
+      <p class="law-name">Worth saying on its own</p>
+      <p class="law-text">Most people's curtains, when open, cover a tenth of their window. Nobody
+      notices, because the curtains have always been there.</p>
+    </div>
+
+    <p>Do all six of those before you spend anything. Then reassess the room. A surprising number of
+    &ldquo;dark&rdquo; rooms are ordinary rooms with a blocked window, and you will have spent
+    nothing.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">41</span></div>
+</section>
+
+<!-- ============ 42. WORKSHEET — LIGHTING PLAN ============ -->
+<section class="page page--worksheet">
+  <div class="rh">Part Two &middot; Worksheet</div>
+  <div class="body">
+    <p class="kicker">Worksheet</p>
+    <h1 class="page-title page-title--tight">The lighting plan for one room</h1>
+    <p class="small" style="margin-bottom:4mm">One sheet per room. Fill the left column with what you
+    have now, the right with what it should be.</p>
+
+    <div class="grid2">
+      <div class="field"><span class="field-label">Room</span><div class="field-line"></div></div>
+      <div class="field"><span class="field-label">Faces / used when</span><div class="field-line"></div></div>
+    </div>
+
+    <table class="table">
+      <tr><th style="width:34%">Source</th><th style="width:16%">Height now</th><th style="width:16%">Should be</th><th style="width:17%">Bulb now</th><th>Should be</th></tr>
+      <tr><td style="height:8.6mm">Ceiling</td><td></td><td></td><td></td><td>2700 K</td></tr>
+      <tr><td style="height:8.6mm">&nbsp;</td><td></td><td></td><td></td><td>2700 K</td></tr>
+      <tr><td style="height:8.6mm">&nbsp;</td><td></td><td></td><td></td><td>2700 K</td></tr>
+      <tr><td style="height:8.6mm">&nbsp;</td><td></td><td></td><td></td><td>2700 K</td></tr>
+      <tr><td style="height:8.6mm">&nbsp;</td><td></td><td></td><td></td><td>2700 K</td></tr>
+    </table>
+
+    <p class="section-head">The three checks</p>
+    <ul class="checklist">
+      <li>At least one source below 60&nbsp;cm / 24&nbsp;in</li>
+      <li>At least one source between 100 and 135&nbsp;cm / 40 and 53&nbsp;in</li>
+      <li>Every bulb in this room is the same colour temperature</li>
+      <li>I cannot see a bulb from where I sit</li>
+      <li>The ceiling light can be off and the room still works</li>
+      <li>One corner is deliberately left dark</li>
+    </ul>
+
+    <p class="section-head">Free light I am currently wasting</p>
+    <ul class="checklist">
+      <li>Nothing stands in front of the lower third of the window</li>
+      <li>Open curtains stack on the wall, not on the glass</li>
+      <li>Blinds go fully up; no nets on a window nobody overlooks</li>
+      <li>Glass is clean, both sides</li>
+    </ul>
+
+    <div class="field" style="margin-top:2mm">
+      <span class="field-label">What I will do first, and what it costs</span>
+      <div class="field-line"></div>
+      <div class="field-line"></div>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">42</span></div>
+</section>
+
+<!-- ============ 43. WHAT NOT TO BUY — LIGHTING ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <p class="kicker">What not to buy</p>
+    <h1 class="page-title">Lighting</h1>
+
+    <p class="lead">Six things this industry sells constantly that will not solve the problem you
+    bought them for.</p>
+
+    <p class="section-head">Colour-changing smart bulbs, for a sitting room</p>
+    <p>The colour-changing is not the problem; the problem is that they are usually bought
+    <em>instead</em> of a second lamp. A single ceiling fitting that can turn pink is still a single
+    ceiling fitting. If you want smart bulbs, put them in three lamps at three heights and you have
+    something genuinely good. One is a novelty.</p>
+
+    <p class="section-head">&ldquo;Daylight&rdquo; bulbs for a dark room</p>
+    <p>Sold specifically at the problem and it makes it worse. Five or six thousand kelvin in a room
+    with no daylight gives you a cold blue room. The word on the box is doing the selling.</p>
+
+    <p class="section-head">A brighter ceiling fitting</p>
+    <p>The instinct when a room is gloomy, and it is treating a direction problem as a quantity
+    problem. You will get a bright ceiling and the same gloomy room.</p>
+
+    <p class="section-head">Spotlight tracks and downlight grids, retrofitted</p>
+    <p>Often sold as a modern fix for a dull room. What they produce is a ceiling of small bright
+    sources all pointing straight down &mdash; error one, multiplied. They have real uses over a
+    worktop or aimed at art. As general lighting for a room where people sit, they are the most
+    expensive way to get a corridor.</p>
+
+    <p class="section-head">Very cheap multipacks of bulbs</p>
+    <p>Where the colour temperature and the CRI are not printed, both are usually bad. Your colours
+    will not work after dark and you will not know why. A bulb is the highest-leverage cheap thing in
+    a house; buy the ones with the numbers on.</p>
+
+    <p class="section-head">A dimmer switch, before you have checked your bulbs</p>
+    <p>Fitting a dimmer to non-dimmable LEDs produces flicker and buzz, and people conclude the
+    dimmer is faulty. Check the bulbs first. And a wall dimmer is electrical work behind a faceplate,
+    which is an electrician's job.</p>
+
+    <div class="callout">
+      <p class="callout-label">What to buy instead, in order</p>
+      <p>2700&nbsp;K bulbs for the whole house. Then one lamp for the floor, if you do not already
+      own something that will do. Then an in-line dimmer for the lamp you sit next to. That is a
+      complete lighting correction for a room, and in most homes it comes to less than the cost of a
+      single ceiling fitting.</p>
+    </div>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">43</span></div>
+</section>
+
+<!-- ============ 44. PART TWO RECAP ============ -->
+<section class="page">
+  <div class="rh">Part Two &middot; Light</div>
+  <div class="body">
+    <h1 class="page-title">Part Two, in nine lines</h1>
+
+    <div class="stack">
+      <div class="callout callout--rule">
+        <p class="law-name">One</p>
+        <p class="law-text">Light before colour. You cannot choose a colour until you know which way
+        the window faces.</p>
+      </div>
+      <div class="callout callout--rule">
+        <p class="law-name">Two</p>
+        <p class="law-text">Light must arrive at three heights &mdash; overhead, table, floor. A room
+        lit from one height is a room lit like a corridor.</p>
+      </div>
+      <div class="callout callout--rule">
+        <p class="law-name">Three</p>
+        <p class="law-text">Twenty-seven hundred kelvin, or nothing.</p>
+      </div>
+    </div>
+
+    <p class="section-head">And the six that do not need their own page</p>
+    <ul class="plain">
+      <li><strong>You should never see a bulb from where you sit.</strong> Every height in this part
+      is that one rule, measured for a particular piece of furniture.</li>
+      <li><strong>Every bulb in one room must match.</strong> Mixed colour temperatures is the only
+      lighting error the eye cannot get used to.</li>
+      <li><strong>Brightness is not output, it is how many surfaces have light on them.</strong> Five
+      small lamps beat one big pendant, and use less electricity.</li>
+      <li><strong>Light the walls, not the middle.</strong> Lit walls make a room read larger.</li>
+      <li><strong>Get the free light back first.</strong> Widen the pole, unblock the sill, raise the
+      blind, wash the glass. Before you spend anything.</li>
+      <li><strong>Never make a final colour decision in a shop.</strong> You are standing under four
+      thousand kelvin from above, and you will never live under it.</li>
+    </ul>
+
+    <p class="section-head">If you do exactly one thing</p>
+    <p>Buy 2700&nbsp;K bulbs for the whole house and change them all in one afternoon. It is the
+    cheapest, fastest, largest single correction available to you, and everything in Part Three
+    depends on it, because you are about to choose colours and you need to know what light they will
+    be living in.</p>
+
+    <p class="pullquote">Turn the ceiling light off tonight and put on two lamps instead. That is
+    Part Two. Everything else is detail.</p>
+  </div>
+  <div class="footer"><span>Part Two</span><span class="folio">44</span></div>
+</section>
