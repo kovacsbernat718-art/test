@@ -312,7 +312,7 @@ in the script, and the reference channels do it a very specific way.
 > *"Quickly, while I have you. My grandmother kept a notebook for forty-one years — every window
 > she measured, every colour she mixed, every drop and every width, in her own hand. She made me
 > promise I would write it out properly before it was lost. So I did. Every rule and every
-> measurement in one place, La Belle Maison, at chezcolette.com, the link is below. Now. Back to
+> measurement in one place. Colette's Home Bible, at chezcolette.com, the link is below. Now. Back to
 > the room."*
 
 ## Callback templates — vary these, never repeat one inside a script

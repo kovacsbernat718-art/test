@@ -195,7 +195,7 @@ what she is not selling.
 ```
 [One sentence restating the video's promise, in Colette's voice.]
 
-La Belle Maison — every rule and every measurement in one place:
+Colette's Home Bible — every rule and every measurement in one place:
 https://chezcolette.com
 
 00:00 [chapter titles matching the script's beats]

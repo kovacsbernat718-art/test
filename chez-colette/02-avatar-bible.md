@@ -53,7 +53,7 @@
 | Handle | `@ChezColette` |
 | Title bracket | `(The French Way)` |
 | Domain | `chezcolette.com` |
-| Ebook working title | **La Belle Maison** (final title decided in the product step) |
+| Ebook title | **Colette's Home Bible** — cover also carries the French title *La Belle Maison*. Scripts speak the English name only. |
 | Signature address to viewer | *ma chère* |
 | Fixed closing line | *"We do not decorate a room, ma chère. We correct it."* |
 
