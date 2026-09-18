@@ -18,6 +18,7 @@ Home Engineering.
 | [`05-production-spec.md`](chez-colette/05-production-spec.md) | Editing spec, b-roll, thumbnails, a 30-video title bank, channel setup, cadence, voice model. |
 | [`03-CLAUDE-PROJECT-INSTRUCTIONS.md`](chez-colette/03-CLAUDE-PROJECT-INSTRUCTIONS.md) | Long-form reference version of the instructions — the reasoning behind every rule, with word budgets per beat. Consult, don't paste. |
 | [`knowledge/COLETTE-REFERENCE.txt`](chez-colette/knowledge/COLETTE-REFERENCE.txt) | Upload to the project knowledge base. Her biography, the 14 laws, the verified fact canon, the French glossary, the "who profits" rotation. |
+| [`07-EBOOK-BUILD-PLAN.md`](chez-colette/07-EBOOK-BUILD-PLAN.md) | The ebook: why it is ~200 pages not 35 or 500, the five-volume run plan, the filled prompt fields, per-run overrides, and the locked design spec that keeps the volumes matching. |
 | [`transcripts/`](chez-colette/transcripts) | All twelve reference transcripts, cleaned and with headers applied. Upload 01–10. |
 
 ## The short version
