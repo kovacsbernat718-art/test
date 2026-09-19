@@ -52,7 +52,7 @@
 | Channel | Chez Colette |
 | Handle | `@ChezColette` |
 | Title bracket | `(The French Way)` |
-| Domain | `chezcolette.com` |
+| Domain | `colettedubois.gumroad.com/l/qnwsld` (a short custom domain is still worth buying — the Gumroad URL is not speakable) |
 | Ebook title | **Colette's Home Bible** — cover also carries the French title *La Belle Maison*. Scripts speak the English name only. |
 | Signature address to viewer | *ma chère* |
 | Fixed closing line | *"We do not decorate a room, ma chère. We correct it."* |

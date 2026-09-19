@@ -69,7 +69,7 @@ refund requests.
 ● Background preference: LIGHT for interior pages — warm plaster off-white #F2EEE5 — with DARK charcoal #1C1B19 reserved for the cover, part-title pages, and the back cover
 ● Preferred visual style: MINIMAL — understated French editorial. Magazine-quality restraint, generous margins, generous white space.
 ● Call to action: Watch the channel for new corrections each week, and start with the room audit on the checklist page
-● CTA link: https://chezcolette.com
+● CTA link: https://colettedubois.gumroad.com/l/qnwsld
 ● Product or offer connected to the e-book: NONE — this is the product. Do not advertise an upsell, a course, a community or a coaching offer. Do not invent any.
 ● Relevant experience or proof: NONE. There are no customers, reviews, testimonials, ratings, client results or sales figures. Do not reference any, do not imply any, and do not use social proof of any kind. Do not claim professional credentials, qualifications, client work or years of practice as evidence of authority. Build credibility from the specificity of the method instead: named measurements, stated mechanisms, and the fact that the reader can verify every principle in their own room the same evening.
 ● Required topics: [SEE THE PER-RUN LIST BELOW — paste only the current volume's list here]

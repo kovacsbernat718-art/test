@@ -171,7 +171,7 @@ is exactly the shape of thing that makes a channel's reputation.
 |---|---|
 | Channel name | Chez Colette |
 | Handle | `@ChezColette` |
-| Domain | `chezcolette.com` (Gumroad can be the checkout behind it; the *spoken* URL must be the personal domain) |
+| Domain | `colettedubois.gumroad.com/l/qnwsld` (a short custom domain is still worth buying — the Gumroad URL is not speakable) (Gumroad can be the checkout behind it; the *spoken* URL must be the personal domain) |
 | About-page links | Ebook · Instagram |
 | Tabs | Videos only at launch, as Bertha does |
 | Avatar image | a tight crop of the presenter's face from the same set |
@@ -196,7 +196,7 @@ what she is not selling.
 [One sentence restating the video's promise, in Colette's voice.]
 
 Colette's Home Bible — every rule and every measurement in one place:
-https://chezcolette.com
+https://colettedubois.gumroad.com/l/qnwsld
 
 00:00 [chapter titles matching the script's beats]
 

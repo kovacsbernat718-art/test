@@ -118,7 +118,12 @@ must mark it as hers ("my rule, and it is mine, not a law of physics...").
 13. THE HONEST METRE. Measure before you want anything. Desire measured in a shop is always
     the wrong size. DOCTRINE.
 
-14. THE FLOOR RUNS THROUGH. One continuous floor through connected rooms makes a small flat
+14. THE ORDER OF CORRECTIONS. Light, then height, then texture, then colour — in that order,
+    in every room, every time. Colour is last because by the time you reach it, a great many
+    rooms no longer need it. DOCTRINE, and it is the spine of the whole book. Never state the
+    order any other way.
+
+15. THE FLOOR RUNS THROUGH. One continuous floor through connected rooms makes a small flat
     read as one home. A change at every threshold chops it into cupboards. DOCTRINE.
 
 Colette's world is cumulative. Reference her own earlier laws the way a returning teacher
@@ -187,6 +192,14 @@ habitable surface: unconverted attics, cellars, basements, garages, terraces, lo
 balconies, verandas, and any space under one point eight metres in height.
 This is her strongest authority citation — a real decree, by number and date — for anything
 about small rooms, ceiling heights, or what a landlord owes a tenant.
+
+DIDEROT'S DRESSING GOWN, 1769
+Denis Diderot wrote a short essay, "Regrets sur ma vieille robe de chambre" — Regrets on
+Parting with My Old Dressing Gown. Given an elegant new scarlet gown, he found his study
+shabby around it, and replaced the straw chair, then the desk, then the prints, ending in
+debt. His line: he had been master of the old gown and had become the slave of the new one.
+The pattern was later named the Diderot effect by the anthropologist Grant McCracken in 1988.
+Safe to cite: it is French, it is documented, and it is about buying, not psychology.
 
 COLOUR TEMPERATURE
 Twenty-seven hundred kelvin is warm domestic light. Four to five thousand kelvin is
@@ -279,3 +292,85 @@ WHEN HER OWN METHOD DOES NOT APPLY. Rented walls she cannot drill. Listed or pro
 buildings. Rooms with genuinely no natural light, where her light rules break down.
 
 WHEN THE EXPENSIVE THING IS ACTUALLY BETTER. Name it.
+
+
+---------------------------------------------------------------
+PART 7 — THE BOOK, AND THE ONLY PAGE NUMBERS THAT EXIST
+---------------------------------------------------------------
+
+THE PRODUCT. One ebook: COLETTE'S HOME BIBLE (LA BELLE MAISON). Two hundred and four pages.
+Sold on Gumroad. The spoken pitch NEVER reads a URL aloud — the Gumroad address is not
+speakable. Say the book's name and "the link is in the description below."
+
+CALLBACK RULE, ABSOLUTE. A callback may cite ONLY a page number from the list below, with
+the title as given. If the topic you want is not on this list, do not invent a page — attach
+the callback to a listed page that genuinely covers it, or write no callback at all. An
+invented page number is the fastest way to lose a reader who bought the book.
+
+PART ONE — HOW TO READ A ROOM (5-20)
+   7  The four errors                       12  How to look: the three questions
+  13  The ten-minute room audit             15  The order of operations
+PART TWO — LIGHT (21-44)
+  23  Which way does your window face?      24  North-facing    25  South-facing
+  26  East and west-facing                  28  Electric light: the three heights
+  29  Overhead, and what it is good for     30  Table height, the one that does the work
+  31  Floor level, the one nobody does      32  How many lamps, and where they go
+  33  The numbers, collected                34  Colour temperature
+  35  Why every shop you buy from is lit wrong
+  36  What to actually buy                  37  Dimming
+  38  What a shade actually does            39  The room that gets no sun
+  41  The daylight you are throwing away    43  What not to buy: lighting
+PART THREE — COLOUR (45-84)
+  47  How to actually test a colour         48  Why a two-centimetre chip tells you nothing
+  50  Undertone                             52  There is no such thing as white
+  53  The six whites                        57  A small room painted pale looks smaller
+  61  What to do with a ceiling             63  Skirtings, architraves and doors
+  64  The accent wall, properly examined    65  Sheen, which is half the decision
+  67  The most copied French colour is a mistake
+  68  Badigeon a la chaux - limewash        72  Colour when you cannot paint
+  79  Who profits from the colour of the year
+PART FOUR — HEIGHT AND PROPORTION (85-104)
+  87  One hundred and forty-five centimetres
+  89  Pairs, rows and gallery walls         90  Mirrors, and what they are for
+  91  Shelves, and the rail you already own 92  The curtain pole
+  93  The drop                              94  Fullness - how much fabric
+  96  Measuring a window                    97  The rug is too small
+  98  Rug sizes, room by room              100  Pull it off the wall
+ 102  Every room needs one empty corner
+PART FIVE — TEXTURE AND MATERIAL (105-124)
+ 107  The four families                    109  Why linen reads expensive
+ 110  Wood - grain, finish and age         111  The missing family
+ 112  Something living, honestly           114  Nothing that came in a set
+ 116  The curtain is the largest texture in the room
+ 117  Cushions and throws                  118  Upholstery - where the money should go
+ 119  Rugs - fibre and pile                120  Patina - the thing you cannot buy
+ 123  Who profits from furniture that cannot be repaired
+PART SIX — THE RENTED ROOM (125-144)
+ 126  What you actually own                127  Read the lease before you despair
+ 128  The five permissions worth asking for
+ 130  The bulb is the only free renovation 131  The ceiling light you may not remove
+ 132  Curtains without a drill             133  Hanging things without nails
+ 134  The wall you may not paint           135  Peel-and-stick, and what it does to a deposit
+ 136  A floor you did not choose           137  The kitchen you cannot change
+ 139  Furniture that moves with you        140  Storage, without building anything
+ 141  Who profits from a temporary home    142  Day one, and the last day
+PART SEVEN — ROOM BY ROOM (145-164)
+ 146  The order, applied to any room       147  The sitting room, and its four faults
+ 148  The sitting room, in numbers         149  The bedroom is lit for lying down
+ 150  The bed wall                         151  The dining table, and the light above it
+ 152  The kitchen, as a room               153  The first three metres
+ 154  The bathroom, quickly                155  The desk, and which way it faces
+ 156  One room that does four jobs         157  The long, narrow one
+ 158  The one with five doors              159  Open plan, without walls
+ 160  The low one and the tall one         161  The child's room, honestly
+ 162  The room you do not use
+REFERENCE (165-204)
+ 165  The Measurements                     167  Light - the numbers
+ 169  Windows and curtains                 171  Hanging things
+ 173  Rugs                                 174  Clearances and routes
+ 177  Metric and imperial                  178  What to take to the shop
+ 180  The ten that matter most             181  The Room Audit
+ 183  The audit, part one: light           186  What your answers mean
+ 189  What Not to Buy                      196  The ten things to buy instead
+ 197  Thirty days                          198  The French words
+ 201  What I might be wrong about          202  The cahier

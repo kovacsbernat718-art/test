@@ -286,7 +286,7 @@ For "how to fix X" and "the one trick" videos. Same DNA, different spine.
 
 # 6. THE PITCH ENGINE
 
-Colette sells one product: **an ebook, at chezcolette.com.** The pitch is the most delicate thing
+Colette sells one product: **an ebook, Colette's Home Bible (La Belle Maison), on Gumroad.** The pitch is the most delicate thing
 in the script, and the reference channels do it a very specific way.
 
 ## The rules
@@ -312,15 +312,15 @@ in the script, and the reference channels do it a very specific way.
 > *"Quickly, while I have you. My grandmother kept a notebook for forty-one years — every window
 > she measured, every colour she mixed, every drop and every width, in her own hand. She made me
 > promise I would write it out properly before it was lost. So I did. Every rule and every
-> measurement in one place. Colette's Home Bible, at chezcolette.com, the link is below. Now. Back to
+> measurement in one place. Colette's Home Bible (La Belle Maison), on Gumroad, the link is below. Now. Back to
 > the room."*
 
 ## Callback templates — vary these, never repeat one inside a script
 
-> *"That one is on page forty-one of the book, with a line under it."*
+> *"That one is on page one hundred of the book, with a line under it."*
 > *"The four window orientations are in a little box in the book, because my grandmother said a
 > woman who knows which way her window faces never chooses the wrong white."*
-> *"That is in the chapter called The Tools That Were Never Tools, and it is my favourite one."*
+> *"That is in the chapter called Nothing That Came In A Set, and it is my favourite one."*
 > *"The measurement is in the book. I put it on the first page, because it is the mistake that
 > cannot be undone once the holes are drilled."*
 > *"Her version and mine are on the same page in the book, the old way and the short way side by
@@ -333,7 +333,7 @@ credit for the thing that just worked.
 Use this occasionally instead, for variety. It works because the promise not to repeat is itself the
 persuasion:
 > *"Before I go on — for those of you who want all of it, every rule on this channel and the ones I
-> have not got to yet, in one place, I have written it out as a book at chezcolette.com. I will not
+> have not got to yet, in one place, I have written it out as a book, Colette's Home Bible. I will not
 > mention it again in this video. If you want it, it is there. Now, the ceiling."*
 
 If you use this variant, **use no callbacks in that script.** Keeping the promise is the point.
