@@ -49,3 +49,18 @@ The book is complete at 204 pages.
     python3 ../rebuild-deploy.py    # re-splice pages from the print edition
     python3 ../check-refs.py        # verify every "page NN" cross-reference
     python3 ../html-to-txt.py       # regenerate the plain-text edition
+    node    ../render-cover.mjs ../epub-src/cover.jpg   # cover image (needs playwright)
+    python3 ../build-epub.py        # regenerate the EPUB
+    python3 ../check-epub.py        # package, link and accessibility checks
+
+## The three editions
+
+| File | What it is |
+|---|---|
+| `Colettes-Home-Bible.pdf` | 204 fixed A4 pages, the designed edition, for printing |
+| `Colettes-Home-Bible.epub` | reflowable, for phones and e-readers; passes EPUBCheck 5.2.1 with no errors or warnings |
+| `Colettes-Home-Bible.txt` | plain text, 62,879 words |
+
+The EPUB keeps every print page number as an EPUB 3 pagebreak marker and lists
+them in a `page-list` nav, so "go to page 145" lands where the PDF does, and all
+~200 "page NN" cross-references are live links.

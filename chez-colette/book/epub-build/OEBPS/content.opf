@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid"
+         xml:lang="en-GB" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="bookid">urn:uuid:4c1d9f3a-7b82-4e65-9d0c-1f6a5b3e8d47</dc:identifier>
+    <dc:title id="maintitle">Colette's Home Bible</dc:title>
+    <meta refines="#maintitle" property="title-type">main</meta>
+    <dc:title id="subtitle">La Belle Maison - Make Any Room Look Expensive Without Buying Anything New</dc:title>
+    <meta refines="#subtitle" property="title-type">subtitle</meta>
+    <dc:creator id="author">Colette Dubois</dc:creator>
+    <meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+    <meta refines="#author" property="file-as">Dubois, Colette</meta>
+    <dc:publisher>Chez Colette</dc:publisher>
+    <dc:language>en-GB</dc:language>
+    <dc:date>2026-01-01T00:00:00Z</dc:date>
+    <dc:description>The four corrections - light, height, texture and colour - that a French decorator made in fourteen years of small rented flats, with every measurement, three reference sections and fifteen worksheets.</dc:description>
+    <dc:rights>All rights reserved. Licensed for the personal use of the individual purchaser.</dc:rights>
+    <dc:subject>House &amp; Home</dc:subject>
+    <dc:subject>Interior design</dc:subject>
+    <dc:subject>Home improvement</dc:subject>
+    <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">printPageNumbers</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">Reflowable text with headings, lists and tables, a full table of contents, print-page markers matching the PDF edition, and alternative text on every diagram.</meta>
+    <meta name="cover" content="cover-image"/>
+  </metadata>
+  <manifest>
+    <item id="nav" href="text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="css" href="css/style.css" media-type="text/css"/>
+    <item id="cover-image" href="images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml"/>
+    <item id="font-archivo-500" href="fonts/archivo-500.woff2" media-type="font/woff2"/>
+    <item id="font-archivo-600" href="fonts/archivo-600.woff2" media-type="font/woff2"/>
+    <item id="font-bodoni-400" href="fonts/bodoni-400.woff2" media-type="font/woff2"/>
+    <item id="font-bodoni-400i" href="fonts/bodoni-400i.woff2" media-type="font/woff2"/>
+    <item id="font-bodoni-600" href="fonts/bodoni-600.woff2" media-type="font/woff2"/>
+    <item id="font-spectral-400" href="fonts/spectral-400.woff2" media-type="font/woff2"/>
+    <item id="font-spectral-400i" href="fonts/spectral-400i.woff2" media-type="font/woff2"/>
+    <item id="font-spectral-600" href="fonts/spectral-600.woff2" media-type="font/woff2"/>
+    <item id="titlepage" href="text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="foreword" href="text/foreword.xhtml" media-type="application/xhtml+xml"/>
+    <item id="contents" href="text/contents.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part1" href="text/part1.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="part2" href="text/part2.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="part3" href="text/part3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part4" href="text/part4.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="part5" href="text/part5.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part6" href="text/part6.xhtml" media-type="application/xhtml+xml"/>
+    <item id="part7" href="text/part7.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ref1" href="text/ref1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ref2" href="text/ref2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ref3" href="text/ref3.xhtml" media-type="application/xhtml+xml"/>
+    <item id="back" href="text/back.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="nav" linear="yes"/>
+    <itemref idref="titlepage" linear="yes"/>
+    <itemref idref="foreword" linear="yes"/>
+    <itemref idref="contents" linear="yes"/>
+    <itemref idref="part1" linear="yes"/>
+    <itemref idref="part2" linear="yes"/>
+    <itemref idref="part3" linear="yes"/>
+    <itemref idref="part4" linear="yes"/>
+    <itemref idref="part5" linear="yes"/>
+    <itemref idref="part6" linear="yes"/>
+    <itemref idref="part7" linear="yes"/>
+    <itemref idref="ref1" linear="yes"/>
+    <itemref idref="ref2" linear="yes"/>
+    <itemref idref="ref3" linear="yes"/>
+    <itemref idref="back" linear="yes"/>
+  </spine>
+</package>
