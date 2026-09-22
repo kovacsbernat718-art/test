@@ -193,7 +193,7 @@ is exactly the shape of thing that makes a channel's reputation.
 |---|---|
 | Channel name | Chez Colette |
 | Handle | `@ChezColette` |
-| Domain | `colettedubois.gumroad.com/l/qnwsld` (a short custom domain is still worth buying — the Gumroad URL is not speakable) (Gumroad can be the checkout behind it; the *spoken* URL must be the personal domain) |
+| Domain | `www.colette-dubois.com` — live, Gumroad is the checkout behind it |
 | About-page links | Ebook · Instagram |
 | Tabs | Videos only at launch, as Bertha does |
 | Avatar image | a tight crop of the presenter's face from the same set |
@@ -201,16 +201,22 @@ is exactly the shape of thing that makes a channel's reputation.
 **About text** — mirrors Bertha's and Elias's structure: heritage, trade lineage, what she shares,
 what she is not selling.
 
-> I am Colette. I grew up in the Croix-Rousse in Lyon, in a building where the ceilings were four
-> metres high because they were built for silk looms, not for people. My grandmother made curtains
-> and upholstery for apartments in that city for forty-one years, and my father was a house painter
-> who mixed his own colours. I spent fourteen years as a decorator doing small apartments — rented
-> ones, dark ones, badly renovated ones — and I left because the trade only knows how to tell you to
-> buy something. Here I share the other way. How to read a room, correct it, and make it beautiful
-> with what is already in it. There is nothing for sale in these videos. Only what my grandmother
-> made me write down.
+> How to read a room, correct it, and make it beautiful with what is already in it — from a French decorator of fourteen years.
+>
+> I am Colette. I grew up in the Croix-Rousse in Lyon, in a building where the ceilings were four metres high because they were built for silk looms, not for people. My grandmother made curtains and upholstery in that city for forty-one years, and my father was a house painter who mixed his own colours.
+>
+> I spent those years on small apartments — rented ones, dark ones, badly renovated ones — and I left because the trade only knows how to tell you to buy something.
+>
+> Here I share the other way. Every video solves its own problem in full. Nothing in them is for sale. The book is only what my grandmother made me write down, in one place, if you want it.
+>
+> Colette's Home Bible — every rule and measurement:
+> www.colette-dubois.com
 >
 > New videos twice a week. Subscribe if you would rather correct a room than furnish it.
+>
+> We do not decorate a room. We correct it.
+
+Saved ready to paste at `channel/channel-description.txt`.
 
 **Video description template**
 
