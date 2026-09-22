@@ -1,0 +1,52 @@
+VIDEO 002 — FRENCH SECRETS
+Script: scripts/002-french-secrets-FINAL.txt (2,524 words)
+Estimated runtime 14:25 at 175 wpm. CHECK THE CHAPTER TIMES AGAINST THE RENDER
+before publishing — see the note at the bottom.
+
+=== DESCRIPTION ===
+
+Five reasons your home looks perfectly nice and never quite feels good — and not one of them is fixed by buying anything.
+
+A seat is chosen by its back, not by its cushion. Every bare surface answers back. Light comes before texture, which is why your curtains look like nothing after dark. A shadow is the cheapest depth you will ever buy. And a matched room is always one purchase away from shabby.
+
+Every correction in this video takes between two and fifteen minutes, and every one of them costs nothing. Nothing in this video is for sale. The book is there only if you want all of it in one place.
+
+Colette's Home Bible — every rule and every measurement in one place:
+https://www.colette-dubois.com
+
+00:00 The chair nobody sits in
+00:33 What a room can be measured for
+01:24 Who I am
+01:55 The four questions your body asks
+02:18 One. A seat is chosen by its back
+03:45 Two. Clap once in the room
+05:05 Three. Why your curtains look like nothing after dark
+06:52 Four. The one everyone skips
+08:02 Five. The dressing gown from 1769
+09:13 Where the money should actually go
+10:18 The room you were taught to want
+12:06 The chair you keep out of obligation
+12:45 Four sentences to take with you
+13:10 So that it holds
+13:34 Tonight, one thing
+
+I read every comment. Tell me two things: which chair in your home does nobody sit in, and what is behind it? And when you clapped, what came back?
+
+Chez Colette. We do not decorate a room. We correct it.
+
+=== TAGS (496/500 characters) ===
+
+french decorating,french interior design,why my room feels wrong,living room layout,furniture arrangement,interior design mistakes,small apartment decorating,rental apartment decorating,decorate with what you have,decorating on a budget,sofa placement,lighting mistakes,table lamp lighting,texture in interior design,diderot effect,room acoustics,french apartment,how to arrange a living room,home decor mistakes,interior design tips,cozy living room,curtain mistakes,how to make a room feel cozy
+
+=== CHAPTER TIMES ===
+
+Computed from word position at 175 wpm. If the render is not 14:25, scale every
+timestamp by (actual runtime / 14:25) and round down to the second. YouTube needs
+the first chapter at 00:00, at least three chapters, and each one at least 10s long.
+A wrong chapter time is worse than no chapters — if you cannot check them, delete
+the whole block and publish without.
+
+=== PAGES CITED IN THIS SCRIPT (both verified against the book) ===
+
+  p30   Table height — the one that does the work
+  p118  Upholstery — where the money should go

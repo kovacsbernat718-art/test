@@ -218,11 +218,11 @@ what she is not selling.
 [One sentence restating the video's promise, in Colette's voice.]
 
 Colette's Home Bible — every rule and every measurement in one place:
-https://colettedubois.gumroad.com/l/qnwsld
+https://www.colette-dubois.com
 
-00:00 [chapter titles matching the script's beats]
+00:00 [chapter titles matching the script's beats — check them against the render]
 
-I read every comment. Tell me which way your main window faces.
+I read every comment. [the script's own comment question, word for word]
 
 Chez Colette. We do not decorate a room. We correct it.
 ```
