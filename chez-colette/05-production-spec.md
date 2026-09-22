@@ -10,7 +10,7 @@ near-identical, which is more evidence of one shared production template. Copy i
 | Avatar on screen | **15–30% of runtime** |
 | Full-screen b-roll | **60–75%** |
 | Split screen (avatar + b-roll) | **10–13%** |
-| On-screen text, subtitles, arrows, lower thirds, chapter cards | **none. zero.** |
+| On-screen text, subtitles, arrows, lower thirds, chapter cards | **none. zero.** One exception only: the QR card under the pitch. See 1a. |
 | B-roll clip length | **2–4 seconds** |
 | Transitions | **100% hard cuts.** No crossfades, ever. |
 | Cut timing | on sentence starts and subject changes, not to a music grid |
@@ -31,6 +31,28 @@ still image feel alive, and it costs nothing.
 **The no-subtitles rule is counter to nearly all YouTube advice, and every one of these channels
 follows it.** Burned-in captions and text overlays read as "content." Their absence reads as
 documentary. Do not add them.
+
+## 1a. The QR card — the one permitted overlay
+
+The single exception to the zero-overlay rule. It earns the exception because it is the only
+moment in the video that asks the viewer to do something, and because a spoken address would be
+worse: Colette never reads a URL aloud.
+
+- **File:** `landing/qr-overlay-card.png` — 868 x 934, transparent background, cream card, encodes
+  `https://www.colette-dubois.com`.
+- **When:** it appears on the words *"in a book called Colette's Home Bible"* and leaves on *"Now."*
+  That is the whole pitch and roughly twelve to fifteen seconds.
+- **Nowhere else.** Never under a callback, never at the end, never behind the close, never in the
+  thumbnail. One appearance per video. A code that is always up stops being an instruction and
+  becomes furniture.
+- **Size:** at least **340px wide in a 1080p frame** (680px at 4K). Tested: it still scans off a
+  compressed 1080p upload at 320px and fails below that. Use 400px and stop worrying.
+- **Position:** lower right, at least 90px clear of both edges. Keep it off the avatar's face.
+- **Scale it in one step, never crop it.** The cream border around the code is the quiet zone; a
+  scanner needs it. Do not tighten it, do not put the code on a busy still, do not animate it in
+  with a blur or a spin. A hard cut on, a hard cut off, like every other cut in the video.
+- **Check it before you upload.** Play the finished cut and scan it off the screen with a phone.
+  The URL preview should read `www.colette-dubois.com`.
 
 ## 2. The avatar set
 

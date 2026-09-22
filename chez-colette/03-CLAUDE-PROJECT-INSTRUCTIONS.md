@@ -312,8 +312,8 @@ in the script, and the reference channels do it a very specific way.
 > *"Quickly, while I have you. My grandmother kept a notebook for forty-one years — every window
 > she measured, every colour she mixed, every drop and every width, in her own hand. She made me
 > promise I would write it out properly before it was lost. So I did. Every rule and every
-> measurement in one place. Colette's Home Bible (La Belle Maison), on Gumroad, the link is below. Now. Back to
-> the room."*
+> measurement in one place, in a book called Colette's Home Bible, and the link is in the
+> description below, or scan the QR code on the screen. Now. Back to the room."*
 
 ## Callback templates — vary these, never repeat one inside a script
 
