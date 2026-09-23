@@ -41,32 +41,47 @@ TRANSITIONS SPENT  "Before the method, one minute on why. Because in this
                    "The women who made these apartments beautiful..."
 
 
-003 — FRENCH ORGANISATION RULES                          DRAFT, NOT SHOT
+003 — FRENCH ORGANISATION RULES                          REVISED, NOT SHOT
 --------------------------------------------------------------------------
-Measured against 002: 11.8% of this draft is copied from it word for word,
-in runs of six words or longer. About 138 of those words are the pitch, the
-absolution, the sign-off and the identity block, which are supposed to
-repeat. The other ~209 are not.
-
-FOUR THINGS TO REPLACE BEFORE THIS IS SHOT
-  1. COLD OPEN   a chair again, and "Go and look at..." again. 002 opened on
-                 a chair and closed on a chair. Pick a different object and
-                 a different opening command.
-  2. FACT        the 2002 decree again. It was 002's legitimising fact. One
-                 use only — find another.
-  3. EFFECT      the Diderot effect again. Also 002's. PART 8 has five; two
-                 are now spent on two scripts.
-  4. TRANSITIONS all six listed under 002 above reappear verbatim. Rewrite
-                 every one.
-
-CLEAN, KEEP AS IS
-  PAGES CITED      p140 Storage, without building anything   — verified real
-                   p117 Cushions and throws                  — verified real
-  STRUCTURE        2,933 words (+4.8% on a 2,800 target, inside the 5% limit)
-                   pitch at 22.7% (rule: 20-25%)
-  NEW OBJECTS      windowsill, hall mirror, tops of wardrobes, hanging by
+COLD OPEN OBJECT   the basket of clean laundry you are dressing out of
+COLD OPEN SHAPE    a statement, not a command ("There is a basket of...")
+LEGITIMISING FACT  Haussmann's Paris, 1853-1870 — six floors maximum,
+                   ceilings 2.8 to 3.2 metres
+NAMED EFFECT       none. Deliberate: the title promises no research, and all
+                   three unspent effects sit too close to 002's subject.
+                   Still in reserve: prospect and refuge (Appleton 1975),
+                   mere exposure (Zajonc 1968), attention restoration
+                   (Kaplan 1989)
+QUIET-PART TARGET  #7 storage bins sold as organisation
+PAGES CITED        p140 Storage, without building anything
+                   p117 Cushions and throws
+BONUS ITEM         the heap at the end of the bed; one hook on the door
+COMMENT QUESTION   how long has that basket been standing there / which way
+                   do your windows open
+NEXT-TIME TEASE    the kitchen, the light rather than the cupboards
+CANON DEVICE       Madame Riviere, Quai Saint-Vincent ("I have only ever
+                   seen this done properly once") — first use
+CORE OBJECTS       windowsill, hall mirror, tops of wardrobes, hanging by
                    length, seasonal changeover, pillowcases not plastic, the
                    laid table, cushions and throws, storage painted the wall
                    colour, one hook on the back of the door
-  COMMENT QUESTION what was on your chair / which way do your windows open
-  NEXT-TIME TEASE  the kitchen, the light rather than the cupboards
+TRANSITIONS SPENT  "One minute before the first rule, because a rule you do
+                     not understand is one you abandon inside a fortnight."
+                   "Now the part that costs me something to say."
+                   "And now the part that nobody selling you anything will
+                     ever say out loud."
+                   "Nobody kept it from you. It simply stopped being worth
+                     anybody's while to say."
+                   "I have only ever seen this done properly once..."
+
+MEASURED           2,937 words (+4.9% on 2,800, inside the 5% limit)
+                   pitch at 23.5% (rule: 20-25%)
+                   6.8% copied from 002, of which 0.6% avoidable
+                   (the draft was 11.8% / 5.6%)
+                   both page citations verified against the book
+
+STILL SPENT ON BOTH 002 AND 003 — vary next time
+                   the husband, Thierry, the menuisier-ebeniste. PART 1 says
+                   use him sparingly. Two scripts running is not sparingly.
+                   Madame Riviere and her father Jean-Marc are both unused
+                   as of 002; Madame Riviere is now spent.
