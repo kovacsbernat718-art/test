@@ -12,6 +12,7 @@ You have **one Claude Project** with two pieces in it.
 |---|---|---|
 | `PROJECT-INSTRUCTIONS.txt` | Project **instructions** box | The rules. *How* to write. |
 | `COLETTE-REFERENCE.txt` | Project **knowledge** | The facts. *What is true.* |
+| `scripts/USED-SO-FAR.txt` | Pasted into **each chat** | The ledger. *What is already spent.* |
 
 Plus your **transcripts** in knowledge — the sample channels whose structure Colette borrows.
 
@@ -22,16 +23,27 @@ If a script ever gets the *shape* wrong, you fix the instructions.
 
 ## How to use it
 
-Start a new chat in the project and give it three things:
+Start a new chat in the project and give it four things:
 
 ```
 TITLE:      The exact title of the video you're making
 TRANSCRIPT: Paste the reference video's transcript
 LENGTH:     e.g. "14 minutes" or "2,450 words"
+USED SO FAR: Paste the whole of scripts/USED-SO-FAR.txt
 ```
 
 That's it. It writes the script and nothing else — no preamble, no notes,
 straight into your teleprompter.
+
+**Do not skip the fourth one.** A new chat remembers nothing about the last
+script it wrote. Without the ledger it has no way of knowing that it already
+opened a video on a chair, already spent the 2002 decree, already told the
+Diderot story — so it reaches for them again, and video three starts sounding
+like video two. The ledger is the only memory the project has.
+
+After a script is finalised, add its cold open, its fact, its named effect,
+its page numbers and its transitions to the bottom of the ledger. Two minutes,
+once per video.
 
 **One tip:** if you tell it what the last video covered and which
 "who profits" target you used, it won't repeat either.
