@@ -139,6 +139,21 @@ maximum, high contrast, and one saturated accent colour held consistent across t
   *this*" — and a single circle on a curtain hem or a light bulb is a genuinely informative
   thumbnail element rather than noise.
 
+### Measured on our own channel — video 003, first 3 days
+
+Suggested videos were **91.4%** of traffic. A suggested card shows roughly the first **60
+characters** of a title and a thumbnail at its smallest size. That changes two rules:
+
+- **The promise must land inside the first 60 characters.** *"9 French Organisation Rules
+  Americans Break - That Make…"* — the sidebar cut it before it said what the video was about.
+- **The thumbnail must be readable at sidebar size and must not repeat the title.** Video 003's
+  thumbnail said *"this is why your house stays messy"* while the title said *"That Make Your House
+  Messy"*: the same idea twice, in seven lowercase words too small to read. Title carries the
+  problem; thumbnail carries the turn — three words, capitals.
+
+Video 003 fell from video 002's 4.0% CTR to 1.6% on 2,500 impressions. That drop is real
+(z = 3.7), not noise.
+
 ## 5. Title bank — your first 30 videos
 
 Built from the verified formulas, mapped onto Colette's niche. `(The French Way)` is the series
