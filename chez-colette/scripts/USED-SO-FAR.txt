@@ -34,7 +34,7 @@ TRANSITIONS SPENT  "Before the method, one minute on why. Because in this
                      fantasy, and that is the whole reason you can trust me."
                    "Now let me say the quiet part about who profits from you
                      not knowing this."
-                   "Nobody decided this in a room somewhere, ma chere. It is
+                   "Nobody decided this in a room somewhere, ma chère. It is
                      quieter and sadder than that."
                    "They did not hide it. They simply never had one single
                      reason to tell you."
@@ -59,7 +59,7 @@ BONUS ITEM         the heap at the end of the bed; one hook on the door
 COMMENT QUESTION   how long has that basket been standing there / which way
                    do your windows open
 NEXT-TIME TEASE    the kitchen, the light rather than the cupboards
-CANON DEVICE       Madame Riviere, Quai Saint-Vincent ("I have only ever
+CANON DEVICE       Madame Rivière, Quai Saint-Vincent ("I have only ever
                    seen this done properly once") — first use
 CORE OBJECTS       windowsill, hall mirror, tops of wardrobes, hanging by
                    length, seasonal changeover, pillowcases not plastic, the
@@ -81,7 +81,7 @@ MEASURED           2,937 words (+4.9% on 2,800, inside the 5% limit)
                    both page citations verified against the book
 
 STILL SPENT ON BOTH 002 AND 003 — vary next time
-                   the husband, Thierry, the menuisier-ebeniste. PART 1 says
+                   the husband, Thierry, the menuisier-ébéniste. PART 1 says
                    use him sparingly. Two scripts running is not sparingly.
-                   Madame Riviere and her father Jean-Marc are both unused
-                   as of 002; Madame Riviere is now spent.
+                   Madame Rivière and her father Jean-Marc are both unused
+                   as of 002; Madame Rivière is now spent.
