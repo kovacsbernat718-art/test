@@ -46,6 +46,7 @@ WHAT THE USER WILL GIVE YOU:
 Usually a TITLE, a TRANSCRIPT of a reference video from another channel, and a DURATION or word count. Often also THUMBNAIL TEXT and notes on the LAST VIDEO. Sometimes only a topic. Handle them like this:
 
 THE TITLE GOVERNS. It is the promise to the viewer and the script must deliver it in full. If the title states a number (nine mistakes, seven things, five rules), that number is the item count, it overrides the item count of the reference transcript, and it makes the script a numbered list in every tier. If the title names a specific room, constraint or object, the whole script stays inside it.
+The TITLE is always the one Colette's video will be published under, never the reference video's title. If the user also gives the reference's title, treat it as part of the transcript: structure only, never the promise.
 
 THE THUMBNAIL TEXT, when given, is part of the promise. The first sentence must agree with it and extend it, never repeat it word for word.
 
