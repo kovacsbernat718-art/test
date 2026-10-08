@@ -98,7 +98,7 @@ Views are as of 8 Oct 2026. The tool rounds publish dates, so "~2 weeks" is appr
 
 | Topic | Proof (views) | Colette's angle |
 |---|---|---|
-| **Looks cheap / looks expensive** | Reynard 1.9M & 1.3M · Becker 1.1M · Expensive Look 293K on 2K subs · Five By Nine 608K & 595K | Her whole thesis: a room isn't decorated, it's *corrected*. Light, height, texture, colour. |
+| **Looks cheap / looks expensive** | Reynard 1.9M & 1.3M · Becker 1.1M · Expensive Look 293K on 2K subs · Five By Nine 608K & 595K | What the eye actually reads as cheap or expensive, and why. It's rarely the price. |
 | **Why some homes *feel* good** | Five By Nine **4.8M & 3.7M** · psychology version 911K | Already her topic (002). PART 8 of her file has the same named effects. |
 | **Forgotten features that should come back** | Becker 1.2M · Reynard 972K · Mac Rogers 848K · Daniel Hale 644K · Vanished Rooms | True French heritage: shutters, inward-opening windows, the armoire, picture rails, parquet, panelled walls. |
 | **Things I'd never put in my own home** | Becker 630K in 2 weeks · Design Daddy 222K · Five By Nine 430K ("things you'll never find in a beautiful home") | The "professional's list" format already in the instructions. |
@@ -139,7 +139,7 @@ Measured across the 10 transcripts in this pack:
 |---|---|
 | Words before the first item | median **166** (≈ 50 sec) |
 | Items | 250–320 words each (≈ 80 sec) |
-| Book pitch | median **26%** of the video, always after 2–3 items |
+| Book pitch | median **26%** of the video, always after 2–3 items. **2–3 plain sentences, 45–80 words, no story**: "this one's free, there are many more like it, they're all in my book, scan the code or click the link, now back to it" |
 | Narrator's family | 0–2 short stories in a list video, mid-item. Up to 11 in the "X Is Backwards" video, where the narrator's childhood home is the backbone. |
 | Foreign words | one native word or idea in many items, each explained right away |
 | Every item ends with | something to do tonight or tomorrow morning |
@@ -153,13 +153,26 @@ Measured across the 10 transcripts in this pack:
 | 11 Things Making Your Home Harder To Clean | "Things making your home look cheap" — 1M+ several times | *11 Things Making Your Home Look Cheap — That French Homes Never Have* |
 | 19 Home Items Cluttering Up Your House | Five By Nine "8 things you'll never find in a beautiful home" 430K | *9 Things You'll Never Find in a French Home* |
 | 11 Japanese Organisation Rules Americans Break | Reynard "9 Non-Negotiable Design Rules" 599K | *11 French Decorating Rules Americans Break Every Day* |
-| Decluttering Room by Room Is Backwards | Five By Nine "the 15 rules of interior design in 15 minutes" 1.8M | *Decorating Room by Room Is Backwards — The French Order Is Different* (her order: light, height, texture, colour) |
+| Decluttering Room by Room Is Backwards | Five By Nine "the 15 rules of interior design in 15 minutes" 1.8M | *Decorating Room by Room Is Backwards — The French Order Is Different* (the order that actually works, and why) |
 | — | Becker / Reynard / Mac Rogers "forgotten features" 850K–1.2M | *10 Old French Home Features We Should Never Have Lost* |
 | — | Five By Nine "why some homes feel good" 3.7M | *Why French Homes Feel Calm — and Yours Doesn't* |
 
 *Don't copy any title word for word. Video 003 did, and YouTube showed it next to the original.*
 
 ---
+
+## 5b. The pitch: why yours loses people and theirs doesn't
+
+Here's every Japanese Method pitch in the top 10, reduced to its moves. They all follow the same pattern:
+
+1. **The link:** "that test costs you nothing, and that's true of every rule on this list" / "that's the pattern behind all 11 of these".
+2. **The more:** "there are hundreds more like it, small changes that keep a home calm without spending a cent".
+3. **Where:** "they're all in my book; scan the QR code on your screen or click the link in the description".
+4. **Back:** "Now, the fourth one is…", straight into the next item.
+
+That's 2–3 sentences, 15–25 seconds. It never leaves the viewer's home, and it sounds different every time because it grows out of the tip that came just before it.
+
+Colette's pitch was a 75-word story about her grandmother's notebook, word for word in every video, arriving after only one tip. To a stranger, a story about someone they've never met is the clearest signal that the useful part has stopped. Returning viewers hear the exact same paragraph every time. The notebook story is now retired from the scripts. It works well in the video description and on the website, where people are already interested in the book.
 
 ## 6. What changes in the new project
 
@@ -169,7 +182,7 @@ Measured across the 10 transcripts in this pack:
 | French words | 1–3 approved terms | **2–5 "here and there"**: the approved list plus a short list of everyday French words, each explained right away |
 | Words before item one | ~180 | **100–170, item one before 0:55** |
 | "My name is Colette" block | — | **banned** (it was 1:20–2:51 into 002/003) |
-| Pitch | after item 2 or 3 | **never before two full items**, 20–30% |
+| Pitch | the same 75-word grandmother story every video | **new every video, 40–70 words, no story**, JM's four moves, never before two full items, 20–30% |
 | End of each item | a bridge | **one thing to do tonight, then a specific tease for the next item** |
 | Ending | 180–320 words | **120–200 words**. The last line points to a specific next video for your end screen. |
 | Default length | 18 min | **15 min**, close to the typical length of the biggest teaching channels here (Reynard, Five By Nine, Mac Rogers: 16–17 min) |

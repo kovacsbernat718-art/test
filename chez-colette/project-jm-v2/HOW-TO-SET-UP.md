@@ -66,7 +66,9 @@ It replies with the script and nothing else.
 | Facts like the 2002 decree or Haussmann | 0:32 / 0:39 | **only inside a tip**, after the viewer has seen why it matters |
 | Family and background | 14 / 17 mentions, many up front | **3 short moments** (15 min), each inside a tip as proof, none in the first minute, the strongest one near the end |
 | French words | a few, in the intro | **3, spread across the tips**, from the approved list plus everyday words (brocante, vide-grenier, armoire, l'heure bleue, …) |
-| Book pitch | after **one** tip | **after at least two** tips |
+| Book pitch | the same 75-word grandmother story, after **one** tip | **new every video**: 2–3 plain sentences in JM's style, after **at least two** tips |
+| What each tip is built on | Colette's order: light, height, texture, colour | **one "I didn't know that" discovery** that's surprising, useful and clearly belongs in this video. No preset categories. |
+| Reassurance lines ("it's not your taste…", "nobody showed you…") | in the hook, items and close | **banned**, in any wording |
 | End of each tip | — | **one thing to do tonight, then a tease for the next tip** |
 | Ending | long | **120–200 words**, finishing on your next video |
 
@@ -86,6 +88,22 @@ Change the numbers and save. Nothing else needs to change.
 
 ---
 
+## Before you record: check the facts
+
+The scripts now go looking for surprising facts beyond Colette's reference file, so check them once before recording. In the same chat, send:
+
+```
+List every factual claim in this script, how certain you are of each one, and where I can check it.
+```
+
+If anything comes back as less than certain, have it replaced:
+
+```
+The claim about … is uncertain. Replace that discovery with one you are certain of.
+```
+
+---
+
 ## If a script gets something wrong
 
 Tell it exactly what broke, in the same chat:
@@ -100,6 +118,14 @@ Item one starts at word 240. Cut the hook to under 170 words.
 
 ```
 This sentence is in SPENT-003: "…". Rewrite it.
+```
+
+```
+Item five has nothing surprising in it. Replace it with a discovery that passes all four tests.
+```
+
+```
+This line reassures the viewer: "…". Cut it and put information there instead.
 ```
 
 ---
