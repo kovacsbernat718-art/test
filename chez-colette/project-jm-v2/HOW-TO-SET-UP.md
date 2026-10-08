@@ -33,18 +33,34 @@ Copy the exact script you recorded into a text file named `SPENT-` + number + sh
 
 ## Writing a script
 
-Open a new chat inside the project and paste:
+**Step 1.** Open a new chat inside the project and paste:
 
 ```
-TITLE:      the exact title of the video
-TRANSCRIPT: the video you're adapting (usually a Japanese Method one)
-LENGTH:     15 minutes
-NEXT VIDEO: the title of the video your end screen will point to
+TITLE: 
+THUMBNAIL TEXT: 
+DURATION: 15 minutes, 2,775 words
+LAST VIDEO: [topic] | hook shape used: [COUNT / SCENE / CYCLE] | quiet-part target used: [from PART 5 of the Colette file, or none]
+NEXT VIDEO: 
+REFERENCE TRANSCRIPT: [paste]
+
+First, give me three different openings for the first sixty seconds, each with a different hook shape. I'll pick one, then write the full script from it.
 ```
 
-`NEXT VIDEO` is optional. If you include it, the script's last sentence leads into that video, so put your end screen over those last words.
+- **DURATION:** minutes × 185 = words. 12 min = 2,220 · 14 = 2,590 · 15 = 2,775 · 16 = 2,960 · 18 = 3,330.
+- **Hook shapes:**
+  - **COUNT** opens with a number: "there are N things in your room right now that…"
+  - **SCENE** sends the viewer somewhere in their home: "go and look at…"
+  - **CYCLE** describes the loop they're stuck in: "you bought…, you repainted…, and it still…"
+  - 002 and 003 both used **SCENE**.
+- **NEXT VIDEO** is optional. It's the video your end screen points to, and the script's last sentence leads into it.
 
-It replies with the script and nothing else.
+**Step 2.** You get three openings. The shape your last video used is marked, so you can avoid repeating it. Reply:
+
+```
+Use the COUNT opening. Write the full script.
+```
+
+**Step 3.** Before recording, check the facts (see below).
 
 | Runtime | Words | Shape | Family moments | French words |
 |---|---|---|---|---|
