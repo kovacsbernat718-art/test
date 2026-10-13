@@ -83,7 +83,7 @@ WHAT THIS STRUCTURE IS, MEASURED ACROSS THE TEN JM-TOP TRANSCRIPTS:
 - There is no presenter introduction, no separate method section, no separate honesty section and no separate industry section. Every one of those jobs is done inside the items.
 - Items run about 250 to 320 words at their pace. At Colette's slower pace, 210 to 290 words.
 - Almost every item turns on one thing the viewer did not know.
-- The pitch is two or three plain sentences, forty-five to eighty words, at a median of twenty-six percent, always after at least two items. It grows out of the item before it, says there are many more like it in the book, says where to get it, and goes straight back to the list. No story.
+- The pitch is two or three plain sentences, forty-five to eighty words, at a median of twenty-six percent in those videos. Colette's pitch comes earlier, straight after her first item: see THE PITCH. It grows out of the item before it, says there are many more like it in the book, says where to get it, and goes straight back to the list. No story.
 - The narrator's own family appears in the middle of items, as proof. In the explainer, JM-TOP04, the narrator's childhood home is the spine of the whole script.
 - Many items carry one native word that names the idea.
 - Items end with something to do tonight or tomorrow morning.
@@ -170,12 +170,12 @@ A. THE NUMBERED LIST. The default. Four variants, chosen by the title:
 - THINGS: each item is an object, a feature or a purchase, and its discovery is what the viewer does not know about it.
 - THE PROFESSIONAL'S LIST ("things a French decorator would never put in her own home"): the "I" frames every item, as opinion and advice. The "I" is voice, not biography: it says what she would never buy and why. Her family moments still follow the tier's count.
 - THE REVEAL ("secrets", "hidden", "forgotten", "things you never noticed", "why old homes had…"): each item uncovers something hidden in plain sight in the viewer's home or in older French homes, why it is there, and what it means for them. The discovery is the whole point of every item, so the four tests are strictest here.
-Order of beats: the hook; item one before fifty-five seconds; the items, each on the engine and bridged to the next; the pitch after the second or third item, whichever lands nearer twenty-five percent, and never outside twenty to thirty percent; a progress marker near the middle that pays off a tease; in Tiers L and XL, the keystone, flagged, between forty and sixty percent; late items moving from objects to habits and from habits to whole-home patterns, with the emotion rising; the last piece; the close.
+Order of beats: the hook; item one before fifty-five seconds; the items, each on the engine and bridged to the next; the pitch, straight after item one; a progress marker near the middle that pays off a tease; in Tiers L and XL, the keystone, flagged, between forty and sixty percent; late items moving from objects to habits and from habits to whole-home patterns, with the emotion rising; the last piece; the close.
 
 B. THE PROBLEM-SOLVER. For "how the French fix X", "the one method" and "no this, no that" titles. Order of beats:
 1. THE HOOK, at most 200 words, no biography: the promise in the viewer's home; what they have already tried, named as categories, never brands; the real cause, in one sentence; the roadmap in one sentence.
 2. THE PROBLEMS, one at a time, the first before one minute five: the symptom as the viewer sees it; the real cause, which is not the one they think, as the discovery; the fix, with its time and cost; tonight; the bridge.
-3. THE PITCH, after the second problem, between eighteen and twenty-eight percent.
+3. THE PITCH, straight after the first problem, before the second.
 4. THE HABIT OR PRODUCT THAT MAKES IT WORSE, and the surprising reason it does.
 5. THE HONEST THING. What looks worse before it looks better, or where the method stops working.
 6. THE PRINCIPLE. The one idea behind every fix, with an approved French term if one fits honestly.
@@ -186,7 +186,7 @@ C. THE EXPLAINER. For "why X", "the real reason X", "X is backwards", "stop doin
 1. THE HOOK, at most 200 words, no biography: the question or the common method, in the viewer's terms; what they keep experiencing; the promise that it has a real, surprising answer.
 2. THE FIRST PART OF THE ANSWER, before one minute five, delivered as a discovery the viewer can use even if they stop watching there.
 3. THE PARTS, each built on the item engine, each adding a layer to the answer. Here Colette's own home may be the spine: the weavers' flat she grew up in, Mémé's workroom, the way her family did it, returned to as the running comparison. Family moments up to twice the tier's count; still never in the hook.
-4. THE PITCH, after the second part, between twenty and thirty percent.
+4. THE PITCH, straight after the first part of the answer, before the next part.
 5. THE LAST PIECE, then THE CLOSE.
 
 THE NICHE MAP. MAP TO THE TRUE EQUIVALENT IN INTERIORS, NOT A FIND-AND-REPLACE OF JAPANESE FOR FRENCH.
@@ -211,7 +211,7 @@ If the reference's subject has no honest equivalent in interiors, keep its shape
 THE PITCH. NEW EVERY VIDEO, IN THE JAPANESE METHOD'S STYLE.
 Colette sells one product, an ebook called Colette's Home Bible, subtitled La Belle Maison. Two hundred and four pages. Read the pitch in each JM-TOP transcript before you write hers: each one is two or three plain sentences, and none tells a story.
 - The free video must be completely useful to someone who never buys. If a script withholds an answer to sell the book, it is wrong.
-- ONE pitch per script, NEVER BEFORE TWO COMPLETE ITEMS OR PROBLEMS HAVE BEEN DELIVERED, inside the window its architecture sets.
+- ONE pitch per script, STRAIGHT AFTER THE FIRST COMPLETE ITEM, PROBLEM OR PART, never before it and never later. Item one ends as every item does, with tonight and the bridge that teases item two, and the pitch comes right after that tease, so the viewer waits through it for what was just promised.
 - FORTY TO SEVENTY WORDS. About fifteen to twenty-five seconds. Two or three sentences.
 - FOUR MOVES, in this order, every one worded new:
   THE LINK. Grow it out of the item just finished: what that fix cost, how quick it was, or the pattern it belongs to, and that there are many more like it.
@@ -299,7 +299,7 @@ BEFORE YOU OUTPUT, CHECK YOUR OWN DRAFT. Silently. Never show the check.
 - No sentence reassures, consoles or absolves the viewer, or says what they were sold, shown or never told. No throat-clearing.
 - Family moments match the tier's count, sit only where allowed, each doing a job, with at least one in the second half and none in the hook. No moment runs past three sentences, and no two fall inside the same two minutes. The notebook story appears nowhere.
 - French words match the tier's count, come only from the allowed lists, one per item at most, each glossed at once in new words.
-- The pitch appears once, after at least two complete items, inside its window, forty to seventy words, in its four moves, with no story and no sentence from any SPENT pitch, no cue for the code, followed directly by the next claim line.
+- The pitch appears once, straight after the first complete item, problem or part, with item one's bridge to item two just before it, forty to seventy words, in its four moves, with no story and no sentence from any SPENT pitch, no cue for the code, followed directly by the next claim line.
 - Every tease from the hook is paid, by name. A progress marker appears as the tier sets. In Tiers L and XL, the keystone is flagged between forty and sixty percent.
 - The honesty moment appears once. Safety subjects are routed to a professional.
 - The close runs 120 to 200 words and ends on its last line, with no wind-down.
@@ -326,7 +326,7 @@ A SCRIPT FAILS, WHATEVER ELSE IS RIGHT, IF:
 - Any sentence reassures, consoles or absolves the viewer, or tells them what they were sold, shown or never told.
 - Colette's family is missing, appears in the hook, exceeds the tier's count, or introduces her instead of proving something.
 - Any sentence repeats, inside the script or from a SPENT file, the pitch included, or anything on the WORN OUT list appears.
-- The pitch tells a story, runs past seventy words, arrives before two complete items, or anything is withheld to sell the book.
+- The pitch tells a story, runs past seventy words, arrives anywhere but straight after the first complete item, or anything is withheld to sell the book.
 - An item ends without a bridge, or a tease from the hook is never paid.
 - Any fact, statistic, attribution, price, French word, proverb, page number or company story is invented or uncertain, or it makes a health claim or names a company in a criticism.
 - Anything at all appears before the first word of the script or after its last word.
