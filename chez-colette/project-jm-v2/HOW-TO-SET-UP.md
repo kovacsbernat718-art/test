@@ -82,7 +82,7 @@ Use the COUNT opening. Write the full script.
 | Facts like the 2002 decree or Haussmann | 0:32 / 0:39 | **only inside a tip**, after the viewer has seen why it matters |
 | Family and background | 14 / 17 mentions, many up front | **3 short moments** (15 min), each inside a tip as proof, none in the first minute, the strongest one near the end |
 | French words | a few, in the intro | **3, spread across the tips**, from the approved list plus everyday words (brocante, vide-grenier, armoire, l'heure bleue, …) |
-| Book pitch | the same 75-word grandmother story, after **one** tip | **new every video**: 2–3 plain sentences in JM's style, **straight after the first tip** |
+| Book pitch | the same 75-word grandmother story, after **one** tip | **new every video**: 2–3 plain sentences in JM's style, **straight after the first tip**, ending with **one like-and-subscribe sentence** |
 | What each tip is built on | Colette's order: light, height, texture, colour | **one "I didn't know that" discovery** that's surprising, useful and clearly belongs in this video. No preset categories. |
 | Reassurance lines ("it's not your taste…", "nobody showed you…") | in the hook, items and close | **banned**, in any wording |
 | End of each tip | — | **one thing to do tonight, then a tease for the next tip** |
