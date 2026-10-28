@@ -77,12 +77,15 @@ Use the COUNT opening. Write the full script.
 
 | | Video 002 / 003 | **This project** |
 |---|---|---|
-| First tip starts at | 2:11 / 2:51 | **by 0:23**: a 55–70-word hook, then the shortest, strongest item on the list |
-| "My name is Colette…" block | 1:20 / 1:39 | **gone** |
+| First tip starts at | 2:11 / 2:51 | **by about 0:35**: a 90–110-word hook, then the shortest, strongest item on the list |
+| "My name is Colette…" block | 1:20 / 1:39 | **one or two sentences inside the hook** (25–40 words): her 14 years in Lyon's small rented flats, tied to the video, worded new every time |
 | Facts like the 2002 decree or Haussmann | 0:32 / 0:39 | **only inside a tip**, after the viewer has seen why it matters |
 | Family and background | 14 / 17 mentions, many up front | **3 short moments** (15 min), each inside a tip as proof, none in the first minute, the strongest one near the end |
-| French words | a few, in the intro | **3, spread across the tips**, from the approved list plus everyday words (brocante, vide-grenier, armoire, l'heure bleue, …) |
-| Book pitch | the same 75-word grandmother story, after **one** tip | **new every video**: 2–3 plain sentences in JM's style, **straight after the first tip**, ending with **one like-and-subscribe sentence** |
+| French words | a few, in the intro | **3, spread across the tips**, only from the approved list plus everyday words (brocante, vide-grenier, armoire, l'heure bleue, …); never dépôt-vente, débarras or anything else off the list |
+| Like and subscribe | inside the pitch | **on its own, straight after the first tip**: 15–30 words with a concrete reason |
+| Book pitch | the same 75-word grandmother story, after **one** tip | **new every video**: 35–60 words in JM's style, **on its own, straight after the second tip** |
+| Tip openings | "Second, retire the…", "Item five is a rule about…" | **"Number N:" + a plain name** the viewer understands at once |
+| How it sounds | long sentences, semicolons, few contractions | **written for the ear**: 12–16 words a sentence on average, none over 30, no semicolons, questions and Colette's reactions |
 | No filler | — | **every sentence does a job**: discovery, mechanism, a specific, the fix, Colette's own proof, tonight or the rehook |
 | What each tip is built on | Colette's order: light, height, texture, colour | **one "I didn't know that" discovery** that's surprising, useful and clearly belongs in this video. No preset categories. |
 | Reassurance lines ("it's not your taste…", "nobody showed you…") | in the hook, items and close | **banned**, in any wording |
