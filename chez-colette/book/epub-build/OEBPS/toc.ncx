@@ -65,13 +65,5 @@
       <navLabel><text>Thirty days, and the glossaries</text></navLabel>
       <content src="text/back.xhtml"/>
     </navPoint>
-    <navPoint id="np15" playOrder="15">
-      <navLabel><text>The Christmas Pages</text></navLabel>
-      <content src="text/christmas.xhtml"/>
-    </navPoint>
-    <navPoint id="np16" playOrder="16">
-      <navLabel><text>Colophon</text></navLabel>
-      <content src="text/colophon.xhtml"/>
-    </navPoint>
   </navMap>
 </ncx>

@@ -17,8 +17,8 @@ Works identically on Netlify, Vercel or Cloudflare Pages — drag the folder in,
 |---|---|
 | **Pages / Reflow** | Two reading modes. *Pages* shows true A4 spreads, scaled to fit any screen. *Reflow* drops the fixed page and sets the text at 16px for comfortable phone reading. Defaults to Reflow under 820px and Pages above, and remembers the choice. |
 | **Contents** | Slide-out panel, jumps to any chapter. |
-| **Save as PDF** | Opens the browser print dialog. Prints as **228 exact A4 pages** from either mode — the reader chrome is hidden and the true page geometry is restored. |
-| **Page counter** | Live folio, `12 / 228`, from the book's own page numbers. |
+| **Save as PDF** | Opens the browser print dialog. Prints as **204 exact A4 pages** from either mode — the reader chrome is hidden and the true page geometry is restored. |
+| **Page counter** | Live folio, `12 / 204`, from the book's own page numbers. |
 | **Progress bar** | Under the top bar. |
 | **Keyboard** | `←` `→` page, `Home` `End` jump, `c` contents, `r` switch mode, `Esc` close. |
 | **Resume** | Remembers the last page read, per browser. |
@@ -40,11 +40,9 @@ Front matter · **Part One — How to Read a Room** (pp. 5–20) · **Part Two �
 **Part Three — Colour** (pp. 45–84) · **Part Four — Height and Proportion** (pp. 85–104) ·
 **Part Five — Texture and Material** (pp. 105–124) · **Part Six — The Rented Room** (pp. 125–144) ·
 **Part Seven — Room by Room** (pp. 145–164) · **The Measurements** (pp. 165–180) ·
-**The Room Audit** (pp. 181–188) · **What Not to Buy** (pp. 189–196) · back matter (pp. 197–203) ·
-**The Christmas Pages**, a supplement (pp. 204–227) · colophon (p. 228)
+**The Room Audit** (pp. 181–188) · **What Not to Buy** (pp. 189–196) · back matter (pp. 197–204)
 
-The book is complete at 228 pages. Pages 1–203 have kept their numbers since the first edition,
-because the films cite them; the Christmas pages were added after the back matter.
+The book is complete at 204 pages.
 
 ## Rebuilding
 

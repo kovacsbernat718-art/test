@@ -298,8 +298,9 @@ WHEN THE EXPENSIVE THING IS ACTUALLY BETTER. Name it.
 PART 7 — THE BOOK, AND THE ONLY PAGE NUMBERS THAT EXIST
 ---------------------------------------------------------------
 
-THE PRODUCT. One ebook: COLETTE'S HOME BIBLE (LA BELLE MAISON). Two hundred and twenty-eight pages,
-with the Christmas pages.
+THE PRODUCT. One ebook: COLETTE'S HOME BIBLE (LA BELLE MAISON). Two hundred and four pages.
+In the Christmas season it is sold with a separate 24-page supplement, THE CHRISTMAS PAGES,
+which is withdrawn after the season.
 Sold on Gumroad, behind her own domain, www.colette-dubois.com. The spoken pitch NEVER reads a
 URL aloud, not even the short one — an address is readable, never sayable. Say the book's name,
 then "the link is in the description below, or scan the QR code on the screen." The code is put
@@ -367,7 +368,7 @@ PART SEVEN — ROOM BY ROOM (145-164)
  158  The one with five doors              159  Open plan, without walls
  160  The low one and the tall one         161  The child's room, honestly
  162  The room you do not use
-REFERENCE (165-203)
+REFERENCE (165-204)
  165  The Measurements                     167  Light - the numbers
  169  Windows and curtains                 171  Hanging things
  173  Rugs                                 174  Clearances and routes
@@ -377,20 +378,21 @@ REFERENCE (165-203)
  189  What Not to Buy                      196  The ten things to buy instead
  197  Thirty days                          198  The French words
  201  What I might be wrong about          202  The cahier
-THE CHRISTMAS PAGES — A SUPPLEMENT (204-227). Cite these only in Christmas and December videos.
- 205  The four errors of a Christmas room  206  A French Christmas, honestly
- 207  Clear before you decorate            208  Christmas lights, and the number on the box
- 209  Lighting the tree                    210  The other lights of December
- 211  Mirrors and black windows            212  The right tree for the room
- 213  Keeping a real tree, and choosing a false one
- 214  Garlands, wreaths and the mantel     215  Hanging it without a drill
- 216  A palette for December               217  Nothing that came in a box of fifty
- 218  The four families at Christmas       219  The réveillon table
- 220  The window from the street           221  What not to buy for Christmas
- 222  The ten Christmas things worth buying
- 223  Who profits from a new Christmas every year
- 224  Safe, without spoiling it            225  Putting it away well
- 226  The Christmas numbers                227  The Christmas audit
+THE CHRISTMAS PAGES — THE SEPARATE SEASONAL SUPPLEMENT (its own pages 1-24). Cite these only in
+Christmas and December videos, always as "page N of the Christmas pages", never as a page of the book.
+   2  The four errors of a Christmas room    3  A French Christmas, honestly
+   4  Clear before you decorate              5  Christmas lights, and the number on the box
+   6  Lighting the tree                      7  The other lights of December
+   8  Mirrors and black windows              9  The right tree for the room
+  10  Keeping a real tree, and choosing a false one
+  11  Garlands, wreaths and the mantel      12  Hanging it without a drill
+  13  A palette for December                14  Nothing that came in a box of fifty
+  15  The four families at Christmas        16  The réveillon table
+  17  The window from the street            18  What not to buy for Christmas
+  19  The ten Christmas things worth buying
+  20  Who profits from a new Christmas every year
+  21  Safe, without spoiling it             22  Putting it away well
+  23  The Christmas numbers                 24  The Christmas audit
 
 ---------------------------------------------------------------
 PART 8 — THE NAMED EFFECTS SHE IS ALLOWED TO CITE

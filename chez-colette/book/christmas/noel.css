@@ -1,0 +1,81 @@
+/* The Christmas Pages: the book's typography, in December colours.
+   Pine, cranberry and gold on a warm cream page, so a reader knows at a
+   glance which pages these are. Loaded after the book's own stylesheet. */
+:root{
+  --plaster:#F7F1E6;
+  --paper:#FCF8F0;
+  --ochre:#B98A2E;
+  --rule:#DCCFB8;
+  --sage:#5E7F6B;
+  --sage-deep:#2F5A45;
+  --pine:#1E4A38;
+  --pine-deep:#12322A;
+  --berry:#9E2A2B;
+  --gold:#C9A24A;
+}
+html,body{background:#2b2a26}
+
+/* every content page: a thin cranberry-and-gold band at the top, a sprig in the corner */
+.page:not(.page--dark)::before{
+  content:"";position:absolute;left:0;right:0;top:0;height:3.2mm;
+  background:
+    linear-gradient(var(--gold),var(--gold)) 0 3.2mm/100% .5mm no-repeat,
+    repeating-linear-gradient(135deg,var(--berry) 0 6mm,#B23A33 6mm 12mm);
+}
+.page:not(.page--dark)::after{
+  content:"";position:absolute;left:21mm;top:9.5mm;width:15mm;height:9mm;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 36'%3E%3Cg fill='none' stroke='%231E4A38' stroke-width='1.6' stroke-linecap='round'%3E%3Cpath d='M4 30 Q30 8 56 6'/%3E%3Cpath d='M14 23 l-4 -8 M14 23 l6 4 M24 17 l-3 -9 M24 17 l7 3 M35 12 l-2 -8 M35 12 l8 2 M46 8 l-1 -6 M46 8 l7 1'/%3E%3C/g%3E%3Cg fill='%239E2A2B'%3E%3Ccircle cx='9' cy='29' r='2.6'/%3E%3Ccircle cx='14' cy='31' r='2.6'/%3E%3Ccircle cx='11' cy='25' r='2.6'/%3E%3C/g%3E%3C/svg%3E") no-repeat left top/contain;
+}
+
+/* headings and labels */
+.rh{color:var(--pine)}
+.kicker{color:var(--berry)}
+.page-title{color:var(--pine-deep)}
+.section-head{color:var(--pine)}
+.lead{color:#2A2622}
+.footer{border-top:.6pt solid var(--gold);color:var(--pine)}
+.folio{color:var(--berry)}
+
+/* callouts */
+.callout--rule{border-left-color:var(--berry);background:#FBF5EA}
+.law-name{color:var(--berry)}
+.callout--warning{border-color:var(--berry)}
+.callout--warning .callout-label{color:var(--berry)}
+.callout--meme{background:var(--pine)}
+.callout--meme .callout-label{color:var(--gold)}
+.pullquote{border-top-color:var(--gold);color:var(--pine-deep)}
+
+/* lists, tables, rows */
+.steps li::before{color:var(--berry)}
+.table th{color:var(--pine);border-bottom-color:var(--pine)}
+.measure-row{border-bottom-color:var(--rule)}
+.measure-row__value{color:var(--pine-deep)}
+.checklist li::before{border-color:var(--pine)}
+.field-line{border-bottom-color:var(--pine)}
+.field-label{color:var(--pine)}
+.page--worksheet{background:var(--paper)}
+
+/* the cover: deep pine, falling gold dots, a star and a sprig */
+.page--dark{background:var(--pine-deep)}
+.cover-noel{
+  background:
+    radial-gradient(circle at 18% 12%,rgba(201,162,74,.55) 0 .5mm,transparent .6mm),
+    radial-gradient(circle at 74% 8%,rgba(242,238,229,.45) 0 .4mm,transparent .5mm),
+    radial-gradient(circle at 88% 30%,rgba(201,162,74,.5) 0 .45mm,transparent .55mm),
+    radial-gradient(circle at 62% 22%,rgba(242,238,229,.35) 0 .35mm,transparent .45mm),
+    radial-gradient(circle at 82% 62%,rgba(242,238,229,.4) 0 .4mm,transparent .5mm),
+    radial-gradient(circle at 94% 84%,rgba(201,162,74,.5) 0 .5mm,transparent .6mm),
+    radial-gradient(circle at 70% 90%,rgba(242,238,229,.35) 0 .35mm,transparent .45mm),
+    linear-gradient(160deg,#173F31 0%,var(--pine-deep) 55%,#0E2820 100%);
+  border-top:4mm solid var(--berry);
+}
+.cover-noel .noel-mark{width:30mm;height:30mm;margin:0 0 9mm}
+.cover-noel .part-label{color:var(--gold)}
+.cover-noel .part-title{color:#F7F1E6}
+.cover-noel .part-blurb{color:rgba(247,241,230,.86)}
+.cover-noel .part-contents{border-top-color:rgba(201,162,74,.6)}
+.cover-noel .part-contents li{color:rgba(247,241,230,.8)}
+.cover-noel .footer{border-top-color:rgba(201,162,74,.5);color:rgba(247,241,230,.6)}
+.cover-noel .folio{color:var(--gold)}
+.noel-note{font-family:var(--body);font-size:8.6pt;line-height:1.45;max-width:110mm;
+  color:rgba(247,241,230,.62);margin:8mm 0 0;font-style:italic}

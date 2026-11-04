@@ -3,7 +3,7 @@
 
     python3 build-epub.py
 
-The print edition is 228 fixed A4 pages; an EPUB has no pages at all, so the
+The print edition is 204 fixed A4 pages; an EPUB has no pages at all, so the
 conversion does three things that matter:
 
   * drops the page box, the running heads and the folios, and lets the text flow;
@@ -48,9 +48,7 @@ CHAPTERS = [
     ((165, 180), "ref1",      "Reference - The Measurements"),
     ((181, 188), "ref2",      "Reference - The Room Audit"),
     ((189, 196), "ref3",      "Reference - What Not to Buy"),
-    ((197, 203), "back",      "Thirty days, and the glossaries"),
-    ((204, 227), "christmas", "The Christmas Pages"),
-    ((228, 228), "colophon",  "Colophon"),
+    ((197, 204), "back",      "Thirty days, and the glossaries"),
 ]
 
 ENTS = {"nbsp": " ", "mdash": "—", "ndash": "–", "middot": "·",

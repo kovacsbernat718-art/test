@@ -58,8 +58,6 @@
     <item id="ref2" href="text/ref2.xhtml" media-type="application/xhtml+xml"/>
     <item id="ref3" href="text/ref3.xhtml" media-type="application/xhtml+xml"/>
     <item id="back" href="text/back.xhtml" media-type="application/xhtml+xml"/>
-    <item id="christmas" href="text/christmas.xhtml" media-type="application/xhtml+xml" properties="svg"/>
-    <item id="colophon" href="text/colophon.xhtml" media-type="application/xhtml+xml"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="cover" linear="yes"/>
@@ -78,7 +76,5 @@
     <itemref idref="ref2" linear="yes"/>
     <itemref idref="ref3" linear="yes"/>
     <itemref idref="back" linear="yes"/>
-    <itemref idref="christmas" linear="yes"/>
-    <itemref idref="colophon" linear="yes"/>
   </spine>
 </package>
