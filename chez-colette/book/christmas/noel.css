@@ -22,7 +22,7 @@ html,body{background:#2b2a26}
     linear-gradient(var(--gold),var(--gold)) 0 3.2mm/100% .5mm no-repeat,
     repeating-linear-gradient(135deg,var(--berry) 0 6mm,#B23A33 6mm 12mm);
 }
-.page:not(.page--dark)::after{
+.page:not(.page--dark):not(.cover)::after{
   content:"";position:absolute;left:21mm;top:9.5mm;width:15mm;height:9mm;
   background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 36'%3E%3Cg fill='none' stroke='%231E4A38' stroke-width='1.6' stroke-linecap='round'%3E%3Cpath d='M4 30 Q30 8 56 6'/%3E%3Cpath d='M14 23 l-4 -8 M14 23 l6 4 M24 17 l-3 -9 M24 17 l7 3 M35 12 l-2 -8 M35 12 l8 2 M46 8 l-1 -6 M46 8 l7 1'/%3E%3C/g%3E%3Cg fill='%239E2A2B'%3E%3Ccircle cx='9' cy='29' r='2.6'/%3E%3Ccircle cx='14' cy='31' r='2.6'/%3E%3Ccircle cx='11' cy='25' r='2.6'/%3E%3C/g%3E%3C/svg%3E") no-repeat left top/contain;
 }
@@ -79,3 +79,26 @@ html,body{background:#2b2a26}
 .cover-noel .folio{color:var(--gold)}
 .noel-note{font-family:var(--body);font-size:8.6pt;line-height:1.45;max-width:110mm;
   color:rgba(247,241,230,.62);margin:8mm 0 0;font-style:italic}
+
+/* the book cover: the Home Bible's cover, dressed for December */
+.cover-noel-book{
+  background:
+    radial-gradient(circle at 16% 14%,rgba(201,162,74,.6) 0 .55mm,transparent .65mm),
+    radial-gradient(circle at 84% 10%,rgba(247,241,230,.45) 0 .45mm,transparent .55mm),
+    radial-gradient(circle at 90% 46%,rgba(201,162,74,.5) 0 .5mm,transparent .6mm),
+    radial-gradient(circle at 10% 58%,rgba(247,241,230,.4) 0 .4mm,transparent .5mm),
+    radial-gradient(circle at 22% 86%,rgba(201,162,74,.5) 0 .5mm,transparent .6mm),
+    radial-gradient(circle at 78% 90%,rgba(247,241,230,.4) 0 .4mm,transparent .5mm),
+    linear-gradient(165deg,#1A4434 0%,var(--pine-deep) 60%,#0D261E 100%);
+  color:#F7F1E6;
+}
+.cover-noel-book::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:3.2mm;
+  background:
+    linear-gradient(var(--gold),var(--gold)) 0 0/100% .5mm no-repeat,
+    repeating-linear-gradient(135deg,var(--berry) 0 6mm,#B23A33 6mm 12mm);
+}
+.cover-noel-book .cover-fr{color:#9DBBA8}
+.cover-noel-book .cover-hr{background:var(--gold)}
+.cover-noel-book .cover-sub{color:rgba(247,241,230,.86)}
+.cover-noel-book .cover-author{color:var(--gold)}

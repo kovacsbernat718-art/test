@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build The Christmas Pages, the seasonal supplement, as its own book.
+"""Build The Christmas Pages, the Christmas companion to the Home Bible, as its own book.
 
     python3 build-christmas.py      # writes christmas/the-christmas-pages.html
     node render-pdf.cjs christmas/the-christmas-pages.html christmas/The-Christmas-Pages.pdf
@@ -8,8 +8,8 @@
 
 It borrows the main book's fonts and stylesheet, so the typography matches,
 and lays christmas/noel.css over them for the December colours. Pages are
-numbered 1-24; references to the main book read "page NN of the book".
-Kept separate so the supplement can be withdrawn after the season without
+numbered 1-25, with the cover as page 1; references to the main book read "page NN of the book".
+Kept separate so the Christmas book can be withdrawn after the season without
 touching the Home Bible.
 """
 import pathlib
