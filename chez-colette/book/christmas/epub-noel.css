@@ -1,0 +1,23 @@
+
+/* ---------- The Christmas Pages: December colours over the book's styles ---------- */
+html{ background-color:#F7F1E6; color:#1C1B19; }
+body{ background-color:#F7F1E6; color:#1C1B19; }
+h1,h2,h3{ color:#12322A; }
+.kicker{ color:#9E2A2B; }
+.section-head{ color:#1E4A38; }
+section.pg + section.pg{ border-top-color:#C9A24A; }
+ol.steps > li::before{ color:#9E2A2B; }
+.callout--rule{ border-left:4px solid #9E2A2B; background-color:#FBF5EA; color:#1C1B19; }
+.law-name{ color:#9E2A2B; }
+.callout--warning{ border:1px solid #9E2A2B; background-color:#FBF5EA; color:#1C1B19; }
+.callout--warning .callout-label{ color:#9E2A2B; }
+.callout--meme{ background-color:#1E4A38; color:#F7F1E6; }
+.callout--meme p{ color:#F7F1E6; }
+.callout--meme .callout-label{ color:#C9A24A; }
+.pullquote{ border-top-color:#C9A24A; color:#12322A; }
+.measure-row__value{ color:#12322A; }
+th{ color:#1E4A38; border-bottom-color:#1E4A38; }
+.part-open{ border-bottom:3px solid #9E2A2B; }
+.part-label{ color:#9E2A2B; }
+.part-note{ font-size:0.9em; font-style:italic; color:#4A4740; margin:1em 0 0; }
+a{ color:#1E4A38; }

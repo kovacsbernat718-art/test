@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en-GB">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:9e2a2b1e-4a38-4c9a-8a24-12322a7f1e6d"/>
+    <meta name="dtb:depth" content="2"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle><text>The Christmas Pages</text></docTitle>
+  <docAuthor><text>Colette Dubois</text></docAuthor>
+  <navMap>
+    <navPoint id="np1" playOrder="1">
+      <navLabel><text>The Christmas Pages</text></navLabel>
+      <content src="text/opener.xhtml"/>
+    </navPoint>
+    <navPoint id="np2" playOrder="2">
+      <navLabel><text>Before you begin</text></navLabel>
+      <content src="text/begin.xhtml"/>
+    </navPoint>
+    <navPoint id="np3" playOrder="3">
+      <navLabel><text>Light, and the black window</text></navLabel>
+      <content src="text/light.xhtml"/>
+    </navPoint>
+    <navPoint id="np4" playOrder="4">
+      <navLabel><text>The tree, the garland and the wreath</text></navLabel>
+      <content src="text/height.xhtml"/>
+    </navPoint>
+    <navPoint id="np5" playOrder="5">
+      <navLabel><text>Colour and texture</text></navLabel>
+      <content src="text/texture.xhtml"/>
+    </navPoint>
+    <navPoint id="np6" playOrder="6">
+      <navLabel><text>The table and the window</text></navLabel>
+      <content src="text/table.xhtml"/>
+    </navPoint>
+    <navPoint id="np7" playOrder="7">
+      <navLabel><text>What to buy, what not, and putting it away</text></navLabel>
+      <content src="text/buying.xhtml"/>
+    </navPoint>
+    <navPoint id="np8" playOrder="8">
+      <navLabel><text>The Christmas numbers, and the audit</text></navLabel>
+      <content src="text/numbers.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

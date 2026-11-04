@@ -3,6 +3,8 @@
 
     python3 build-christmas.py      # writes christmas/the-christmas-pages.html
     node render-pdf.cjs christmas/the-christmas-pages.html christmas/The-Christmas-Pages.pdf
+    node render-cover.cjs christmas/the-christmas-pages.html christmas/epub-src/cover.jpg
+    python3 build-christmas-epub.py     # christmas/The-Christmas-Pages.epub
 
 It borrows the main book's fonts and stylesheet, so the typography matches,
 and lays christmas/noel.css over them for the December colours. Pages are
