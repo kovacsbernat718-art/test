@@ -6,7 +6,7 @@
     <meta name="dtb:totalPageCount" content="0"/>
     <meta name="dtb:maxPageNumber" content="0"/>
   </head>
-  <docTitle><text>The Christmas Pages</text></docTitle>
+  <docTitle><text>Colette's Christmas Decorating Guide</text></docTitle>
   <docAuthor><text>Colette Dubois</text></docAuthor>
   <navMap>
     <navPoint id="np1" playOrder="1">
@@ -14,7 +14,7 @@
       <content src="text/titlepage.xhtml"/>
     </navPoint>
     <navPoint id="np2" playOrder="2">
-      <navLabel><text>The Christmas Pages</text></navLabel>
+      <navLabel><text>Colette's Christmas Decorating Guide</text></navLabel>
       <content src="text/opener.xhtml"/>
     </navPoint>
     <navPoint id="np3" playOrder="3">

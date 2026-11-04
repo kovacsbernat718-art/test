@@ -3,7 +3,7 @@
          xml:lang="en-GB" prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">urn:uuid:9e2a2b1e-4a38-4c9a-8a24-12322a7f1e6d</dc:identifier>
-    <dc:title id="maintitle">The Christmas Pages</dc:title>
+    <dc:title id="maintitle">Colette's Christmas Decorating Guide</dc:title>
     <meta refines="#maintitle" property="title-type">main</meta>
     <dc:title id="subtitle">A Christmas companion to Colette's Home Bible</dc:title>
     <meta refines="#subtitle" property="title-type">subtitle</meta>

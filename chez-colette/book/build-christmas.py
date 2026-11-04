@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Build The Christmas Pages, the Christmas companion to the Home Bible, as its own book.
+"""Build Colette's Christmas Decorating Guide, the Christmas companion to the Home Bible, as its own book.
 
     python3 build-christmas.py      # writes christmas/the-christmas-pages.html
-    node render-pdf.cjs christmas/the-christmas-pages.html christmas/The-Christmas-Pages.pdf
+    node render-pdf.cjs christmas/the-christmas-pages.html christmas/Colettes-Christmas-Decorating-Guide.pdf
     node render-cover.cjs christmas/the-christmas-pages.html christmas/epub-src/cover.jpg
-    python3 build-christmas-epub.py     # christmas/The-Christmas-Pages.epub
+    python3 build-christmas-epub.py     # christmas/Colettes-Christmas-Decorating-Guide.epub
 
 It borrows the main book's fonts and stylesheet, so the typography matches,
 and lays christmas/noel.css over them for the December colours. Pages are
@@ -24,7 +24,7 @@ def main():
     src = BOOK.read_text()
     head = src[:src.index("<!-- ============ 1. COVER")]
     head = head.replace("<title>Colette's Home Bible</title>",
-                        "<title>The Christmas Pages — Colette's Home Bible</title>")
+                        "<title>Colette's Christmas Decorating Guide</title>")
     css = "<style>\n" + (DIR / "noel.css").read_text() + "</style>\n\n"
     pages = (DIR / "christmas-pages.html").read_text().strip()
     OUT.write_text(head + css + pages + "\n")

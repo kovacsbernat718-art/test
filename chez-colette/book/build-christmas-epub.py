@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build the reflowable EPUB of The Christmas Pages, the Christmas companion book.
+"""Build the reflowable EPUB of Colette's Christmas Decorating Guide, the Christmas companion book.
 
     python3 build-christmas.py          # the print HTML, first
-    python3 build-christmas-epub.py     # writes christmas/The-Christmas-Pages.epub
+    python3 build-christmas-epub.py     # writes christmas/Colettes-Christmas-Decorating-Guide.epub
 
 It runs build-epub.py's own machinery on the Christmas book, with four changes:
 its own title, cover and identifier; the December colours of
@@ -25,14 +25,14 @@ spec.loader.exec_module(be)
 be.SRC = DIR / "the-christmas-pages.html"
 be.SRCDIR = DIR / "epub-src"
 be.BUILD = DIR / "epub-build"
-be.OUT = DIR / "The-Christmas-Pages.epub"
+be.OUT = DIR / "Colettes-Christmas-Decorating-Guide.epub"
 be.UUID = "urn:uuid:9e2a2b1e-4a38-4c9a-8a24-12322a7f1e6d"
-be.TITLE = "The Christmas Pages"
+be.TITLE = "Colette's Christmas Decorating Guide"
 be.SUBTITLE = "A Christmas companion to Colette's Home Bible"
 be.PUBDATE = "2026-11-01T00:00:00Z"
 be.CHAPTERS = [
     ((1, 1),   "titlepage", "Title page"),
-    ((2, 2),   "opener",  "The Christmas Pages"),
+    ((2, 2),   "opener",  "Colette's Christmas Decorating Guide"),
     ((3, 5),   "begin",   "Before you begin"),
     ((6, 9),   "light",   "Light, and the black window"),
     ((10, 13), "height",  "The tree, the garland and the wreath"),
@@ -42,13 +42,13 @@ be.CHAPTERS = [
     ((24, 25), "numbers", "The Christmas numbers, and the audit"),
 ]
 be.COVER = be.COVER.replace("Colette's Home Bible - La Belle Maison",
-                            "The Christmas Pages - a Christmas companion to Colette's Home Bible")
+                            "Colette's Christmas Decorating Guide - a Christmas companion to Colette's Home Bible")
 be.NAV = be.NAV.replace('href="part1.xhtml"', 'href="begin.xhtml"')
 
 
 def pages_of(src):
     """The Christmas book's pages; its opener is an ordinary part opener to the EPUB."""
-    body = src[src.index("<!-- ============ THE CHRISTMAS PAGES"):]
+    body = src[src.index("<!-- ============ CHRISTMAS GUIDE"):]
     pages = re.findall(r'<section class="page.*?</section>', body, re.S)
     return [p.replace("page page--dark part cover-noel", "page page--dark part") for p in pages]
 
