@@ -196,8 +196,9 @@ THE BOOK MOMENT — Colette's Home Bible (La Belle Maison), woven in, never a pi
 - It is part of the teaching, not an advert. Shape: a useful sentence about what she cannot
   fit into the video → that it is written out in the book, named by the chapter's subject →
   why the book exists (the promise to Mémé Suzanne, her cahier)
-  in a few words → "the link is in the description below" → straight back to the point.
-  Two to four sentences in all.
+  in a few words → it always ends with exactly this sentence: "If you want it, you'll find
+  the link in the description, or you can scan the QR code on the screen." → straight back
+  to the point. Two to four sentences in all.
 - Optionally one short closing echo (one sentence) in the closing, in different words.
 - Never: in the opening, next to the CTA, more than two mentions in total, a URL read
   aloud, a price, "buy", "discount", "limited", "don't miss", or any pressure.
@@ -293,7 +294,8 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
 - "Change only one thing" point flagged around point 3–4
 - CTA right after point 3 in the given shape + re-entry sentence; no other CTA
 - Book moment once in the second half, woven into a point, 2–4 sentences, real chapter
-    topic, NO page numbers spoken, no URL, no pressure; at most one closing echo
+    topic, NO page numbers spoken, ends with the QR code sentence word for word, no URL,
+    no pressure; at most one closing echo
 - Closing: don't buy, open your cupboards, one errand, thesis, comment question, sign-off
 - No "label:" constructions; no beat phrased the same way twice
 - One or two laws, one to three glossed French terms, two or three family moments
