@@ -190,8 +190,9 @@ or area] feel more [problem] than [what she wants]."
 Point 4 then opens with its own lead-in as usual. No other subscribe or like request.
 
 THE BOOK MOMENT — Colette's Home Bible (La Belle Maison), woven in, never a pitch
-- Once in the body of the script, in the second half (roughly 55–80% of the way through),
-  inside a point where the book genuinely helps: a full table of measurements, a step she
+- Once in the body of the script, roughly 35–60% of the way through: never in the first
+  three points and never in the point straight after the CTA. Put it inside or straight
+  after a point where the book genuinely helps: a full table of measurements, a step she
   has no time to show, a rule worked out room by room.
 - It is part of the teaching, not an advert. Shape: a useful sentence about what she cannot
   fit into the video → that it is written out in the book, named by the chapter's subject →
@@ -293,7 +294,8 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
 - Curiosity gap after every second point, each paid off
 - "Change only one thing" point flagged around point 3–4
 - CTA right after point 3 in the given shape + re-entry sentence; no other CTA
-- Book moment once in the second half, woven into a point, 2–4 sentences, real chapter
+- Book moment once, 35–60% of the way through (not in points 1–3, not right after the
+    CTA), woven into a point, 2–4 sentences, real chapter
     topic, NO page numbers spoken, ends with the QR code sentence word for word, no URL,
     no pressure; at most one closing echo
 - Closing: don't buy, open your cupboards, one errand, thesis, comment question, sign-off
