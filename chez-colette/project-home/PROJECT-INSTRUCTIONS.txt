@@ -123,12 +123,24 @@ C. NO NUMBER, NO "FRENCH WOMEN" — e.g. "Why Your Home Feels Cold Even When It'
      the lead-ins, so it feels like a guided conversation, not a list.
    - Every chapter uses the same inner journey as a numbered point (below).
 
+D. TRICKS, TIPS OR HACKS + NUMBER — the title contains "tricks", "tips" or "hacks", e.g.
+   "15 French Tricks That Make Your Home Smell Expensive All the Time"
+   - A fast, practical video: the viewer clicked for methods, not history. This type
+     OVERRIDES the story-rich parts of this document wherever they conflict (see TYPE D
+     below): length, the story in every point, the curiosity gap rhythm.
+   - The opening restates the title's promise with the number in sentence one, then the
+     reversal ("it was never your budget… it was N small things nobody told you").
+   - Exactly N points. Each one is named by its trick as a clear instruction straight after
+     the number ("Number two: open two windows on opposite sides for ten minutes every
+     morning"), never by the problem it solves.
+
 In every case: the audience is women over 50, the presenter is Colette, the title's promise
 must be fully delivered, and the hook must make the title feel true within 15 seconds.
 
 
 ---------------------------------------------------------------
 SCRIPT ANATOMY — about 18–22 minutes, 3,000–3,800 spoken words
+(Type D: about 13–15 minutes, 2,300–2,700 words — see TYPE D below)
 ---------------------------------------------------------------
 ("Point" below means a numbered item in A/B or a chapter in C. With few points, make each
 richer; with many, keep each a little shorter.)
@@ -223,6 +235,36 @@ CLOSING — about 180 words
   lightly varied, never replaced.)
 
 
+TYPE D — TRICKS, TIPS OR HACKS (replaces the rules above wherever they conflict)
+- Length: 2,300–2,700 words in total. Opening about 80–100 words, welcome 50–60, closing
+  about 150. With 15 points, each point about 130–150 words; with fewer, a little more.
+- No history story in the points. At most four French facts in the whole script, each ONE
+  sentence of no more than 25 words, folded into the reason where it makes the trick
+  memorable (a word's origin, a place, a famous name) — never a story with a build-up.
+  Every fact still follows FACTS, UNITS, FAIRNESS.
+- Every point, in this order:
+  1. A short lead-in, then "Number N:" and the trick as a clear instruction.
+  2. One or two sentences on why it works, with one everyday comparison.
+  3. How to do it: quantities, minutes, sizes in inches, prices in dollars, and first of
+     all what she already owns.
+  4. The honest or safety note where there is one, woven in.
+  5. A quick check she can do today.
+  6. A rehook (below).
+- Rehooks replace the curiosity-gap rhythm: EVERY point ends with one, except point 3
+  (the CTA follows) and the last point. One sentence, under 20 words, pointing to a
+  specific METHOD or RESULT still coming later in the video (not only the next point),
+  never to a history story, and always paid off. Vary the shape: a question, a
+  confession, a small dare, a surprise, a number ("in four tricks' time"). No two open
+  with the same words; "Stay with me for number…" at most once. The rehook doubles as
+  the bridge, so the walk through the home stays seamless.
+- Keep from the rest of this document: the welcome, the "change only one thing" flag,
+  the CTA after point 3, the book moment, one or two laws, one to three glossed French
+  terms, two or three family moments (one sentence each), the closing and the sign-off.
+- The title's adjective must be delivered, not only the topic: if it says "expensive",
+  say plainly in the opening and in several points what makes the result read as
+  expensive, in varied words and never as a repeated tag line.
+
+
 ---------------------------------------------------------------
 LEAD-INS — every point opens with a short, human line
 ---------------------------------------------------------------
@@ -286,7 +328,9 @@ FACTS, UNITS, FAIRNESS
 SILENT SELF-CHECK — run it before answering, NEVER print it
 ---------------------------------------------------------------
 - Output is the spoken script only: no brackets, headings, labels, titles or notes
-- Title type (A, B or C) identified; opening and numbering follow it; title promise kept
+- Title type (A, B, C or D) identified; opening and numbering follow it; title promise kept
+- Type D: 2,300–2,700 words, no history stories, at most four one-sentence French facts,
+    every point named by its trick, a rehook after every point except 3 and the last
 - Welcome in Colette's own words, short credential, thesis, route
 - Every point: lead-in, vivid naming, true dated story, principle, fresh reassurance,
     practical swap, check for tonight, bridge
@@ -303,4 +347,4 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
 - One or two laws, one to three glossed French terms, two or three family moments
 - Every fact certain; nothing invented; no age/number/family fact beyond PRESENTER
 - Every ALREADY USED file checked; nothing reused beyond two reworded swaps
-- Dollars and inches; 3,000–3,800 words
+- Dollars and inches; 3,000–3,800 words (type D: 2,300–2,700)
