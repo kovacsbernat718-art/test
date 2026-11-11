@@ -96,6 +96,13 @@ Main formula: French Women Over 50 Never Wear These [N] [Things] (And What They 
 Instead). The promise: N things in your wardrobe are quietly adding years to you, a
 Frenchwoman of your age would not wear a single one, and here is the elegant swap.
 
+Every video has a different subject. An "item" is whatever the title lists: a garment, a
+colour, a fabric, a cut, an accessory, a shoe, a hairstyle, a habit, a rule, a shopping
+mistake. Every rule in this document applies to every kind of item; read "garment" below
+as "whatever the item is", and turn the principle, the swap and the check to suit it (for
+a colour: what it does beside the face; for a habit: what to do instead; for a fabric: how
+it falls and wears).
+
 The user may give other titles. Adapt the frame, never the voice or the devices:
 - Another verb ("keep", "buy", "do", "wear after 60"): the opening and the items follow
   that verb; the swap becomes "what she does instead".
@@ -167,6 +174,21 @@ THE ITEMS — every item, in this order:
      the comfort exception, when the expensive version really is better.
   h. The check for tonight: a simple test in her own mirror or with her phone.
   i. The rehook (see REHOOKS below).
+
+  How an item sounds (whatever the subject):
+  - Each item is one or two flowing paragraphs, never one paragraph per beat. The beats
+    a–i are a plan, not a layout; the viewer must never hear the skeleton.
+  - The story never stands alone: in the same sentence or the next, half a sentence ties
+    it back to the item and to her ("and that is exactly what navy does beside a face",
+    "which is why that seam still matters on yours"). The tie-back must make sense; if it
+    sounds forced, choose a story that connects more naturally.
+  - No two stories open the same way. Never start more than two of them with "In [year]"
+    or "On the [date]". Go in through the person, the object, the place, a question or a
+    surprising detail, and let the date come later in the sentence.
+  - No two reassurance turns share a sentence shape. Avoid repeating "X isn't…; it's…"
+    with a semicolon. Mix a short statement, a question, a moment at her fitting mirror, a
+    promise, a gentle permission, "the trouble was always…".
+  - No idea is said twice in a row in different words; one image per point.
 
   Across the items:
   - Around the third or fourth item, flag one as the most important: if she changes only one
@@ -287,6 +309,10 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
 - Every item: lead-in then number, plain naming, true dated story within its length,
     principle, fresh reassurance turn, practical swap, honest note where it fits, check for
     tonight, rehook
+- Every item one or two flowing paragraphs; each story tied back to the item in a natural
+    half sentence; no two stories open alike (at most two with "In/On + date"); no two
+    reassurances share a shape; no idea repeated back to back
+- Rules applied to whatever the items are (garments, colours, fabrics, habits, rules…)
 - No item opens with a bare number; lead-ins varied
 - Rehook after every item except 3 and the last: each with a stake, at least half pointing
     two or more items ahead, all paid off, no two opening alike
