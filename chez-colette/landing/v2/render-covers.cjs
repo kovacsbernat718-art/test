@@ -8,7 +8,7 @@ const BOOK = path.join(__dirname, '..', '..', 'book');
   const b = await chromium.launch();
   for (const [src, out, q] of [
     [path.join(BOOK, 'colettes-home-bible.html'), 'cover-home-bible.jpg', 80],
-    [path.join(BOOK, 'christmas', 'the-christmas-pages.html'), 'cover-christmas.jpg', 80],
+    [path.join(BOOK, 'christmas', 'the-christmas-pages.html'), 'cover-christmas.jpg', 68],
   ]) {
     const p = await b.newPage({ viewport: { width: 794, height: 1123 }, deviceScaleFactor: 520 / 794 });
     await p.goto('file://' + src);

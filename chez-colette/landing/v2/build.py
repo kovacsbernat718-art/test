@@ -19,6 +19,8 @@ import base64
 import pathlib
 import re
 
+import rooms
+
 HERE = pathlib.Path(__file__).parent
 LANDING = HERE.parent
 ASSETS = HERE / "assets"
@@ -44,6 +46,7 @@ def data_uri(path, mime):
 
 def fill(t):
     t = t.replace("{{win}}", WIN).replace("{{winbig}}", WIN).replace("{{tick}}", TICK)
+    t = t.replace("{{rooms}}", rooms.html())
     t = re.sub(r"\{\{font:([\w-]+)\}\}", lambda m: data_uri(next(d / (m.group(1) + ".woff2") for d in (ASSETS, FONTS) if (d / (m.group(1) + ".woff2")).exists()), "font/woff2"), t)
     t = re.sub(r"\{\{img:([\w-]+)\}\}", lambda m: data_uri(ASSETS / (m.group(1) + ".jpg"), "image/jpeg"), t)
     assert "{{" not in t, "an unfilled placeholder survived"
