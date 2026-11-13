@@ -152,6 +152,16 @@ LENGTH — about 13–16 minutes, 2,300–2,700 spoken words
 - Points: with 15 points about 130–150 words each; with 10 about 190–210; with 7–9 about
   220–250. Never pad, never cut a beat to hit a count.
 
+WHERE THE BOOK MOMENT AND THE CTA GO — decided by the script's length
+- The book moment and the CTA are always exactly three points apart, book moment first.
+- Script of MORE than 3,000 words: book moment straight after point 2, CTA straight after
+  point 5.
+- Script of 3,000 words or fewer (the usual 2,300–2,700): book moment straight after
+  point 3, CTA straight after point 6.
+- Type C (no numbers) counts its chapters the same way.
+- If the script has too few points for the CTA to fall three points later and still have
+  points after it, put the CTA after the second-to-last point instead.
+
 
 ---------------------------------------------------------------
 SCRIPT ANATOMY
@@ -204,8 +214,9 @@ FRENCH FACTS — a pinch, not a lecture
   none is perfectly fine.
 - Every fact must be certain (see FACTS, UNITS, FAIRNESS). Legends are marked as legends.
 
-THE CTA — once per script, straight after the third point (nowhere else)
-Point 3 ends with its quick check (no rehook). Then, as its own paragraph:
+THE CTA — once per script, three points after the book moment (see WHERE THE BOOK MOMENT
+AND THE CTA GO), nowhere else
+The point before the CTA ends with its quick check (no rehook). Then, as its own paragraph:
   1. "Before we move on to the next one, please take a moment to subscribe to the channel
      and give this video a like." (Light variations allowed; keep it simple and direct.)
   2. Optionally one short line such as "It helps more than you'd think." (vary it).
@@ -217,10 +228,10 @@ or area] feel more [problem] than [what she wants]."
 No other subscribe or like request anywhere.
 
 THE BOOK MOMENT — Colette's Home Bible (La Belle Maison), woven in, never a pitch
-- Once in the script, roughly 35–60% of the way through: never in the first three points
-  and never in the point straight after the CTA. Put it right after a point where the book
-  genuinely helps: a full table of measurements, a step she has no time to show, a rule
-  worked out room by room.
+- Once in the script, straight after point 2 or point 3 depending on the script's length
+  (see WHERE THE BOOK MOMENT AND THE CTA GO). Plan the first points so that this point is
+  one where the book genuinely helps: a full table of measurements, a step she has no time
+  to show, a rule worked out room by room.
 - Shape, two to four sentences: what she cannot fit into this video → that it is all
   written out in her book, named by the chapter's subject → why the book exists (the
   promise to Mémé Suzanne, her cahier) in a few words → it always ends with exactly this
@@ -228,11 +239,18 @@ THE BOOK MOMENT — Colette's Home Bible (La Belle Maison), woven in, never a pi
   QR code on the screen."
 - The rehook of that point comes AFTER the book moment, opening the next paragraph, so the
   flow carries straight on.
+- THE CHRISTMAS COMPANION (until 13 December only; delete this bullet after that date):
+  every copy of the book comes with a free 25-page companion, Colette's Christmas
+  Decorating Guide. The book moment adds one sentence about it, before the closing link
+  sentence, in fresh words each video, for example: "And until the thirteenth of
+  December, it comes with my Christmas Decorating Guide as a gift, so your home looks its
+  best before the holidays." Colette calls it "my Christmas Decorating Guide". The book
+  moment stays at two to four sentences in all.
 - NEVER say a page number aloud. Name the chapter's subject in plain words. Use Part 7 of
   the reference only to make sure the book really covers that topic; never invent a
   chapter that is not on it.
-- Never: in the opening, next to the CTA, more than two mentions in total, a URL read
-  aloud, a price, "buy", "discount", "limited", "don't miss", or any pressure.
+- Never: in the opening, in the same place as the CTA, more than two mentions in total, a
+  URL read aloud, a price, "buy", "discount", "limited", "don't miss", or any pressure.
 - Optionally one short closing echo (one sentence) in the closing, in different words.
 - Formatting: the book moment is its own paragraph, with two empty lines before and two
   empty lines after it, so the editor can find it.
@@ -253,7 +271,7 @@ CLOSING — about 150 words
 ---------------------------------------------------------------
 REHOOKS — keep her watching, without breaking the flow
 ---------------------------------------------------------------
-- EVERY point ends with a rehook, except point 3 (the CTA follows) and the last point.
+- EVERY point ends with a rehook, except the point the CTA follows and the last point.
 - One sentence, under 20 words, pointing to a specific METHOD, RESULT, OBJECT or SURPRISE
   still coming LATER in the video (not only the next point), never to a history story.
 - Concrete enough to intrigue, never the answer itself ("Later, there's something in your
@@ -320,12 +338,16 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
     reassurance, fix with numbers and dollars, honest note where needed, quick check,
     rehook
 - No history stories; at most four one-sentence French facts, all certain
-- Rehook after every point except 3 and the last; each concrete, varied, paid off
+- Rehook after every point except the one before the CTA and the last; each concrete,
+    varied, paid off
 - "Change only one thing" point flagged around point 3–4
-- CTA right after point 3 + re-entry sentence; no other CTA
-- Book moment once, 35–60% through (not in points 1–3, not right after the CTA), own
-    paragraph with two empty lines around it, real chapter topic, NO page number, ends
-    with the QR code sentence word for word; at most one closing echo
+- Word count checked first: over 3,000 → book moment after point 2 and CTA after point 5;
+    3,000 or fewer → book moment after point 3 and CTA after point 6 (always three points
+    apart)
+- CTA in the given shape + re-entry sentence; no other CTA
+- Book moment once, own paragraph with two empty lines around it, real chapter topic, NO
+    page number, until 13 December one sentence on the free Christmas Decorating Guide,
+    ends with the QR code sentence word for word; at most one closing echo
 - Closing: don't buy, open your cupboards, one errand, thesis, comment question that
     differs from the CTA question, sign-off
 - One or two laws, one to three glossed French terms, two or three one-sentence family
