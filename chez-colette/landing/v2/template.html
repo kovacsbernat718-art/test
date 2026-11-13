@@ -9,6 +9,8 @@
 @font-face{font-family:"Bodoni Moda";font-style:normal;font-weight:400;font-display:swap;src:url({{font:bodoni-400}}) format("woff2")}
 @font-face{font-family:"Bodoni Moda";font-style:italic;font-weight:400;font-display:swap;src:url({{font:bodoni-400i}}) format("woff2")}
 @font-face{font-family:"Archivo";font-style:normal;font-weight:600;font-display:swap;src:url({{font:archivo-600}}) format("woff2")}
+@font-face{font-family:"Archivo";font-style:normal;font-weight:800;font-display:swap;src:url({{font:archivo-800}}) format("woff2")}
+@font-face{font-family:"Bodoni Moda";font-style:normal;font-weight:600;font-display:swap;src:url({{font:bodoni-600}}) format("woff2")}
 :root{
   --cov-hb:url({{img:cover-home-bible}});
   --cov-xm:url({{img:cover-christmas}});
@@ -319,6 +321,14 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
   html.io [data-reveal]{opacity:1;transform:none}
   .win .shut{animation:none}.win .pane{animation:none;opacity:1}
 }
+
+/* ---- easier to read: heavier buy buttons and prices ---- */
+.btn-gold{font-weight:800;letter-spacing:.06em}
+.btn-gold [data-gumroad-field="price"]{font-weight:800;font-size:1.12em;letter-spacing:.02em}
+.btn-lg{font-size:1.02rem}
+.price{font-weight:600}
+.cta-sub b,.cta-sub b span{color:var(--ink);font-weight:800;font-size:1.1em}
+@media(max-width:560px){.bar .btn{font-size:.8rem}.btn-lg{font-size:.95rem}}
 </style>
 </head>
 <body>
@@ -338,7 +348,7 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
       <a href="#colette">The author</a>
       <a href="#faq">Questions</a>
     </nav>
-    <a class="btn btn-gold" data-gumroad-action="buy"><span class="long">Get the book &mdash;&nbsp;</span><span data-gumroad-field="price">$27</span></a>
+    <a class="btn btn-gold" data-gumroad-action="buy"><span class="long">Get the book &mdash;&nbsp;</span><span data-gumroad-field="price">$12.99</span></a>
   </div>
 </div>
 
@@ -357,10 +367,10 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
       <p class="deck">Make any room look expensive <em class="acc">without buying anything new.</em></p>
       <p class="byline">Every ordinary room has three or four fixable errors. Learn to see them.</p>
       <div class="cta-row">
-        <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get instant access &mdash; <span data-gumroad-field="price">$27</span></a>
+        <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get instant access &mdash; <span data-gumroad-field="price">$12.99</span></a>
         <a class="btn btn-ghost btn-lg" href="#inside">See what&rsquo;s inside first</a>
       </div>
-      <p class="cta-sub">Instant PDF and EPUB &middot; <b><span data-gumroad-field="price">$27</span></b> &middot; 7-day money back, and you keep the book</p>
+      <p class="cta-sub">Instant PDF and EPUB &middot; <b><span data-gumroad-field="price">$12.99</span></b> &middot; 7-day money back, and you keep the book</p>
       <!--XMAS--><p class="xmas-line"><b>Until 31 December:</b> <em>Colette&rsquo;s Christmas Decorating Guide</em>, a 25-page Christmas companion, comes free with every copy.</p><!--/XMAS-->
     </div>
 
@@ -631,7 +641,7 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
         <li>{{tick}}<span>7-day money back, and you keep both books either way</span></li>
       </ul>
       <div class="price-row">
-        <span class="price" data-gumroad-field="price">$27</span>
+        <span class="price" data-gumroad-field="price">$12.99</span>
         <span class="price-note"><b>Both books, one payment</b>no subscription, nothing ships</span>
         <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get both books</a>
       </div>
@@ -657,7 +667,7 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
         <li>{{tick}}<span>7-day money back, and you keep the book either way</span></li>
       </ul>
       <div class="price-row">
-        <span class="price" data-gumroad-field="price">$27</span>
+        <span class="price" data-gumroad-field="price">$12.99</span>
         <span class="price-note"><b>One payment</b>no subscription, nothing ships</span>
         <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get my copy now</a>
       </div>
@@ -736,7 +746,7 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
     <h2>Your taste was never the problem.</h2>
     <p class="dim" style="margin-top:1rem">Nobody ever showed you what to look at.</p>
     <div style="margin-top:2.2rem">
-      <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get the book &mdash; <span data-gumroad-field="price">$27</span></a>
+      <a class="btn btn-gold btn-lg" data-gumroad-action="buy">Get the book &mdash; <span data-gumroad-field="price">$12.99</span></a>
     </div>
     <p class="colophon">Colette Dubois &middot; Chez Colette &middot; la Croix-Rousse, Lyon</p>
   </div>

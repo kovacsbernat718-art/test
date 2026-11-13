@@ -44,7 +44,7 @@ def data_uri(path, mime):
 
 def fill(t):
     t = t.replace("{{win}}", WIN).replace("{{winbig}}", WIN).replace("{{tick}}", TICK)
-    t = re.sub(r"\{\{font:([\w-]+)\}\}", lambda m: data_uri(FONTS / (m.group(1) + ".woff2"), "font/woff2"), t)
+    t = re.sub(r"\{\{font:([\w-]+)\}\}", lambda m: data_uri(next(d / (m.group(1) + ".woff2") for d in (ASSETS, FONTS) if (d / (m.group(1) + ".woff2")).exists()), "font/woff2"), t)
     t = re.sub(r"\{\{img:([\w-]+)\}\}", lambda m: data_uri(ASSETS / (m.group(1) + ".jpg"), "image/jpeg"), t)
     assert "{{" not in t, "an unfilled placeholder survived"
     return t
