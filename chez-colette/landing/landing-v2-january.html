@@ -745,7 +745,7 @@ footer h2{font-size:clamp(1.9rem,4.4vw,3rem);max-width:18ch;margin-inline:auto}
   /* the Christmas strip: a real deadline, counted down, then gone */
   var strip=document.getElementById('strip'), clock=document.getElementById('clock');
   if(strip&&clock){
-    var end=new Date('2026-12-31T23:59:59+01:00').getTime();
+    var end=new Date('2026-12-13T23:59:59-08:00').getTime();
     function tick(){
       var left=end-Date.now();
       if(left<=0){ strip.style.display='none'; clearInterval(t); return; }

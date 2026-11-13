@@ -33,15 +33,22 @@ const OUT = __dirname;
   .foot span{color:#9E2A2B}`;
   const page = (vars, foot) => `<!doctype html><html><head><meta charset="utf-8"><style>:root{${vars}}${css}</style></head><body>
     <div class="stage"><div class="bk hb" style="background-image:url(${covers.hb})"></div>
-    <div class="bk xm" style="background-image:url(${covers.xm})"><div class="tag">Free until 31 December</div></div></div>
+    <div class="bk xm" style="background-image:url(${covers.xm})"><div class="tag">Free until 13 December</div></div></div>
     <div class="foot">${foot}</div></body></html>`;
   const jobs = [
     ['thumbnail-both-books.png', 1200, 1200, '--w:1200px;--h:1200px;--bw:430px;--gap:46px;--pb:130px;--drop:40px;--tf:22px;--ff:30px;--fb:70px', 'Colette&rsquo;s Home Bible <span>+ free Christmas guide</span>'],
     ['cover-both-books.png', 1280, 720, '--w:1280px;--h:720px;--bw:330px;--gap:60px;--pb:60px;--drop:24px;--tf:18px;--ff:22px;--fb:28px', 'Two books &middot; one payment &middot; PDF and EPUB'],
   ];
-  for (const [name, w, h, vars, foot] of jobs) {
+  // after 13 December: the Home Bible on its own
+  const single = (vars, foot) => `<!doctype html><html><head><meta charset="utf-8"><style>:root{${vars}}${css}</style></head><body>
+    <div class="stage"><div class="bk" style="background-image:url(${covers.hb});transform:rotate(-2deg)"></div></div>
+    <div class="foot">${foot}</div></body></html>`;
+  jobs.push(
+    ['thumbnail-home-bible.png', 1200, 1200, '--w:1200px;--h:1200px;--bw:560px;--gap:0px;--pb:130px;--drop:0px;--tf:22px;--ff:30px;--fb:70px', 'Colette&rsquo;s Home Bible &middot; La Belle Maison', single],
+    ['cover-home-bible.png', 1280, 720, '--w:1280px;--h:720px;--bw:380px;--gap:0px;--pb:60px;--drop:0px;--tf:18px;--ff:22px;--fb:28px', '204 pages &middot; PDF and EPUB &middot; every rule, every measurement', single]);
+  for (const [name, w, h, vars, foot, tpl] of jobs) {
     const p = await b.newPage({ viewport: { width: w, height: h } });
-    await p.setContent(page(vars, foot)); await p.waitForTimeout(400);
+    await p.setContent((tpl || page)(vars, foot)); await p.waitForTimeout(400);
     await p.screenshot({ path: path.join(OUT, name) });
     console.log(name, Math.round(fs.statSync(path.join(OUT, name)).size / 1024) + ' KB');
     await p.close();
