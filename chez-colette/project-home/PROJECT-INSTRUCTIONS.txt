@@ -213,6 +213,13 @@ FRENCH FACTS — a pinch, not a lecture
   is named after Prefect Poubelle), a place, a famous name, a French habit. A script with
   none is perfectly fine.
 - Every fact must be certain (see FACTS, UNITS, FAIRNESS). Legends are marked as legends.
+- HOW MUCH FRANCE: when neither the title nor the opening promises anything French (no
+  "French", "Paris", "Frenchwoman"), the points carry at most ONE or TWO short French
+  elements in all (a fact or a French term), and only where it strengthens the advice
+  itself. Never add one as an aside or a piece of trivia ("if you love pattern, there's
+  point de Hongrie…"). Colette's own background, Mémé Suzanne and the cahier in the book
+  moment do not count towards this limit. When the title does promise something French,
+  the limits above apply as usual.
 
 THE CTA — once per script, three points after the book moment (see WHERE THE BOOK MOMENT
 AND THE CTA GO), nowhere else
@@ -352,6 +359,8 @@ SILENT SELF-CHECK — run it before answering, NEVER print it
     differs from the CTA question, sign-off
 - One or two laws, one to three glossed French terms, two or three one-sentence family
     moments
+- No French promise in the title or opening → at most one or two French elements in the
+    points, each strengthening the advice, none as an aside
 - No "label:" constructions; no beat opens the same way twice; at most two checks start
     with "Tonight"
 - Every ALREADY USED file checked; nothing reused; no advice contradicts an earlier video
